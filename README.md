@@ -25,7 +25,7 @@ cd farmastock
 npm run serve
 ```
 
-Abre la raíz del servidor y tutorial.html, no file://. Durante el desarrollo inicial se usa feature/farmastock; después, main. Las rutas relativas funcionan bajo /farmastock/.
+Abre la raíz del servidor y tutorial.html, no file://. La versión inicial está incorporada a main; para mejoras posteriores crea una rama y abre una PR. Las rutas relativas funcionan bajo /farmastock/.
 
 ```sh
 npm test
@@ -53,7 +53,7 @@ Máximo 5 MB por fichero, 10 000 filas y 50 columnas. XLSX: primera hoja, primer
 
 Settings → Pages → Source: GitHub Actions. Al incorporar a main, pages.yml ejecuta pruebas, empaqueta aplicación/assets/docs y publica. ci.yml ejecuta Node en push y PR; el navegador se ejecuta aparte. Sin CNAME.
 
-URL prevista: https://ramonmorillo.github.io/farmastock/. GitHub puede heredar ramonmorillo.es manteniendo /farmastock/. Confirma despliegue y URL antes de enlazar el taller; una rama subida no significa publicación.
+Publicación confirmada por GitHub Pages: **https://ramonmorillo.es/farmastock/**. Tutorial: **https://ramonmorillo.es/farmastock/tutorial.html**. El proyecto conserva /farmastock/ bajo el dominio del propietario; comprueba cada nuevo despliegue antes de anunciarlo. Una rama subida no significa publicación.
 
 ## Límites y privacidad
 

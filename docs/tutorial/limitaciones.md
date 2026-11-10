@@ -24,3 +24,7 @@ Validación local realizada el 10 de noviembre de 2026:
 - Sintaxis YAML y empaquetado de Pages comprobados localmente. No equivale a ejecución alojada ni publicación.
 
 No se probó la API oficial ni la autenticidad de un fichero real de AEMPS: el entorno bloqueó la consulta de su documentación. No se simula esa verificación. Una suite incompleta, un fichero descargado sin comprobar o una rama subida no demuestran funcionalidad ni publicación. No se afirma validación clínica, auditoría institucional, certificación de accesibilidad o compatibilidad con todos los libros Excel y navegadores.
+
+## Publicación observada
+
+GitHub Pages confirmó el despliegue inicial del commit 334d1dd en https://github.com/ramonmorillo/farmastock/actions/runs/42858974465, con destino ramonmorillo.es/farmastock/. La CI también terminó correctamente. La prueba funcional se realizó localmente; la observación remota confirma publicación, no una prueba de navegador sobre el dominio publicado. La integración del taller se publica después de este resultado.
