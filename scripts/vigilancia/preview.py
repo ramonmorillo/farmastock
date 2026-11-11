@@ -164,6 +164,14 @@ def build(report, assignments, rules=None, previous=None):
             raise ValueError('La captura anterior debe ser anterior a la actual.')
     enriched = enrichments(report)
     old_metadata = enrichments(previous) if previous is not None else {}
+    metadata_dates = {}
+    for snapshot in [previous, report]:
+        if snapshot is None:
+            continue
+        for response in snapshot.get('medicines', []):
+            cn=response.get('url','').split('cn=')[-1]
+            if response.get('status')==200 and not response.get('error'):
+                metadata_dates[cn]=response.get('fetched_at',snapshot['checked_at'])
     changed, missing = changes(rows, previous_rows)
     items = [r for r in changed if r['change'] != 'sin-cambios' and (previous is not None or r['activo'])] + missing
     all_areas = dict(rules['areas'], **{REVIEW: {'label': 'Pendientes de clasificación · revisión'}})
@@ -172,6 +180,8 @@ def build(report, assignments, rules=None, previous=None):
         metadata = old_metadata.get(row['cn']) if row['change'] == 'ausente-revisar' else enriched.get(row['cn'])
         areas, reasons = classify(row, metadata, rules)
         for area in areas:
+            if metadata is not None and row['cn'] in metadata_dates:
+                reasons[area].append('Metadatos consultados: '+timestamp(metadata_dates[row['cn']]))
             area_items[area].append(dict(row, reasons=reasons[area]))
     people = assignments.get('assignments', [])
     if assignments.get('mode') != 'preview-no-delivery' or not people:
@@ -208,7 +218,7 @@ def build(report, assignments, rules=None, previous=None):
         'unchanged': sum(r['change']=='sin-cambios' for r in changed),
         'missing_for_review': len(missing),
         'area_counts': {all_areas[a]['label']: len(v) for a,v in area_items.items()},
-        'rules_notes': rules['notes'], 'owners': owners,
+        'rules_notes': rules['notes']+['Los metadatos ATC pueden reutilizarse hasta siete días si el CN y su nombre no cambian. Se conserva su fecha original en el motivo de asignación. El listado de suministro se descarga en cada ejecución.'], 'owners': owners,
     }
 
 

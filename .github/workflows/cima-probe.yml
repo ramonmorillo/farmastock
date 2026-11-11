@@ -1,22 +1,38 @@
 name: Prueba de acceso a CIMA (sin correos)
 on:
+  push:
+    branches: [feature/vigilancia-areas]
+    paths: ['.github/workflows/cima-probe.yml']
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
-  group: cima-access-probe
+  group: cima-access-pilot-v2
   cancel-in-progress: false
 jobs:
   probe:
     if: github.ref == 'refs/heads/feature/vigilancia-areas'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 12
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/vigilancia/probe.py
+      - name: Recuperar metadatos públicos previos y ejecutar prueba acotada
+        run: |
+          if git ls-remote --exit-code --heads origin probe/cima-access-v2 >/dev/null; then
+            git fetch origin probe/cima-access-v2:refs/remotes/origin/probe/cima-access-v2
+            git show origin/probe/cima-access-v2:reports/cima-probe.json > "$RUNNER_TEMP/cima-cache.json"
+            python3 scripts/vigilancia/probe.py --cache "$RUNNER_TEMP/cima-cache.json"
+          elif git ls-remote --exit-code --heads origin probe/cima-access >/dev/null; then
+            git fetch origin probe/cima-access:refs/remotes/origin/probe/cima-access
+            git show origin/probe/cima-access:reports/cima-probe.json > "$RUNNER_TEMP/cima-cache.json"
+            python3 scripts/vigilancia/probe.py --cache "$RUNNER_TEMP/cima-cache.json"
+          else
+            python3 scripts/vigilancia/probe.py
+          fi
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: cima-access-public-data
           path: reports/cima-probe.json
@@ -24,13 +40,13 @@ jobs:
       - name: Guardar resultado público en rama aislada
         run: |
           cp reports/cima-probe.json "$RUNNER_TEMP/cima-probe.json"
-          if git ls-remote --exit-code --heads origin probe/cima-access >/dev/null; then
-            git fetch origin probe/cima-access:refs/remotes/origin/probe/cima-access
+          if git ls-remote --exit-code --heads origin probe/cima-access-v2 >/dev/null; then
+            git fetch origin probe/cima-access-v2:refs/remotes/origin/probe/cima-access-v2
           fi
-          git checkout --orphan probe/cima-access
+          git checkout --orphan probe/cima-access-v2
           git rm -rf .
           mkdir -p reports
           cp "$RUNNER_TEMP/cima-probe.json" reports/cima-probe.json
           git add reports/cima-probe.json
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Registra prueba de acceso y esquema público de CIMA'
-          git push origin HEAD:refs/heads/probe/cima-access --force-with-lease
+          git push origin HEAD:refs/heads/probe/cima-access-v2 --force-with-lease

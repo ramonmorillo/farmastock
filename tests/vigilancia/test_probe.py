@@ -1,5 +1,7 @@
 import importlib.util
 import io
+import datetime
+import sys
 import json
 import pathlib
 import unittest
@@ -9,6 +11,7 @@ from unittest.mock import patch
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 spec=importlib.util.spec_from_file_location('probe',ROOT/'scripts/vigilancia/probe.py')
 p=importlib.util.module_from_spec(spec);spec.loader.exec_module(p)
+sys.path.insert(0,str(ROOT/'scripts/vigilancia'))
 class Response(io.BytesIO):
     status=200
     url='https://cima.aemps.es/cima/rest/medicamento?cn=000001'
@@ -17,6 +20,7 @@ class Response(io.BytesIO):
 class ProbeTests(unittest.TestCase):
     def setUp(self):
         p.RATE_LIMITED.clear()
+        p.DEADLINE=None
 
     def test_rate_limit_stops_following_requests(self):
         error=urllib.error.HTTPError(p.BASE,429,'rate limited',{'Retry-After':'120'},None)
@@ -26,6 +30,24 @@ class ProbeTests(unittest.TestCase):
         self.assertEqual(call.call_count,1)
         self.assertEqual(first['retry_after'],'120')
         self.assertEqual(second['error'],'RateLimited')
+    def test_cached_metadata_keeps_original_date_and_checks_name(self):
+        now=datetime.datetime(2026,11,11,10,tzinfo=datetime.timezone.utc)
+        report={'checked_at':'2026-11-10T10:00:00+00:00','medicines':[{'url':p.BASE+'/cima/rest/medicamento?cn=000001','status':200,'payload':{'atcs':[],'presentaciones':[{'cn':'000001','nombre':'Ejemplo'}]}}]}
+        rows=[{'cn':'000001','nombre':'Ejemplo'}]
+        cache=p.cached_metadata(report,rows,now)
+        self.assertEqual(cache['000001']['fetched_at'],report['checked_at'])
+        self.assertTrue(cache['000001']['reused'])
+        self.assertEqual(p.cached_metadata(report,[{'cn':'000001','nombre':'Cambio'}],now),{})
+        self.assertEqual(p.cached_metadata(report,rows,now+datetime.timedelta(days=7)),{})
+        self.assertEqual(p.cached_metadata(report,rows,now-datetime.timedelta(days=2)),{})
+
+    def test_deadline_prevents_new_requests(self):
+        p.DEADLINE=0
+        with patch.object(p.urllib.request,'urlopen') as call:
+            result=p.probe(p.BASE+'/test')
+        call.assert_not_called()
+        self.assertEqual(result['error'],'TimeBudgetExceeded')
+
     def test_success(self):
         with patch.object(p.urllib.request,'urlopen',return_value=Response(b'{"ok":true}')):
             result=p.probe(p.BASE+'/test')
