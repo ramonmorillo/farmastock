@@ -1,7 +1,7 @@
 name: Pruebas de FarmaStock Alert
 on:
   push:
-    branches: [main, feature/farmastock]
+    branches: [main, feature/farmastock, feature/vigilancia-areas]
   pull_request:
     branches: [main]
 permissions:
@@ -15,4 +15,5 @@ jobs:
         with:
           node-version: '24'
       - run: npm test
+      - run: python3 -m unittest discover -s tests/vigilancia -v
       - run: git diff --check
