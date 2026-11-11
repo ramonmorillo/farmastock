@@ -88,3 +88,13 @@ python3 scripts/vigilancia/test_review_browser.py
 ```
 
 La activación de correo sigue pendiente de la revisión profesional, un remitente verificado, un servicio de envío y autorización posterior. La captura diaria de datos públicos no equivale a un servicio de avisos en producción.
+
+## Carga completada el 11/11/2026
+
+La carga reanudable completó tres lotes, conservando cada avance: 550, 678 y 911 CN verificados. La captura final del listado se inició a las 17:27 de Europe/Madrid y los metadatos terminaron a las 17:32. Los 911 CN actuales tienen respuesta verificable con pertenencia a la presentación consultada; faltantes técnicos: cero. Esto no significa que todos tengan una especialidad asignada.
+
+Reglas v2: Infecciosas 85, Neurología 53, Hipercolesterolemia 22, Oncohematología 101, Inmunomediadas 3; Pediatría sin asignaciones explícitas. Quedan 647 incidencias sin regla de área, en revisión clínica. No se confunden con metadatos pendientes. Las propuestas no demuestran la indicación de un medicamento ni su uso en un hospital concreto.
+
+Las muestras breves contienen nueve ejemplos para el primer responsable, tres para Oncohematología y seis para la tercera responsable (dos ATC distintos de Inmunomediadas y cuatro casos dudosos). No incluyen direcciones reales y no ejecutan ninguna comunicación. La comparación con la captura de las 11:51 muestra 911 registros sin cambios y cuatro registros ausentes, que requieren revisión y no se declaran resueltos.
+
+La programación de captura diaria está incorporada a main, solo para datos públicos y sin correos. La primera observación entre días será posterior a esta entrega; las pruebas de calendario verifican invierno, verano y deduplicación por fecha local, sin fingir que ya se observaron varios días reales.
