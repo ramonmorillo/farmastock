@@ -1,0 +1,33 @@
+name: Prueba de acceso a CIMA (sin correos)
+on:
+  push:
+    branches: [feature/vigilancia-areas]
+    paths: ['scripts/vigilancia/probe.py', '.github/workflows/cima-probe.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    if: github.ref == 'refs/heads/feature/vigilancia-areas'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/vigilancia/probe.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cima-access-public-data
+          path: reports/cima-probe.json
+          retention-days: 7
+      - name: Guardar resultado público en rama aislada
+        run: |
+          cp reports/cima-probe.json "$RUNNER_TEMP/cima-probe.json"
+          git checkout --orphan probe/cima-access
+          git rm -rf .
+          mkdir -p reports
+          cp "$RUNNER_TEMP/cima-probe.json" reports/cima-probe.json
+          git add reports/cima-probe.json
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Registra prueba de acceso y esquema público de CIMA'
+          git push origin HEAD:refs/heads/probe/cima-access --force-with-lease
