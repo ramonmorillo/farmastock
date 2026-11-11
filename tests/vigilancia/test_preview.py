@@ -68,6 +68,10 @@ class PreviewTests(unittest.TestCase):
         med = {'nombre':'PEDIATRICO SOLUCION 1 mg', 'atcs':[{'codigo':'J01CA04'}]}
         self.assertNotIn('pediatria',m.classify(row(),med,RULES)[0])
 
+    def test_transplant_shared_immunosuppression_not_routed(self):
+        for code in ['L04AD01','L04AD02','L04AA06']:
+            self.assertEqual(m.classify(row(),{'atcs':[{'codigo':code}]},RULES)[0],[m.REVIEW])
+
     def test_no_name_routing(self):
         self.assertEqual(m.classify(dict(row(),nombre='ONCO INFECCIOSAS'),{'atcs':[]},RULES)[0],[m.REVIEW])
 

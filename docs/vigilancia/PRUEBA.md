@@ -18,7 +18,7 @@ Rama: `feature/vigilancia-areas`. La aplicación publicada no se modifica. No ha
 | Neurología | N03, N04, N06D, N07XX, N02C; excepciones para interferones beta |
 | Hipercolesterolemia | C10 |
 | Oncohematología | L01, L02, L03AA, B02BD; excepciones para determinados inmunomoduladores |
-| Inmunomediadas | L04 con excepciones; puede incluir usos de trasplante, requiere revisión |
+| Inmunomediadas | L04AB, L04AC, L04AF; otras familias y calcineurínicos L04AD quedan para revisión |
 | Pediatría | Solo asignaciones explícitas revisadas por CN, ninguna precargada |
 | Resto pendiente | Bandeja de revisión organizativa; no es una especialidad inferida |
 
@@ -67,3 +67,9 @@ Los resultados públicos se guardan como puntos de control durante la descarga p
 El workflow de descarga queda manual para evitar repetir cientos de solicitudes con cada cambio de código. La CI del motor sí se ejecuta con los cambios de la rama.
 
 Las pruebas locales no equivalen a validación clínica, aprobación institucional ni comprobación de entregabilidad.
+
+## Resultado de la prueba acotada del 11/11/2026
+
+El intento completo agotó 25 minutos sin terminar. La versión acotada finalizó en 6 min 31 s: listado completo de 911 registros activos y metadatos verificados para 248 CN, incluyendo 12 reutilizados de la captura de la mañana; 663 CN quedaron pendientes por presupuesto de tiempo. No hubo errores HTTP observados en las consultas terminadas. No se afirma clasificación completa ni vigilancia diaria operativa.
+
+La inspección real encontró ciclosporina y tacrolimus en el grupo amplio L04 inicialmente candidato a Inmunomediadas. La versión v2 elimina esa asignación general: los usos compartidos, incluidos los de trasplante, pasan a revisión. Pediatría sigue sin inferirse automáticamente. Los resúmenes privados y la comparación con la captura de la mañana se generan fuera del repositorio; no son envíos.
