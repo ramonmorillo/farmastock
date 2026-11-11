@@ -1,8 +1,5 @@
 name: Prueba de acceso a CIMA (sin correos)
 on:
-  push:
-    branches: [feature/vigilancia-areas]
-    paths: ['.github/workflows/cima-probe.yml']
   workflow_dispatch:
 permissions:
   contents: read
