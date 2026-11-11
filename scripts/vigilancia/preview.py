@@ -69,7 +69,7 @@ def changes(current, previous=None):
         elif before is None:
             kind = 'nueva'
         elif before['activo'] and not row['activo']:
-            kind = 'resuelta-explicita'
+            kind = 'inactiva-en-fuente'
         elif not before['activo'] and row['activo']:
             kind = 'reactivada'
         else:
@@ -219,7 +219,7 @@ def render(result, owner):
     for item in owner['items']:
         rows.append('<tr>' + ''.join(f'<td>{e(v)}</td>' for v in [
             item['cn'], item['nombre'], ', '.join(item['areas']), item['change'],
-            'Activo' if item['activo'] else 'No activo declarado', date(item['fini']), date(item.get('ffin')),
+            ('Estado actual sin verificar; antes activo' if item['activo'] else 'Estado actual sin verificar; antes no activo') if item['change'] == 'ausente-revisar' else ('Activo' if item['activo'] else 'No activo declarado'), date(item['fini']), date(item.get('ffin')),
             '; '.join(item['reasons']), item.get('observ', 'No indicadas')]) + '</tr>')
     return '''<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FarmaStock · borrador de revisión</title><style>
 body{font:1rem/1.5 system-ui;color:#152f44;background:#f4f7fa;margin:0}main{max-width:1400px;margin:auto;padding:24px}h1{color:#07505b}p,li{max-width:85ch}.notice{padding:16px;background:#fff1cd;border-left:5px solid #966800}.table{overflow:auto;background:white}table{border-collapse:collapse;width:100%;min-width:1100px}th,td{padding:12px;border-bottom:1px solid #d8e1e8;text-align:left;vertical-align:top}a{color:#07505b}summary{cursor:pointer}small{display:block}input{font:inherit;padding:10px;width:32rem;max-width:100%;box-sizing:border-box;margin:8px 0}caption{text-align:left;padding:12px;font-weight:600}@media(max-width:500px){main{padding:12px}}

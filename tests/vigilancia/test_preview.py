@@ -42,7 +42,7 @@ class PreviewTests(unittest.TestCase):
         self.assertEqual(m.changes([row(observ='cambio')],[row()])[0][0]['change'], 'modificada')
         self.assertEqual(m.changes([row()],[])[0][0]['change'], 'nueva')
         inactive = dict(row(), activo=False)
-        self.assertEqual(m.changes([inactive],[row()])[0][0]['change'], 'resuelta-explicita')
+        self.assertEqual(m.changes([inactive],[row()])[0][0]['change'], 'inactiva-en-fuente')
         self.assertEqual(m.changes([row()],[inactive])[0][0]['change'], 'reactivada')
 
     def test_missing_not_resolved(self):
