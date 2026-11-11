@@ -1,0 +1,36 @@
+name: Captura diaria CIMA · piloto sin correos
+on:
+  schedule:
+    # Both UTC slots cover Madrid winter/summer time; the script captures once per local day.
+    - cron: '10 6,7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cima-access-pilot-v2
+  cancel-in-progress: false
+jobs:
+  capture:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recuperar datos públicos sin tocar la aplicación
+        run: |
+          git fetch origin probe/cima-access-v2:refs/remotes/origin/probe/cima-access-v2
+          git worktree add --detach "$RUNNER_TEMP/cima-public-data" refs/remotes/origin/probe/cima-access-v2
+      - name: Captura de prueba una vez al día en horario peninsular
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = workflow_dispatch ]; then
+            python3 scripts/vigilancia/daily.py --cache "$RUNNER_TEMP/cima-public-data/reports/cima-probe.json" --publish-dir "$RUNNER_TEMP/cima-public-data" --force
+          else
+            python3 scripts/vigilancia/daily.py --cache "$RUNNER_TEMP/cima-public-data/reports/cima-probe.json" --publish-dir "$RUNNER_TEMP/cima-public-data"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cima-daily-public-data
+          path: reports/
+          if-no-files-found: ignore
+          retention-days: 14

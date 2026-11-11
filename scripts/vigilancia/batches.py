@@ -1,6 +1,5 @@
 """Resume bounded public-data batches. Never loads recipients or sends mail."""
 import argparse
-import datetime
 import json
 import pathlib
 import subprocess

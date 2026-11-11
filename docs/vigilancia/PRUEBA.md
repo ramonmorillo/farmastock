@@ -1,6 +1,6 @@
 # Piloto de vigilancia por áreas · sin envío
 
-Rama: `feature/vigilancia-areas`. La aplicación publicada no se modifica. No hay programación diaria ni transporte de correo activado.
+La interfaz de importación publicada y los materiales existentes no se modifican. El piloto añade capturas públicas de prueba y revisiones locales privadas; no incluye transporte de correo.
 
 ## Funcionamiento
 
@@ -73,3 +73,18 @@ Las pruebas locales no equivalen a validación clínica, aprobación institucion
 El intento completo agotó 25 minutos sin terminar. La versión acotada finalizó en 6 min 31 s: listado completo de 911 registros activos y metadatos verificados para 248 CN, incluyendo 12 reutilizados de la captura de la mañana; 663 CN quedaron pendientes por presupuesto de tiempo. No hubo errores HTTP observados en las consultas terminadas. No se afirma clasificación completa ni vigilancia diaria operativa.
 
 La inspección real encontró ciclosporina y tacrolimus en el grupo amplio L04 inicialmente candidato a Inmunomediadas. La versión v2 elimina esa asignación general: los usos compartidos, incluidos los de trasplante, pasan a revisión. Pediatría sigue sin inferirse automáticamente. Los resúmenes privados y la comparación con la captura de la mañana se generan fuera del repositorio; no son envíos.
+
+## Carga inicial reanudable y observación diaria
+
+`scripts/vigilancia/batches.py` ejecuta hasta seis lotes de seis minutos, reutiliza la caché y conserva cada avance en la rama de datos mediante commits normales, sin reescribir el histórico. Detiene la secuencia al completar la cobertura, recibir HTTP 429, agotar los lotes o comprobar falta de progreso. Nunca declara completa una captura sin metadatos verificables para cada CN actual. Los errores no reemplazan una captura válida con una lista vacía.
+
+`.github/workflows/cima-daily-pilot.yml` programa dos ventanas UTC (06:10 y 07:10); `daily.py` permite una captura por día local a partir de las 08:00 de Europe/Madrid. Esto cubre invierno y verano aproximadamente a las 08:10. GitHub puede retrasar las ejecuciones: siempre se conserva la hora real. La segunda ventana se omite si ya existe una captura del día. Una ejecución manual explícita puede forzar otra captura de prueba. No se han observado todavía varios días consecutivos; la programación habilita esa comprobación futura. Los destinatarios no se cargan en GitHub.
+
+`review.py` selecciona hasta tres ejemplos por área, procurando distintos ATC, y hasta cuatro casos dudosos con metadatos verificados. Conserva la clasificación pendiente de los usos compartidos, retira direcciones del material descargable y permite exportar decisiones en JSON local. No sube decisiones, no modifica reglas y no activa envíos. Las muestras no sustituyen al listado completo y no se usan para estimar incidencias por área.
+
+```sh
+python3 scripts/vigilancia/review.py --drafts /privado/drafts.json --report /ruta/cima-probe.json --out-dir /privado/revision-breve
+python3 scripts/vigilancia/test_review_browser.py
+```
+
+La activación de correo sigue pendiente de la revisión profesional, un remitente verificado, un servicio de envío y autorización posterior. La captura diaria de datos públicos no equivale a un servicio de avisos en producción.

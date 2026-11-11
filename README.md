@@ -57,10 +57,16 @@ Publicación confirmada por GitHub Pages: **https://ramonmorillo.es/farmastock/*
 
 ## Límites y privacidad
 
-No hay conexión API en vivo: se usa una importación manual revisada y fechada. Los ficheros solo se procesan en memoria. El historial confirmado conserva localmente información de seguimiento, sin cifrar ni sincronizar, y no es prueba de envío ni auditoría inmutable. Borrarlo pierde deduplicación. Los archivos exportados y el portapapeles se borran aparte.
+La aplicación web de importación manual no consulta la API: usa una importación revisada y fechada. El piloto de vigilancia CIMA se ejecuta por separado, como se describe más abajo. Los ficheros solo se procesan en memoria. El historial confirmado conserva localmente información de seguimiento, sin cifrar ni sincronizar, y no es prueba de envío ni auditoría inmutable. Borrarlo pierde deduplicación. Los archivos exportados y el portapapeles se borran aparte.
 
 Sin datos de pacientes, IA, telemetría o credenciales. La aplicación es pública, no hereda la clave del taller y no es un producto sanitario certificado. La validación profesional e institucional es independiente de las pruebas técnicas.
 
 ## Estructura
 
 core.mjs: comparación e historial; files.mjs: CSV/XLSX acotado; demos.mjs: ejemplos ficticios; app.mjs/index.html/stock.css: interfaz; tutorial.html/tutorial.mjs y docs/tutorial/: guía; tests/ y scripts/: pruebas; .github/workflows/: CI/Pages. Procedencia y licencias en NOTICE.md y assets/fonts/.
+
+## Piloto CIMA por áreas · sin envío
+
+El piloto descarga datos públicos de CIMA, completa los metadatos por lotes reanudables y genera revisiones breves por áreas sin catálogo local. La captura diaria de prueba se configura mediante `cima-daily-pilot.yml`; el código no contiene servicio de correo, credenciales ni destinatarios reales. La interfaz de importación y los materiales docentes existentes se conservan.
+
+Las reglas ATC son propuestas pendientes de revisión profesional. Pediatría no se infiere automáticamente. La configuración de responsables y los borradores se mantienen fuera del repositorio. Véase [documentación del piloto](docs/vigilancia/PRUEBA.md).
