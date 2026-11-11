@@ -1,36 +1,65 @@
 # Piloto de vigilancia por áreas · sin envío
 
-Rama de trabajo: `feature/vigilancia-areas`. No modifica la aplicación publicada ni activa horarios diarios. No incluye transporte de correo.
+Rama: `feature/vigilancia-areas`. La aplicación publicada no se modifica. No hay programación diaria ni transporte de correo activado.
 
-## Resultado observado el 11 de noviembre de 2026
+## Funcionamiento
 
-Desde GitHub Actions se obtuvo HTTP 200 para la página oficial, la API `/cima/rest/psuministro?pagina=1` y el PDF de documentación. La descarga paginada obtuvo 915 registros en cinco páginas de 200 como máximo. No debe confundirse ese número con nuevas incidencias de hoy, medicamentos distintos o incidencias de una sola área.
+1. GitHub Actions consulta la página de CIMA, su API pública de problemas de suministro y la documentación. El acceso desde el entorno de desarrollo está bloqueado por su proxy; el acceso desde GitHub fue comprobado con HTTP 200.
+2. El recolector descarga todas las páginas y rechaza listados incompletos, duplicados o inconsistentes. Consulta los metadatos de cada CN con dos trabajadores, pausas y reintentos limitados. Si faltan metadatos, el CN queda marcado para revisión, nunca omitido ni interpretado como ausencia de problemas. No se garantiza una captura atómica si CIMA cambia durante la descarga.
+3. Se proponen áreas mediante reglas ATC versionadas y excepciones exactas. Se usa el nivel más específico para que el grupo padre no deshaga una excepción. Los nombres no deciden el área. Todas las reglas siguen **pendientes de aprobación profesional**.
+4. Los borradores privados se agrupan por responsable, con una incidencia una sola vez aunque coincida con varias de sus áreas. Las filas muestran CN, presentación, estado, fechas, observaciones oficiales, cambio y motivo de asignación. Son revisables en navegador con filtro y teclado, sin dependencias ni consultas externas automáticas.
+5. Opcionalmente se compara con una captura anterior validada: se suprimen los casos sin cambios, se distinguen cambios de estado explícitos y los registros ausentes se señalan para revisión. La primera captura es situación inicial, nunca novedades del día. Una fecha prevista no garantiza reposición.
 
-Se consultaron metadatos de una muestra no exhaustiva de 12 presentaciones: las dos primeras y otras diez seleccionadas por nombre únicamente para inspeccionar el esquema. El nombre NO determina la clasificación. El código ATC devuelto por CIMA permite proponer diez candidatas con códigos L01 a Oncología. La selección está sesgada deliberadamente para probar el circuito, no estima la cobertura. Los otros 905 registros quedan pendientes, incluidos los no enriquecidos y los que no tienen regla candidata.
+## Áreas candidatas
 
-Esta regla requiere revisión profesional: L01 no representa todo el trabajo de Oncología, y otras familias requieren reglas y excepciones específicas. Consultas externas no tiene regla por defecto: necesita una selección explícita de medicamentos, grupos o circuitos. No se asume que el resto pertenezca a esa área. Una presentación puede pertenecer a varias áreas.
+| Área | Regla inicial para revisión |
+|---|---|
+| Infecciosas | J01, J02, J04, J05, P01, P02 |
+| Neurología | N03, N04, N06D, N07XX, N02C; excepciones para interferones beta |
+| Hipercolesterolemia | C10 |
+| Oncohematología | L01, L02, L03AA, B02BD; excepciones para determinados inmunomoduladores |
+| Inmunomediadas | L04 con excepciones; puede incluir usos de trasplante, requiere revisión |
+| Pediatría | Solo asignaciones explícitas revisadas por CN, ninguna precargada |
+| Resto pendiente | Bandeja de revisión organizativa; no es una especialidad inferida |
 
-La primera captura es una situación inicial, nunca novedades desde ayer. Las capturas posteriores permitirán comparar nuevas y modificadas; un registro ausente queda pendiente de revisión, no resuelto. La previsión de fin no garantiza reposición. En esta prueba no se han comparado dos capturas diarias ni verificado entregabilidad o condiciones de uso para producción. El PDF es accesible, pero falta revisar su contrato documentado antes del conector definitivo.
+Estas reglas no cubren necesariamente todo el trabajo de cada área ni identifican la indicación real. El código ATC puede tener varios usos. Neurología no incluye por defecto todos los psicofármacos o analgésicos; Pediatría no se infiere del nombre, concentración, presentación ni un ATC. Las excepciones por CN permiten varias áreas. No se recomienda ninguna alternativa terapéutica.
 
-## Archivos y ejecución
+## Archivos
 
-- `scripts/vigilancia/probe.py`: consulta acotada de endpoints públicos, comprueba acceso y captura páginas/metadatos para inspección. Es un diagnóstico, no el conector de producción.
-- `.github/workflows/cima-probe.yml`: ejecución manual o por cambios en estos dos archivos en la rama de prueba. Sin programación diaria; guarda únicamente respuestas públicas en una rama aislada y artefactos de siete días. Sin destinatarios ni secretos de correo.
-- `scripts/vigilancia/preview.py`: valida integridad y paginación, exige coincidencia de CN en los metadatos y genera borradores privados. Un fallo de validación no produce un resumen vacío exitoso.
-- `tests/vigilancia/test_preview.py`: pruebas sin conexión, sin correos reales.
+- `scripts/vigilancia/probe.py`: recolector público acotado, validación de páginas, metadatos para todos los CN y resumen de errores.
+- `scripts/vigilancia/rules.json`: reglas candidatas sin destinatarios.
+- `scripts/vigilancia/preview.py`: comparación, asignación, deduplicación y generación local de HTML/JSON privados.
+- `.github/workflows/cima-probe.yml`: ejecución de prueba y resultado exclusivamente público en rama separada, sin direcciones ni credenciales de correo.
+- `tests/vigilancia/test_preview.py`: pruebas del motor, datos y privacidad.
+- `scripts/vigilancia/test_browser.py`: navegador con datos ficticios, móvil, teclado, filtro, HTML literal y sin peticiones externas.
 
-Crear fuera del repositorio un directorio privado (modo 700), un fichero de destinatarios (600) y pasar las rutas:
+## Ejecutar borradores privados
+
+Crear **fuera del repositorio** un directorio de modo 700. Guardar las asignaciones en un JSON privado de modo 600, usando esta estructura (direcciones ficticias):
+
+```json
+{
+  "mode": "preview-no-delivery",
+  "assignments": [
+    {"recipient": {"name": "Responsable 1", "email": "uno@example.invalid"}, "areas": ["infecciosas", "neurologia", "hipercolesterolemia"]},
+    {"recipient": {"name": "Responsable 2", "email": "dos@example.invalid"}, "areas": ["oncohematologia"]},
+    {"recipient": {"name": "Responsable 3", "email": "tres@example.invalid"}, "areas": ["inmunomediadas", "pediatria", "resto-pendiente-de-clasificacion"]}
+  ]
+}
+```
 
 ```sh
-python3 scripts/vigilancia/preview.py --report /ruta/privada/cima-probe.json --recipients /ruta/privada/recipients.json --out /ruta/privada/drafts.json
+python3 scripts/vigilancia/preview.py --report /ruta/cima-probe.json --assignments /privado/assignments.json --out-dir /privado/borradores
+# Añadir --previous /ruta/captura-anterior.json para comparar dos capturas.
 python3 -m unittest discover -s tests/vigilancia -v
+python3 scripts/vigilancia/test_browser.py
 npm test
 ```
 
-Esquema de destinatarios con direcciones ficticias:
+Los HTML no incluyen direcciones, no envían correos ni cargan recursos externos. El JSON privado sí contiene destinatarios para el futuro transporte. El generador rechaza salidas dentro del checkout o directorios sin permisos privados, y no sigue enlaces simbólicos en los archivos de salida. Las direcciones reales no están en Git, Pages, logs ni artefactos públicos. La configuración temporal local no es almacenamiento permanente ni garantiza recuperación en otra sesión.
 
-```json
-{"oncologia":[{"email":"oncologia@example.invalid"}],"consultas-externas":[{"email":"externas@example.invalid"}]}
-```
+## Lo que falta para operar diariamente
 
-Las direcciones reales y los borradores con destinatarios nunca van a Git, Pages, logs ni artefactos públicos. La configuración local de este piloto no es un almacén permanente ni garantiza recuperación en otra sesión. Para activar envío faltan: reglas aprobadas, alcance completo de clasificación, histórico persistente y deduplicación, servicio de correo, gestión privada de destinatarios y autorización del propietario para el envío tras revisar los borradores. Descargar los datos correctamente no equivale a tener ya un servicio operativo diario.
+Revisar y completar reglas con el servicio; confirmar el contrato documentado y las condiciones de uso de CIMA; validar varias capturas a lo largo de días; definir frecuencia y avisos relevantes; disponer de configuración privada persistente y servicio de correo con remitente verificado, resultados de envío y deduplicación duradera. El primer paso seguirá siendo modo sin envío. Activar correos requiere que el propietario revise los borradores y autorice el envío: los contactos facilitados para esta prueba no implican envío autorizado.
+
+Las pruebas locales no equivalen a validación clínica, aprobación institucional ni comprobación de entregabilidad.
