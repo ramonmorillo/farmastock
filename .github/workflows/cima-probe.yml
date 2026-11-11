@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: cima-access-probe
+  cancel-in-progress: false
 jobs:
   probe:
     if: github.ref == 'refs/heads/feature/vigilancia-areas'
@@ -24,6 +27,9 @@ jobs:
       - name: Guardar resultado público en rama aislada
         run: |
           cp reports/cima-probe.json "$RUNNER_TEMP/cima-probe.json"
+          if git ls-remote --exit-code --heads origin probe/cima-access >/dev/null; then
+            git fetch origin probe/cima-access:refs/remotes/origin/probe/cima-access
+          fi
           git checkout --orphan probe/cima-access
           git rm -rf .
           mkdir -p reports
