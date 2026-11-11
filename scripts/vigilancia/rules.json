@@ -1,0 +1,28 @@
+{
+  "version": "pilot-2026-11-11-v1",
+  "approved": false,
+  "areas": {
+    "infecciosas": {"label": "Enfermedades infecciosas", "prefixes": ["J01", "J02", "J04", "J05", "P01", "P02"]},
+    "neurologia": {"label": "Neurología", "prefixes": ["N03", "N04", "N06D", "N07XX", "N02C"]},
+    "hipercolesterolemia": {"label": "Hipercolesterolemia", "prefixes": ["C10"]},
+    "oncohematologia": {"label": "Oncohematología", "prefixes": ["L01", "L02", "L03AA", "B02BD"]},
+    "inmunomediadas": {"label": "Enfermedades inmunomediadas", "prefixes": ["L04"]},
+    "pediatria": {"label": "Pediatría", "prefixes": []}
+  },
+  "exact_atc_overrides": {
+    "L04AX02": ["oncohematologia"],
+    "L04AX04": ["oncohematologia"],
+    "L04AX06": ["oncohematologia"],
+    "L03AB07": ["neurologia"],
+    "L03AB08": ["neurologia"]
+  },
+  "cn_overrides": {},
+  "review_area": "resto-pendiente-de-clasificacion",
+  "notes": [
+    "Reglas candidatas, sin aprobación clínica. ATC no identifica una indicación ni el circuito de un hospital.",
+    "No todos los medicamentos de una especialidad están incluidos. Las coincidencias indican revisión, no pertenencia clínica confirmada.",
+    "L04 incluye usos distintos de inmunomediadas, como trasplante: revisión necesaria.",
+    "Pediatría requiere asignación explícita por CN revisada; no se deduce de ATC, forma farmacéutica o dosis.",
+    "Las excepciones ATC sustituyen la asignación general; las asignaciones explícitas CN pueden incluir varias áreas."
+  ]
+}
