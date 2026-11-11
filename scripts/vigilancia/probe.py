@@ -1,10 +1,13 @@
 """Bounded read-only CIMA pilot collection. No recipients, no email transport."""
-import concurrent.futures,datetime,json,pathlib,time,urllib.request,urllib.error,re
+import concurrent.futures,datetime,json,pathlib,time,urllib.request,urllib.error,re,threading
 BASE='https://cima.aemps.es'
+RATE_LIMITED=threading.Event()
 URLS=[BASE+'/cima/publico/listadesabastecimiento.html',BASE+'/cima/rest/psuministro?pagina=1',BASE+'/cima/resources/docs/CIMA_REST_API.pdf']
 def probe(url):
     result={'url':url}
     for attempt in range(3):
+        if RATE_LIMITED.is_set():
+            return dict(result,error='RateLimited',detail='Collection stopped after HTTP 429; retry in a later run.')
         try:
             req=urllib.request.Request(url,headers={'User-Agent':'FarmaStock-Pilot/0.2','Accept':'application/json,text/html,application/pdf'})
             with urllib.request.urlopen(req,timeout=25) as r:
@@ -17,7 +20,10 @@ def probe(url):
                     result['title']=re.findall(r'<title>(.*?)</title>',text,re.S)[:1]
             return result
         except urllib.error.HTTPError as exc:
-            if exc.code in (429,500,502,503,504) and attempt<2:
+            if exc.code==429:
+                RATE_LIMITED.set()
+                return dict(result,error='HTTPError',status=429,retry_after=exc.headers.get('Retry-After',''))
+            if exc.code in (500,502,503,504) and attempt<2:
                 retry=exc.headers.get('Retry-After','')
                 time.sleep(min(60,int(retry)) if retry.isdigit() else 2**(attempt+1));continue
             return dict(result,error='HTTPError',status=exc.code)
@@ -47,7 +53,14 @@ if __name__=='__main__':
     report['listing_complete']=True;report['listing_count']=len(rows)
     cns=sorted({r['cn'] for r in rows})
     report['enrichment_scope']='All distinct CNs in the validated listing, with per-CN errors reported.'
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:report['medicines']=list(pool.map(metadata,cns))
+    report['medicines']=[]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+        futures=[pool.submit(metadata,cn) for cn in cns]
+        for future in concurrent.futures.as_completed(futures):
+            report['medicines'].append(future.result())
+            if len(report['medicines'])%50==0:
+                print('Metadata processed:',len(report['medicines']),'of',len(cns),flush=True)
+    report['medicines'].sort(key=lambda response:response['url'])
     report['finished_at']=datetime.datetime.now(datetime.timezone.utc).isoformat()
     report['metadata_successes']=sum(r.get('status')==200 and 'error' not in r for r in report['medicines'])
     report['metadata_requested']=len(cns)

@@ -15,6 +15,17 @@ class Response(io.BytesIO):
     headers={'Content-Type':'application/json'}
 
 class ProbeTests(unittest.TestCase):
+    def setUp(self):
+        p.RATE_LIMITED.clear()
+
+    def test_rate_limit_stops_following_requests(self):
+        error=urllib.error.HTTPError(p.BASE,429,'rate limited',{'Retry-After':'120'},None)
+        with patch.object(p.urllib.request,'urlopen',side_effect=error) as call:
+            first=p.probe(p.BASE+'/test')
+            second=p.probe(p.BASE+'/other')
+        self.assertEqual(call.call_count,1)
+        self.assertEqual(first['retry_after'],'120')
+        self.assertEqual(second['error'],'RateLimited')
     def test_success(self):
         with patch.object(p.urllib.request,'urlopen',return_value=Response(b'{"ok":true}')):
             result=p.probe(p.BASE+'/test')

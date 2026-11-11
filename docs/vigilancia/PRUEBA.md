@@ -5,7 +5,7 @@ Rama: `feature/vigilancia-areas`. La aplicación publicada no se modifica. No ha
 ## Funcionamiento
 
 1. GitHub Actions consulta la página de CIMA, su API pública de problemas de suministro y la documentación. El acceso desde el entorno de desarrollo está bloqueado por su proxy; el acceso desde GitHub fue comprobado con HTTP 200.
-2. El recolector descarga todas las páginas y rechaza listados incompletos, duplicados o inconsistentes. Consulta los metadatos de cada CN con dos trabajadores, pausas y reintentos limitados. Si faltan metadatos, el CN queda marcado para revisión, nunca omitido ni interpretado como ausencia de problemas. No se garantiza una captura atómica si CIMA cambia durante la descarga.
+2. El recolector descarga todas las páginas y rechaza listados incompletos, duplicados o inconsistentes. Consulta los metadatos de cada CN con dos trabajadores, pausas y reintentos limitados. Si CIMA devuelve HTTP 429, se detienen las solicitudes restantes hasta otra ejecución. Si faltan metadatos, el CN queda marcado para revisión, nunca omitido ni interpretado como ausencia de problemas. No se garantiza una captura atómica si CIMA cambia durante la descarga.
 3. Se proponen áreas mediante reglas ATC versionadas y excepciones exactas. Se usa el nivel más específico para que el grupo padre no deshaga una excepción. Los nombres no deciden el área. Todas las reglas siguen **pendientes de aprobación profesional**.
 4. Los borradores privados se agrupan por responsable, con una incidencia una sola vez aunque coincida con varias de sus áreas. Las filas muestran CN, presentación, estado, fechas, observaciones oficiales, cambio y motivo de asignación. Son revisables en navegador con filtro y teclado, sin dependencias ni consultas externas automáticas.
 5. Opcionalmente se compara con una captura anterior validada: se suprimen los casos sin cambios, se distinguen cambios de estado explícitos y los registros ausentes se señalan para revisión. La primera captura es situación inicial, nunca novedades del día. Una fecha prevista no garantiza reposición.
@@ -29,7 +29,7 @@ Estas reglas no cubren necesariamente todo el trabajo de cada área ni identific
 - `scripts/vigilancia/probe.py`: recolector público acotado, validación de páginas, metadatos para todos los CN y resumen de errores.
 - `scripts/vigilancia/rules.json`: reglas candidatas sin destinatarios.
 - `scripts/vigilancia/preview.py`: comparación, asignación, deduplicación y generación local de HTML/JSON privados.
-- `.github/workflows/cima-probe.yml`: ejecución de prueba y resultado exclusivamente público en rama separada, sin direcciones ni credenciales de correo.
+- `.github/workflows/cima-probe.yml`: ejecución manual de prueba y resultado exclusivamente público en rama separada, sin direcciones ni credenciales de correo.
 - `tests/vigilancia/test_preview.py`: pruebas del motor, datos y privacidad.
 - `scripts/vigilancia/test_browser.py`: navegador con datos ficticios, móvil, teclado, filtro, HTML literal y sin peticiones externas.
 
@@ -61,5 +61,7 @@ Los HTML no incluyen direcciones, no envían correos ni cargan recursos externos
 ## Lo que falta para operar diariamente
 
 Revisar y completar reglas con el servicio; confirmar el contrato documentado y las condiciones de uso de CIMA; validar varias capturas a lo largo de días; definir frecuencia y avisos relevantes; disponer de configuración privada persistente y servicio de correo con remitente verificado, resultados de envío y deduplicación duradera. El primer paso seguirá siendo modo sin envío. Activar correos requiere que el propietario revise los borradores y autorice el envío: los contactos facilitados para esta prueba no implican envío autorizado.
+
+El workflow de descarga queda manual para evitar repetir cientos de solicitudes con cada cambio de código. La CI del motor sí se ejecuta con los cambios de la rama.
 
 Las pruebas locales no equivalen a validación clínica, aprobación institucional ni comprobación de entregabilidad.
