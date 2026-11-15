@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T13:24:47.306046+00:00",
+  "checked_at": "2026-11-15T13:51:17.404440+00:00",
   "purpose": "Full-list pilot with candidate area rules. No automatic monitoring or email delivery activated.",
   "requests": [
     {
@@ -16,7 +16,7 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61499,
+      "bytes": 61478,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "payload": {
         "totalFilas": 926,
@@ -1755,7 +1755,6 @@
             "nombre": "TOPOTECAN ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 4 ml",
             "tipoProblemaSuministro": 5,
             "fini": 1792015200000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1800,7 +1799,7 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61034,
+      "bytes": 60992,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
       "payload": {
         "totalFilas": 926,
@@ -2646,7 +2645,6 @@
             "nombre": "NINTEDANIB EUGIA 150 MG CÁPSULAS BLANDAS EFG, 60 cápsulas",
             "tipoProblemaSuministro": 10,
             "fini": 1789682400000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. acondicionadas en un idioma distinto al castellano para concursos adjudicados."
           },
@@ -3451,7 +3449,6 @@
             "nombre": "LENALIDOMIDA ACCORD 20 MG CAPSULAS DURAS EFG, 21 cápsulas",
             "tipoProblemaSuministro": 5,
             "fini": 1785794400000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -3566,7 +3563,7 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61532,
+      "bytes": 61469,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
       "payload": {
         "totalFilas": 926,
@@ -3682,7 +3679,6 @@
             "nombre": "OLMESARTAN/AMLODIPINO/HIDROCLOROTIAZIDA STADA 40 MG/10 MG/25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos",
             "tipoProblemaSuministro": 6,
             "fini": 1785016800000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
           },
@@ -4025,7 +4021,6 @@
             "nombre": "BUPRENORFINA STADA 35 MICROGRAMOS/HORA PARCHE TRANSDERMICO 96 HORAS EFG, 5 parches transdérmicos",
             "tipoProblemaSuministro": 5,
             "fini": 1783461600000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -4534,7 +4529,6 @@
             "nombre": "VISIPAQUE 320 mg /ml SOLUCION INYECTABLE, 10 frascos de 50 ml",
             "tipoProblemaSuministro": 5,
             "fini": 1781560800000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -5336,7 +5330,7 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61852,
+      "bytes": 61831,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
       "payload": {
         "totalFilas": 926,
@@ -7055,7 +7049,6 @@
             "nombre": "BENTIFEN 0,25mg/ml COLIRIO EN SOLUCION , 1 frasco de 5 ml",
             "tipoProblemaSuministro": 3,
             "fini": 1747778400000,
-            "ffin": 1794697200000,
             "activo": true,
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
@@ -67820,6 +67813,6 @@
   "metadata_reused": 926,
   "metadata_requested": 926,
   "metadata_processing_complete": true,
-  "finished_at": "2026-11-14T13:24:53.479344+00:00",
+  "finished_at": "2026-11-15T13:51:21.940933+00:00",
   "metadata_successes": 926
 }
