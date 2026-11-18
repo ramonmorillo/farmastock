@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T15:53:27.956131+00:00",
+  "checked_at": "2026-11-18T15:32:08.994346+00:00",
   "purpose": "Full-list pilot with candidate area rules. No automatic monitoring or email delivery activated.",
   "requests": [
     {
@@ -16,13 +16,200 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61960,
+      "bytes": 61860,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "payload": {
-        "totalFilas": 913,
+        "totalFilas": 926,
         "pagina": 1,
         "tamanioPagina": 200,
         "resultados": [
+          {
+            "cn": "679488",
+            "nombre": "DEFLAZACORT NORMON 6 mg COMPRIMIDOS EFG, 20 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794956400000,
+            "ffin": 1796857200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "732081",
+            "nombre": "ICATIBANTO STADA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG, 1 jeringa precargada de 3 ml + aguja",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794956400000,
+            "ffin": 1797548400000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "700639",
+            "nombre": "OESTRACLIN 0,6 MG/G GEL , 1 tubo de 80 g",
+            "tipoProblemaSuministro": 3,
+            "fini": 1794956400000,
+            "ffin": 1796338800000,
+            "activo": true,
+            "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
+          },
+          {
+            "cn": "703896",
+            "nombre": "RAMIPRIL/HIDROCLOROTIAZIDA STADA 5 MG/25 MG COMPRIMIDOS EFG , 28 comprimidos (PVC/PE/PVDC/Alu)",
+            "tipoProblemaSuministro": 6,
+            "fini": 1794956400000,
+            "ffin": 1806444000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
+          },
+          {
+            "cn": "719676",
+            "nombre": "ACICLOVIR TEVA 200 MG COMPRIMIDOS EFG, 25 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1801177200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "719677",
+            "nombre": "ACICLOVIR TEVA 800 MG COMPRIMIDOS EFG, 35 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1801177200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "704315",
+            "nombre": "ATOZET 10 MG/80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA , 30 comprimidos",
+            "tipoProblemaSuministro": 9,
+            "fini": 1794870000000,
+            "ffin": 1798671600000,
+            "activo": true,
+            "observ": "El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas."
+          },
+          {
+            "cn": "762702",
+            "nombre": "CARBOXIMALTOSA FERRICA SANDOZ 50 MG/ML DISPERSION INYECTABLE Y PARA PERFUSION EFG, 5 viales de 10 ml",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1795129200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "767098",
+            "nombre": "CARBOXIMALTOSA FERRICA VIATRIS 50 MG/ML DISPERSION INYECTABLE Y PARA PERFUSION, 5 viales de 10 ml ",
+            "tipoProblemaSuministro": 12,
+            "fini": 1794870000000,
+            "ffin": 1796079600000,
+            "activo": true,
+            "observ": "El Titular de Autorización de Comercialización está realizando una distribución controlada a hospitales"
+          },
+          {
+            "cn": "721923",
+            "nombre": "DICLOFENACO TEVA 30 MG/G GEL, 1 tubo de 90 g",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1795993200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "715600",
+            "nombre": "DOLOSTOP 650 MG SOLUCION ORAL, 10 sobres",
+            "tipoProblemaSuministro": 11,
+            "fini": 1794870000000,
+            "activo": true,
+            "observ": "Existen tratamientos alternativos no sujetos a prescripción."
+          },
+          {
+            "cn": "697289",
+            "nombre": "DURACEF 500 MG CÁPSULAS DURAS, 28 cápsulas ",
+            "tipoProblemaSuministro": 9,
+            "fini": 1794870000000,
+            "ffin": 1797807600000,
+            "activo": true,
+            "observ": "El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas."
+          },
+          {
+            "cn": "704913",
+            "nombre": "ESOMEPRAZOL VIATRIS 40 MG COMPRIMIDOS GASTRORRESISTENTES EFG, 28 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1809640800000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "682490",
+            "nombre": "LANSOPRAZOL VIATRIS 15 MG CAPSULAS GASTRORRESISTENTES EFG, 28 cápsulas",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1812319200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "763017",
+            "nombre": "MENQUADFI SOLUCIÓN INYECTABLE, 10 viales de 0,5 ml",
+            "tipoProblemaSuministro": 6,
+            "fini": 1794870000000,
+            "ffin": 1796166000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. Está disponible la presentación de 1 vial."
+          },
+          {
+            "cn": "607577",
+            "nombre": "OMNIPAQUE 240 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 50 ml",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1796252400000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "607584",
+            "nombre": "OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 6 frascos de 500 ml",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1796252400000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "662420",
+            "nombre": "ROCURONIO KABI 10 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION EFG, 10 viales de 5 ml",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1796338800000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "712685",
+            "nombre": "SMOFKABIVEN CENTRAL EMULSION PARA PERFUSION, 4 bolsas de 1970 ml",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "ffin": 1799622000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "733350",
+            "nombre": "VILDAGLIPTINA/METFORMINA VIATRIS 50 MG/1.000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 60 comprimidos",
+            "tipoProblemaSuministro": 6,
+            "fini": 1794870000000,
+            "ffin": 1796166000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
+          },
+          {
+            "cn": "764568",
+            "nombre": "ZOMACTON 4 mg POLVO Y DISOLVENTE PARA SOLUCION  INYECTABLE, 1 vial + 1 ampolla",
+            "tipoProblemaSuministro": 5,
+            "fini": 1794870000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
           {
             "cn": "766104",
             "nombre": "DABIGATRAN ETEXILATO TEVA 75 MG CAPSULAS DURAS EFG, 60 cápsulas",
@@ -118,7 +305,7 @@
             "nombre": "DURACEF 250 MG/5 ML POLVO PARA SUSPENSIÓN ORAL, 1 frasco de 60 ml",
             "tipoProblemaSuministro": 12,
             "fini": 1794524400000,
-            "ffin": 1797375600000,
+            "ffin": 1797807600000,
             "activo": true,
             "observ": "El Titular de Autorización de Comercialización está realizando una distribución controlada a hospitales"
           },
@@ -178,11 +365,11 @@
           {
             "cn": "916585",
             "nombre": "SPASMOCTYL 40, 60 grageas",
-            "tipoProblemaSuministro": 5,
+            "tipoProblemaSuministro": 3,
             "fini": 1794524400000,
             "ffin": 1795129200000,
             "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+            "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
           {
             "cn": "652160",
@@ -357,18 +544,10 @@
           {
             "cn": "787226",
             "nombre": "METHERGIN 0,2 mg/ml SOLUCION INYECTABLE, 3 ampollas de 1 ml",
-            "tipoProblemaSuministro": 4,
+            "tipoProblemaSuministro": 10,
             "fini": 1794265200000,
             "activo": true,
-            "observ": "Desabastecimiento temporal. Se está gestionando la autorización de unidades acondicionadas en un idioma distinto al castellano por comercialización excepcional."
-          },
-          {
-            "cn": "756675",
-            "nombre": "NYZOL 300 MG COMPRIMIDOS, 28 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1794265200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+            "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. acondicionadas en un idioma distinto al castellano."
           },
           {
             "cn": "720062",
@@ -420,7 +599,7 @@
             "nombre": "ACARBOSA VIATRIS 50 MG COMPRIMIDOS, 100 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1793919600000,
-            "ffin": 1795388400000,
+            "ffin": 1797548400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1006,7 +1185,7 @@
             "nombre": "IKERVIS 1 mg/ml colirio en emulsion 30 envases unidosis de 0,3 ml",
             "tipoProblemaSuministro": 7,
             "fini": 1793228400000,
-            "ffin": 1795388400000,
+            "ffin": 1797980400000,
             "activo": true,
             "observ": "Se puede solicitar como medicamento extranjero."
           },
@@ -1166,6 +1345,7 @@
             "nombre": "TAPTIQOM 15 MICROGRAMOS/ML + 5 MG/ML COLIRIO EN SOLUCION, 1 frasco de 3 ml",
             "tipoProblemaSuministro": 6,
             "fini": 1793142000000,
+            "ffin": 1795388400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
           },
@@ -1489,14 +1669,6 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
           {
-            "cn": "725624",
-            "nombre": "AIMOVIG 140 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA, 1 pluma precargada de 1 ml",
-            "tipoProblemaSuministro": 3,
-            "fini": 1792447200000,
-            "activo": true,
-            "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
-          },
-          {
             "cn": "723375",
             "nombre": "AIMOVIG 70 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA, 1 pluma precargada de 1 ml",
             "tipoProblemaSuministro": 3,
@@ -1541,15 +1713,6 @@
             "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
           },
           {
-            "cn": "767427",
-            "nombre": "ATORVASTATINA/EZETIMIBA CINFA 40 MG/10 MG CAPSULAS DURAS, 30 cápsulas",
-            "tipoProblemaSuministro": 6,
-            "fini": 1792360800000,
-            "ffin": 1795129200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
-          },
-          {
             "cn": "727690",
             "nombre": "BENDAMUSTINA HIKMA 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 5 viales de 100 mg",
             "tipoProblemaSuministro": 10,
@@ -1563,7 +1726,7 @@
             "nombre": "EVOPAD 75 microgramos/24 H PARCHES TRANSDERMICOS, 8 parches",
             "tipoProblemaSuministro": 3,
             "fini": 1792360800000,
-            "ffin": 1796338800000,
+            "ffin": 1795388400000,
             "activo": true,
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
@@ -1627,7 +1790,28 @@
             "fini": 1792101600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 479759,
+      "final_url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf"
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 61145,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
+      "payload": {
+        "totalFilas": 926,
+        "pagina": 2,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "725867",
             "nombre": "PREGABALINA ALTER  50 MG CAPSULAS DURAS EFG, 56 cápsulas",
@@ -1737,14 +1921,6 @@
             "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. en un idioma distinto al castellano."
           },
           {
-            "cn": "693467",
-            "nombre": "TOPOTECAN ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 4 ml",
-            "tipoProblemaSuministro": 5,
-            "fini": 1792015200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
             "cn": "667213",
             "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 8 ml",
             "tipoProblemaSuministro": 5,
@@ -1787,34 +1963,13 @@
             "ffin": 1797980400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf",
-      "status": 200,
-      "content_type": "application/pdf",
-      "bytes": 479759,
-      "final_url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf"
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 60853,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
-      "payload": {
-        "totalFilas": 913,
-        "pagina": 2,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "661221",
             "nombre": "CO-DIOVAN FORTE 320 mg/25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA , 28 comprimidos",
             "tipoProblemaSuministro": 6,
             "fini": 1791842400000,
-            "ffin": 1794956400000,
+            "ffin": 1796770800000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
           },
@@ -1824,15 +1979,6 @@
             "tipoProblemaSuministro": 5,
             "fini": 1791842400000,
             "ffin": 1806444000000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "691099",
-            "nombre": "EPLERENONA NORMON 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 30 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1791842400000,
-            "ffin": 1795129200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -2004,7 +2150,7 @@
             "nombre": "EVOPAD 50 microgramos/24 H PARCHES TRANSDERMICOS, 8 parches",
             "tipoProblemaSuministro": 3,
             "fini": 1791324000000,
-            "ffin": 1795993200000,
+            "ffin": 1795042800000,
             "activo": true,
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
@@ -2640,7 +2786,7 @@
             "nombre": "BENDAMUSTINA GLENMARK 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 5 viales de 100 mg",
             "tipoProblemaSuministro": 10,
             "fini": 1789509600000,
-            "ffin": 1795993200000,
+            "ffin": 1798671600000,
             "activo": true,
             "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. en un idioma distinto al castellano."
           },
@@ -2937,28 +3083,11 @@
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
           {
-            "cn": "702205",
-            "nombre": "PSICOTRIC PROLONG 200 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG , 60 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1788127200000,
-            "ffin": 1795388400000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
             "cn": "855288",
             "nombre": "ZOFRAN  ZYDIS 4 mg LIOFILIZADO ORAL , 10 liofilizados",
             "tipoProblemaSuministro": 5,
             "fini": 1788127200000,
             "ffin": 1795993200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "756673",
-            "nombre": "NYZOL 200 MG COMPRIMIDOS, 28 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1787868000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -3029,6 +3158,7 @@
             "nombre": "TADALAFILO ACCORD 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 56 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1787695200000,
+            "ffin": 1796079600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -3130,14 +3260,6 @@
             "ffin": 1809468000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
-          },
-          {
-            "cn": "756678",
-            "nombre": "NYZOL 100 MG COMPRIMIDOS EFG, 56 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1787263200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
           {
             "cn": "831123",
@@ -3445,7 +3567,21 @@
             "fini": 1785535200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 61287,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
+      "payload": {
+        "totalFilas": 926,
+        "pagina": 3,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "909622",
             "nombre": "GASTROGRAFIN 370 MG IODO/ML SOLUCIÓN ORAL Y RECTAL , 1 frasco de 100 ml",
@@ -3558,21 +3694,7 @@
             "fini": 1785276000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 61216,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
-      "payload": {
-        "totalFilas": 913,
-        "pagina": 3,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "735817",
             "nombre": "TRABECTEDINA TEVA 1 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 1 vial ",
@@ -3955,6 +4077,7 @@
             "nombre": "BUPRENORFINA STADA 35 MICROGRAMOS/HORA PARCHE TRANSDERMICO 96 HORAS EFG, 5 parches transdérmicos",
             "tipoProblemaSuministro": 5,
             "fini": 1783461600000,
+            "ffin": 1806444000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -3972,7 +4095,7 @@
             "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG,  1 vial de 100 ml",
             "tipoProblemaSuministro": 7,
             "fini": 1783461600000,
-            "ffin": 1798671600000,
+            "ffin": 1811800800000,
             "activo": true,
             "observ": "Se puede solicitar como medicamento extranjero."
           },
@@ -4450,14 +4573,6 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
           {
-            "cn": "607594",
-            "nombre": "VISIPAQUE 320 mg /ml SOLUCION INYECTABLE, 10 frascos de 50 ml",
-            "tipoProblemaSuministro": 5,
-            "fini": 1781560800000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
             "cn": "685248",
             "nombre": "CARRELDON RETARD 240 mg COMPRIMIDOS DE LIBERACION PROLONGADA, 20 comprimidos",
             "tipoProblemaSuministro": 5,
@@ -4826,6 +4941,7 @@
             "nombre": "OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 50 ml",
             "tipoProblemaSuministro": 5,
             "fini": 1779228000000,
+            "ffin": 1795647600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -4834,7 +4950,7 @@
             "nombre": "QUETIAPINA KERN PHARMA 400 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG, 60 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1779228000000,
-            "ffin": 1795388400000,
+            "ffin": 1806357600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -4992,6 +5108,7 @@
             "nombre": "RIVASTIGMINA STADAFARMA 4,5 MG CAPSULAS DURAS EFG, 56 cápsulas",
             "tipoProblemaSuministro": 5,
             "fini": 1777413600000,
+            "ffin": 1798671600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -5132,7 +5249,7 @@
             "nombre": "ESCITALOPRAM VISO FARMACEUTICA 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG,56 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1776117600000,
-            "ffin": 1795993200000,
+            "ffin": 1798671600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -5221,7 +5338,21 @@
             "fini": 1774994400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 61928,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
+      "payload": {
+        "totalFilas": 926,
+        "pagina": 4,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "685670",
             "nombre": "PERINDOPRIL/INDAPAMIDA VISO FARMACEUTICA 4 MG/1,25 MG COMPRIMIDOS EFG , 30 comprimidos",
@@ -5326,21 +5457,7 @@
             "ffin": 1795993200000,
             "activo": true,
             "observ": "El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 61919,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
-      "payload": {
-        "totalFilas": 913,
-        "pagina": 4,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "730364",
             "nombre": "QUETIAPINA PENSA 150 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG, 60 comprimidos",
@@ -6369,7 +6486,7 @@
             "nombre": "OFTACILOX 3 mg/ml COLIRIO EN SOLUCION , 1 frasco de 5 ml",
             "tipoProblemaSuministro": 5,
             "fini": 1759960800000,
-            "ffin": 1797289200000,
+            "ffin": 1808172000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -6959,7 +7076,21 @@
             "ffin": 1798671600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 40091,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
+      "payload": {
+        "totalFilas": 926,
+        "pagina": 5,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "759164",
             "nombre": "FULVESTRANT EUGIA 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG, 1 jeringa + 1 aguja",
@@ -7042,7 +7173,7 @@
             "nombre": "TOFRANIL 50 mg COMPRIMIDOS RECUBIERTOS , 30 comprimidos",
             "tipoProblemaSuministro": 7,
             "fini": 1744063200000,
-            "ffin": 1798239600000,
+            "ffin": 1806444000000,
             "activo": true,
             "observ": "Se puede solicitar como medicamento extranjero."
           },
@@ -7063,21 +7194,7 @@
             "ffin": 1803250800000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 36172,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
-      "payload": {
-        "totalFilas": 913,
-        "pagina": 5,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "729260",
             "nombre": "LACOSAMIDA KRKA 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 14 comprimidos",
@@ -7687,6 +7804,14 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
           {
+            "cn": "704768",
+            "nombre": "OTILONIO QUALIGEN 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG , 60 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1700607600000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
             "cn": "647016",
             "nombre": "AGUA PARA PREPARACIONES  INYECTABLES GRIFOLS DISOLVENTE PARA USO PARENTERAL , 10 frascos de 500 ml",
             "tipoProblemaSuministro": 7,
@@ -8042,7 +8167,7 @@
     }
   ],
   "listing_complete": true,
-  "listing_count": 913,
+  "listing_count": 926,
   "enrichment_scope": "All distinct CNs in the validated listing, with per-CN errors reported.",
   "medicines": [
     {
@@ -8940,44 +9065,6 @@
       "payload": {
         "nregistro": "71868",
         "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG",
-        "pactivos": "FLUOROURACILO",
-        "labtitular": "Accord Healthcare S.L.U.",
-        "labcomercializador": "Accord Healthcare S.L.U.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1291158000000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": true,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/71868/FT_71868.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/71868/FT_71868.html",
-            "secc": true,
-            "fecha": 1780639565000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/71868/P_71868.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/71868/P_71868.html",
-            "secc": true,
-            "fecha": 1780639579000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01B",
@@ -9005,38 +9092,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 4991,
-            "nombre": "HIDROXIDO DE SODIO (E 524)",
-            "cantidad": "Q.S.",
-            "unidad": "ml",
-            "orden": 2
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "603544",
-            "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG,  1 vial de 100 ml",
-            "estado": {
-              "aut": 1291158000000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "603544",
-              "fini": 1783461600000,
-              "ffin": 1798671600000,
-              "activo": true,
-              "observ": "Se puede solicitar como medicamento extranjero."
-            },
-            "envaseClinico": true
           }
         ],
         "formaFarmaceutica": {
@@ -9047,14 +9106,15 @@
           "id": 34,
           "nombre": "INYECTABLE"
         },
-        "vtm": {
-          "id": 3127006,
-          "nombre": "fluorouracilo"
-        },
-        "dosis": "50 MG/ML"
+        "dosis": "50 MG/ML",
+        "presentaciones": [
+          {
+            "cn": "603544",
+            "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG,  1 vial de 100 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:16.587203+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=603548",
@@ -10428,6 +10488,78 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607577",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2144,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=607577",
+      "payload": {
+        "nregistro": "62017",
+        "nombre": "OMNIPAQUE 240 mg Iodo /ml SOLUCION INYECTABLE",
+        "atcs": [
+          {
+            "codigo": "V08A",
+            "nombre": "MEDIOS DE CONTRASTE PARA RAYOS-X, IODADOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "V08AB",
+            "nombre": "Medios de contraste para rayos-X de baja osmolaridad, hidrosolubles y nefrotropicos",
+            "nivel": 4
+          },
+          {
+            "codigo": "V08AB02",
+            "nombre": "Iohexol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 497,
+            "codigo": "497A",
+            "nombre": "IOHEXOL",
+            "cantidad": "518",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 13,
+            "nombre": "VÍA INTRAARTERIAL"
+          },
+          {
+            "id": 37,
+            "nombre": "VÍA INTRATECAL"
+          },
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          },
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 197,
+          "nombre": "SOLUCIÓN INYECTABLE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "240 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "607577",
+            "nombre": "OMNIPAQUE 240 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 50 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:16.587299+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607581",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -10499,6 +10631,78 @@
       },
       "fetched_at": "2026-11-11T15:44:11.004157+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607584",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2145,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=607584",
+      "payload": {
+        "nregistro": "62018",
+        "nombre": "OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE",
+        "atcs": [
+          {
+            "codigo": "V08A",
+            "nombre": "MEDIOS DE CONTRASTE PARA RAYOS-X, IODADOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "V08AB",
+            "nombre": "Medios de contraste para rayos-X de baja osmolaridad, hidrosolubles y nefrotropicos",
+            "nivel": 4
+          },
+          {
+            "codigo": "V08AB02",
+            "nombre": "Iohexol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 497,
+            "codigo": "497A",
+            "nombre": "IOHEXOL",
+            "cantidad": "647",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 13,
+            "nombre": "VÍA INTRAARTERIAL"
+          },
+          {
+            "id": 37,
+            "nombre": "VÍA INTRATECAL"
+          },
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          },
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 197,
+          "nombre": "SOLUCIÓN INYECTABLE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "300 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "607584",
+            "nombre": "OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 6 frascos de 500 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:17.400075+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607589",
@@ -10583,91 +10787,6 @@
         ]
       },
       "fetched_at": "2026-11-11T15:44:10.437936+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607594",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2351,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=607594",
-      "payload": {
-        "nregistro": "60637",
-        "nombre": "VISIPAQUE 320 mg /ml SOLUCION INYECTABLE",
-        "atcs": [
-          {
-            "codigo": "V08A",
-            "nombre": "MEDIOS DE CONTRASTE PARA RAYOS-X, IODADOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "V08AB",
-            "nombre": "Medios de contraste para rayos-X de baja osmolaridad, hidrosolubles y nefrotropicos",
-            "nivel": 4
-          },
-          {
-            "codigo": "V08AB09",
-            "nombre": "Iodixanol",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2703,
-            "codigo": "2703A",
-            "nombre": "IODIXANOL",
-            "cantidad": "652",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 13,
-            "nombre": "VÍA INTRAARTERIAL"
-          },
-          {
-            "id": 14,
-            "nombre": "VÍA INTRAARTICULAR"
-          },
-          {
-            "id": 15,
-            "nombre": "VÍA INTRAUTERINA"
-          },
-          {
-            "id": 37,
-            "nombre": "VÍA INTRATECAL"
-          },
-          {
-            "id": 42,
-            "nombre": "VÍA INTRAVENOSA"
-          },
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          },
-          {
-            "id": 54,
-            "nombre": "VÍA RECTAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 197,
-          "nombre": "SOLUCIÓN INYECTABLE"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 34,
-          "nombre": "INYECTABLE"
-        },
-        "dosis": "320 mg/ml",
-        "presentaciones": [
-          {
-            "cn": "607594",
-            "nombre": "VISIPAQUE 320 mg /ml SOLUCION INYECTABLE, 10 frascos de 50 ml"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T15:44:12.281666+00:00",
       "reused": true
     },
     {
@@ -12678,44 +12797,6 @@
       "payload": {
         "nregistro": "66997",
         "nombre": "PACLITAXEL TEVA 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG",
-        "pactivos": "PACLITAXEL",
-        "labtitular": "Teva Gmbh",
-        "labcomercializador": "Teva Pharma S.L.U.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1125871200000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": false,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/66997/FT_66997.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/66997/FT_66997.html",
-            "secc": true,
-            "fecha": 1790806163000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/66997/P_66997.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/66997/P_66997.html",
-            "secc": true,
-            "fecha": 1790806176000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01C",
@@ -12743,43 +12824,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 1937,
-            "nombre": "MACROGOLGLICEROL, RICINOLEATO DE",
-            "cantidad": "527",
-            "unidad": "mg",
-            "orden": 1
-          },
-          {
-            "id": 1845,
-            "nombre": "ETANOL ANHIDRO",
-            "cantidad": "396",
-            "unidad": "mg",
-            "orden": 2
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "652004",
-            "nombre": "PACLITAXEL TEVA 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 1 vial de 50 ml",
-            "estado": {
-              "aut": 1125871200000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "652004",
-              "fini": 1791842400000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -12790,14 +12838,15 @@
           "id": 35,
           "nombre": "INYECTABLE PERFUSION"
         },
-        "vtm": {
-          "id": 67735003,
-          "nombre": "paclitaxel"
-        },
-        "dosis": "6 mg placlitaxel/ml"
+        "dosis": "6 mg placlitaxel/ml",
+        "presentaciones": [
+          {
+            "cn": "652004",
+            "nombre": "PACLITAXEL TEVA 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 1 vial de 50 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:17.405353+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652160",
@@ -17700,6 +17749,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662420",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2110,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=662420",
+      "payload": {
+        "nregistro": "70564",
+        "nombre": "ROCURONIO KABI 10 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION EFG",
+        "atcs": [
+          {
+            "codigo": "M03A",
+            "nombre": "AGENTES RELAJANTES MUSCULARES DE ACCION PERIFERICA",
+            "nivel": 3
+          },
+          {
+            "codigo": "M03AC",
+            "nombre": "Otros compuestos de amonio cuaternario",
+            "nivel": 4
+          },
+          {
+            "codigo": "M03AC09",
+            "nombre": "Rocuronio, bromuro de",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2714,
+            "codigo": "2714BR",
+            "nombre": "ROCURONIO BROMURO",
+            "cantidad": "10,00",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 80,
+          "nombre": "SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "10 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "662420",
+            "nombre": "ROCURONIO KABI 10 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION EFG, 10 viales de 5 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:18.231566+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662497",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -19746,44 +19855,6 @@
       "payload": {
         "nregistro": "71868",
         "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG",
-        "pactivos": "FLUOROURACILO",
-        "labtitular": "Accord Healthcare S.L.U.",
-        "labcomercializador": "Accord Healthcare S.L.U.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1291158000000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": true,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/71868/FT_71868.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/71868/FT_71868.html",
-            "secc": true,
-            "fecha": 1780639565000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/71868/P_71868.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/71868/P_71868.html",
-            "secc": true,
-            "fecha": 1780639579000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01B",
@@ -19811,37 +19882,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 4991,
-            "nombre": "HIDROXIDO DE SODIO (E 524)",
-            "cantidad": "Q.S.",
-            "unidad": "ml",
-            "orden": 2
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "667193",
-            "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG, 1 vial de 5 ml",
-            "estado": {
-              "aut": 1291158000000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "667193",
-              "fini": 1790805600000,
-              "ffin": 1798671600000,
-              "activo": true,
-              "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. con caducidad inferior a 3 meses."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -19852,14 +19896,15 @@
           "id": 34,
           "nombre": "INYECTABLE"
         },
-        "vtm": {
-          "id": 3127006,
-          "nombre": "fluorouracilo"
-        },
-        "dosis": "50 MG/ML"
+        "dosis": "50 MG/ML",
+        "presentaciones": [
+          {
+            "cn": "667193",
+            "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG, 1 vial de 5 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:18.226460+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667213",
@@ -19870,56 +19915,6 @@
       "payload": {
         "nregistro": "71799",
         "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION",
-        "pactivos": "DOCETAXEL",
-        "labtitular": "Pfizer S.L.",
-        "labcomercializador": "Pfizer S.L.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1271109600000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": false,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/71799/FT_71799.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/71799/FT_71799.html",
-            "secc": true,
-            "fecha": 1705622674000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/71799/P_71799.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/71799/P_71799.html",
-            "secc": true,
-            "fecha": 1769815289000
-          }
-        ],
-        "fotos": [
-          {
-            "tipo": "materialas",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/71799/71799_materialas.jpg",
-            "fecha": 1514295254000
-          },
-          {
-            "tipo": "formafarmac",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/71799/71799_formafarmac.jpg",
-            "fecha": 1514295256000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01C",
@@ -19947,44 +19942,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 1845,
-            "nombre": "ETANOL ANHIDRO",
-            "cantidad": "0,23",
-            "unidad": "mg",
-            "orden": 1
-          },
-          {
-            "id": 6792,
-            "nombre": "POLISORBATO 80",
-            "cantidad": "260",
-            "unidad": "mg",
-            "orden": 4
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "667213",
-            "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 8 ml",
-            "estado": {
-              "aut": 1271109600000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "667213",
-              "fini": 1791928800000,
-              "ffin": 1855260000000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -19995,14 +19956,15 @@
           "id": 35,
           "nombre": "INYECTABLE PERFUSION"
         },
-        "vtm": {
-          "id": 108806006,
-          "nombre": "docetaxel"
-        },
-        "dosis": "10 mg/ml"
+        "dosis": "10 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "667213",
+            "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 8 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:19.204355+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667214",
@@ -20013,56 +19975,6 @@
       "payload": {
         "nregistro": "71799",
         "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION",
-        "pactivos": "DOCETAXEL",
-        "labtitular": "Pfizer S.L.",
-        "labcomercializador": "Pfizer S.L.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1271109600000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": false,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/71799/FT_71799.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/71799/FT_71799.html",
-            "secc": true,
-            "fecha": 1705622674000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/71799/P_71799.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/71799/P_71799.html",
-            "secc": true,
-            "fecha": 1769815289000
-          }
-        ],
-        "fotos": [
-          {
-            "tipo": "materialas",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/71799/71799_materialas.jpg",
-            "fecha": 1514295254000
-          },
-          {
-            "tipo": "formafarmac",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/71799/71799_formafarmac.jpg",
-            "fecha": 1514295256000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01C",
@@ -20090,44 +20002,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 1845,
-            "nombre": "ETANOL ANHIDRO",
-            "cantidad": "0,23",
-            "unidad": "mg",
-            "orden": 1
-          },
-          {
-            "id": 6792,
-            "nombre": "POLISORBATO 80",
-            "cantidad": "260",
-            "unidad": "mg",
-            "orden": 4
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "667214",
-            "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 16 ml",
-            "estado": {
-              "aut": 1271109600000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "667214",
-              "fini": 1786917600000,
-              "ffin": 1855260000000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -20138,14 +20016,15 @@
           "id": 35,
           "nombre": "INYECTABLE PERFUSION"
         },
-        "vtm": {
-          "id": 108806006,
-          "nombre": "docetaxel"
-        },
-        "dosis": "10 mg/ml"
+        "dosis": "10 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "667214",
+            "nombre": "DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 16 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:19.213031+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667248",
@@ -23366,6 +23245,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=679488",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2204,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=679488",
+      "payload": {
+        "nregistro": "73849",
+        "nombre": "DEFLAZACORT NORMON 6 mg COMPRIMIDOS EFG",
+        "atcs": [
+          {
+            "codigo": "H02A",
+            "nombre": "CORTICOSTEROIDES PARA USO SISTEMICO, MONOFARMACOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "H02AB",
+            "nombre": "Glucocorticoides",
+            "nivel": 4
+          },
+          {
+            "codigo": "H02AB13",
+            "nombre": "Deflazacort",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2546,
+            "codigo": "2546A",
+            "nombre": "DEFLAZACORT",
+            "cantidad": "6",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 40,
+          "nombre": "COMPRIMIDO"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "6 mg",
+        "presentaciones": [
+          {
+            "cn": "679488",
+            "nombre": "DEFLAZACORT NORMON 6 mg COMPRIMIDOS EFG, 20 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:20.032545+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=679726",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -24166,6 +24105,66 @@
       },
       "fetched_at": "2026-11-11T15:49:29.271211+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682490",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2700,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=682490",
+      "payload": {
+        "nregistro": "74475",
+        "nombre": "LANSOPRAZOL VIATRIS 15 MG CAPSULAS GASTRORRESISTENTES EFG",
+        "atcs": [
+          {
+            "codigo": "A02B",
+            "nombre": "AGENTES CONTRA LA ULCERA PEPTICA Y EL REFLUJO GASTROESOFAGICO (RGE/GORD)",
+            "nivel": 3
+          },
+          {
+            "codigo": "A02BC",
+            "nombre": "Inhibidores de la bomba de protones",
+            "nivel": 4
+          },
+          {
+            "codigo": "A02BC03",
+            "nombre": "Lansoprazol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2598,
+            "codigo": "2598A",
+            "nombre": "LANSOPRAZOL",
+            "cantidad": "15,00",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 1228,
+          "nombre": "CÁPSULA GASTRORRESISTENTE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "15 mg",
+        "presentaciones": [
+          {
+            "cn": "682490",
+            "nombre": "LANSOPRAZOL VIATRIS 15 MG CAPSULAS GASTRORRESISTENTES EFG, 28 cápsulas"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:20.020050+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682512",
@@ -27517,67 +27516,6 @@
       "reused": true
     },
     {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=691099",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2366,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=691099",
-      "payload": {
-        "nregistro": "75988",
-        "nombre": "EPLERENONA NORMON 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
-        "atcs": [
-          {
-            "codigo": "C03D",
-            "nombre": "Antagonistas de la aldosterona y otros agentes ahorradores de potasio",
-            "nivel": 3
-          },
-          {
-            "codigo": "C03DA",
-            "nombre": "Antagonistas de la aldosterona",
-            "nivel": 4
-          },
-          {
-            "codigo": "C03DA04",
-            "nombre": "Eplerenona",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2924,
-            "codigo": "2924A",
-            "nombre": "EPLERENONA",
-            "cantidad": "50,0",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 42,
-          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "50 MG",
-        "presentaciones": [
-          {
-            "cn": "691099",
-            "nombre": "EPLERENONA NORMON 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 30 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:15:46.127212+00:00",
-      "reused": true
-    },
-    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=691325",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -27720,44 +27658,6 @@
       "payload": {
         "nregistro": "76091",
         "nombre": "METOTREXATO ACCORD 25 MG/ML SOLUCION INYECTABLE EFG",
-        "pactivos": "METOTREXATO",
-        "labtitular": "Accord Healthcare S.L.U.",
-        "labcomercializador": "Accord Healthcare S.L.U.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1358982000000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": false,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": true,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/76091/FT_76091.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/76091/FT_76091.html",
-            "secc": true,
-            "fecha": 1741649584000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/76091/P_76091.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/76091/P_76091.html",
-            "secc": true,
-            "fecha": 1758062040000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01B",
@@ -27785,22 +27685,6 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 4991,
-            "nombre": "HIDROXIDO DE SODIO (E 524)",
-            "cantidad": "C.S.",
-            "unidad": "P/V",
-            "orden": 1
-          },
-          {
-            "id": 2479,
-            "nombre": "CLORURO DE SODIO",
-            "cantidad": "4,90",
-            "unidad": "P/V",
-            "orden": 2
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 13,
@@ -27819,24 +27703,6 @@
             "nombre": "VÍA INTRAVENOSA"
           }
         ],
-        "presentaciones": [
-          {
-            "cn": "691495",
-            "nombre": "METOTREXATO ACCORD 25 MG/ML SOLUCION INYECTABLE EFG, 1 vial de 40 ml",
-            "estado": {
-              "aut": 1358982000000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "691495",
-              "fini": 1781820000000,
-              "ffin": 1798671600000,
-              "activo": true,
-              "observ": "Se puede solicitar como medicamento extranjero."
-            }
-          }
-        ],
         "formaFarmaceutica": {
           "id": 197,
           "nombre": "SOLUCIÓN INYECTABLE"
@@ -27845,14 +27711,15 @@
           "id": 34,
           "nombre": "INYECTABLE"
         },
-        "vtm": {
-          "id": 68887009,
-          "nombre": "metotrexato"
-        },
-        "dosis": "25 mg/ml (2ml, 20ml y 40ml)"
+        "dosis": "25 mg/ml (2ml, 20ml y 40ml)",
+        "presentaciones": [
+          {
+            "cn": "691495",
+            "nombre": "METOTREXATO ACCORD 25 MG/ML SOLUCION INYECTABLE EFG, 1 vial de 40 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:20.818346+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=691949",
@@ -28401,67 +28268,6 @@
         ]
       },
       "fetched_at": "2026-11-11T16:15:54.485474+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=693467",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1979,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=693467",
-      "payload": {
-        "nregistro": "76570",
-        "nombre": "TOPOTECAN ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION",
-        "atcs": [
-          {
-            "codigo": "L01C",
-            "nombre": "ALCALOIDES DE PLANTAS Y OTROS PRODUCTOS NATURALES",
-            "nivel": 3
-          },
-          {
-            "codigo": "L01CE",
-            "nombre": "Inhibidores de la topoisomerasa 1 (TOP1)",
-            "nivel": 4
-          },
-          {
-            "codigo": "L01CE01",
-            "nombre": "Topotecan",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 212,
-            "codigo": "212A",
-            "nombre": "TOPOTECAN",
-            "cantidad": "1",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 42,
-            "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 225,
-          "nombre": "CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 35,
-          "nombre": "INYECTABLE PERFUSION"
-        },
-        "dosis": "1 mg/ml",
-        "presentaciones": [
-          {
-            "cn": "693467",
-            "nombre": "TOPOTECAN ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial de 4 ml"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:15:54.672059+00:00",
       "reused": true
     },
     {
@@ -31765,6 +31571,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=697289",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2232,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=697289",
+      "payload": {
+        "nregistro": "55730",
+        "nombre": "DURACEF 500 MG CÁPSULAS DURAS",
+        "atcs": [
+          {
+            "codigo": "J01D",
+            "nombre": "OTROS ANTIBACTERIANOS BETALACTAMICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "J01DB",
+            "nombre": "Cefalosporinas de primera generacion",
+            "nivel": 4
+          },
+          {
+            "codigo": "J01DB05",
+            "nombre": "Cefadroxilo",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 825,
+            "codigo": "825MH",
+            "nombre": "CEFADROXILO MONOHIDRATO",
+            "cantidad": "500",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 32,
+          "nombre": "CÁPSULA DURA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "500 mg",
+        "presentaciones": [
+          {
+            "cn": "697289",
+            "nombre": "DURACEF 500 MG CÁPSULAS DURAS, 28 cápsulas "
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:22.212012+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=697290",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -31972,47 +31838,6 @@
       "payload": {
         "nregistro": "112762027",
         "nombre": "CAPECITABINA ACCORD 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
-        "pactivos": "CAPECITABINA",
-        "labtitular": "Accord Healthcare S.L.U.",
-        "labcomercializador": "Accord Healthcare S.L.U.",
-        "cpresc": "Diagnóstico Hospitalario",
-        "estado": {
-          "aut": 1366754400000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": true,
-        "materialesInf": false,
-        "ema": true,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/112762027/FT_112762027.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/112762027/FT_112762027.html",
-            "secc": true
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/112762027/P_112762027.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/112762027/P_112762027.html",
-            "secc": true
-          },
-          {
-            "tipo": 3,
-            "url": "https://cima.aemps.es/cima/pdfs/ipe/112762027/IPE_112762027.pdf",
-            "secc": false
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01B",
@@ -32040,37 +31865,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 202,
-            "nombre": "LACTOSA ANHIDRA",
-            "cantidad": "25,470",
-            "unidad": "mg",
-            "orden": 3
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 48,
             "nombre": "VÍA ORAL"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "697764",
-            "nombre": "CAPECITABINA ACCORD 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG 120 comprimidos",
-            "estado": {
-              "aut": 1366804737000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "697764",
-              "fini": 1793314800000,
-              "ffin": 1795993200000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -32081,14 +31879,15 @@
           "id": 10,
           "nombre": "COMPRIMIDO"
         },
-        "vtm": {
-          "id": 108761006,
-          "nombre": "capecitabina"
-        },
-        "dosis": "500 mg"
+        "dosis": "500 mg",
+        "presentaciones": [
+          {
+            "cn": "697764",
+            "nombre": "CAPECITABINA ACCORD 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG 120 comprimidos"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:21.628064+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=697877",
@@ -33627,6 +33426,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=700639",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1843,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=700639",
+      "payload": {
+        "nregistro": "59577",
+        "nombre": "OESTRACLIN 0,6 MG/G GEL",
+        "atcs": [
+          {
+            "codigo": "G03C",
+            "nombre": "ESTROGENOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "G03CA",
+            "nombre": "Estrogenos naturales y semisinteticos, monofarmacos",
+            "nivel": 4
+          },
+          {
+            "codigo": "G03CA03",
+            "nombre": "Estradiol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 160,
+            "codigo": "160A",
+            "nombre": "ESTRADIOL",
+            "cantidad": "0,06",
+            "unidad": "g",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 3,
+            "nombre": "USO CUTÁNEO"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 89,
+          "nombre": "GEL"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 24,
+          "nombre": "GEL"
+        },
+        "dosis": "0,06%",
+        "presentaciones": [
+          {
+            "cn": "700639",
+            "nombre": "OESTRACLIN 0,6 MG/G GEL , 1 tubo de 80 g"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:22.473545+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=700640",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -34072,67 +33931,6 @@
         ]
       },
       "fetched_at": "2026-11-11T16:16:57.917988+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=702205",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2173,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=702205",
-      "payload": {
-        "nregistro": "78711",
-        "nombre": "PSICOTRIC PROLONG 200 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG",
-        "atcs": [
-          {
-            "codigo": "N05A",
-            "nombre": "ANTIPSICOTICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N05AH",
-            "nombre": "Diazepinas, oxazepinas, tiazepinas y oxepinas",
-            "nivel": 4
-          },
-          {
-            "codigo": "N05AH04",
-            "nombre": "Quetiapina",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 1136,
-            "codigo": "1136FF",
-            "nombre": "QUETIAPINA FUMARATO",
-            "cantidad": "230,0",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 47,
-          "nombre": "COMPRIMIDO DE LIBERACIÓN PROLONGADA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 14,
-          "nombre": "COMPRIMIDO LIBERACION MODIFICADA"
-        },
-        "dosis": "200 mg",
-        "presentaciones": [
-          {
-            "cn": "702205",
-            "nombre": "PSICOTRIC PROLONG 200 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG , 60 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:16:57.501338+00:00",
       "reused": true
     },
     {
@@ -34815,6 +34613,74 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=703896",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2392,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=703896",
+      "payload": {
+        "nregistro": "79087",
+        "nombre": "RAMIPRIL/HIDROCLOROTIAZIDA STADA 5 MG/25 MG COMPRIMIDOS EFG",
+        "atcs": [
+          {
+            "codigo": "C09B",
+            "nombre": "INHIBIDORES DE LA ECA, COMBINACIONES",
+            "nivel": 3
+          },
+          {
+            "codigo": "C09BA",
+            "nombre": "Inhibidores de la ECA y diureticos",
+            "nivel": 4
+          },
+          {
+            "codigo": "C09BA05",
+            "nombre": "Ramipril y diureticos",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2497,
+            "codigo": "2497A",
+            "nombre": "RAMIPRIL",
+            "cantidad": "5",
+            "unidad": "mg",
+            "orden": 1
+          },
+          {
+            "id": 1343,
+            "codigo": "1343A",
+            "nombre": "HIDROCLOROTIAZIDA",
+            "cantidad": "25",
+            "unidad": "mg",
+            "orden": 2
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 40,
+          "nombre": "COMPRIMIDO"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "5 MG/25 MG",
+        "presentaciones": [
+          {
+            "cn": "703896",
+            "nombre": "RAMIPRIL/HIDROCLOROTIAZIDA STADA 5 MG/25 MG COMPRIMIDOS EFG , 28 comprimidos (PVC/PE/PVDC/Alu)"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:23.004152+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=703925",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -34945,44 +34811,6 @@
       "payload": {
         "nregistro": "65549",
         "nombre": "AZITROMICINA KERN PHARMA 200 mg/5 ml POLVO PARA SUSPENSION ORAL EFG",
-        "pactivos": "AZITROMICINA",
-        "labtitular": "Kern Pharma S.L.",
-        "labcomercializador": "Kern Pharma S.L.",
-        "cpresc": "Medicamento Sujeto A Prescripción Médica",
-        "estado": {
-          "aut": 1063144800000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": false,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": true,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/65549/FT_65549.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/65549/FT_65549.html",
-            "secc": true,
-            "fecha": 1779746856000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/65549/P_65549.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/65549/P_65549.html",
-            "secc": true,
-            "fecha": 1779746873000
-          }
-        ],
         "atcs": [
           {
             "codigo": "J01F",
@@ -35010,44 +34838,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 7368,
-            "nombre": "SACAROSA",
-            "cantidad": "3.624,00",
-            "unidad": "mg",
-            "orden": 1
-          },
-          {
-            "id": 4495,
-            "nombre": "FOSFATO SODICO ANHIDRO",
-            "cantidad": "43,20",
-            "unidad": "mg",
-            "orden": 3
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 48,
             "nombre": "VÍA ORAL"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "704247",
-            "nombre": "AZITROMICINA KERN PHARMA 200 mg/5 ml POLVO PARA SUSPENSION ORAL  EFG, 1 frasco de 30 ml",
-            "estado": {
-              "aut": 1063144800000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "704247",
-              "fini": 1794265200000,
-              "ffin": 1795993200000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -35058,14 +34852,15 @@
           "id": 93,
           "nombre": "SOLUCIÓN/SUSPENSIÓN ORAL"
         },
-        "vtm": {
-          "id": 96034006,
-          "nombre": "azitromicina"
-        },
-        "dosis": "Polvo para suspensión oral. Por 5 ml de suspensión"
+        "dosis": "Polvo para suspensión oral. Por 5 ml de suspensión",
+        "presentaciones": [
+          {
+            "cn": "704247",
+            "nombre": "AZITROMICINA KERN PHARMA 200 mg/5 ml POLVO PARA SUSPENSION ORAL  EFG, 1 frasco de 30 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:23.266078+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704266",
@@ -35204,6 +34999,74 @@
       },
       "fetched_at": "2026-11-11T16:17:12.443254+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704315",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2738,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=704315",
+      "payload": {
+        "nregistro": "79227",
+        "nombre": "ATOZET 10 MG/80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA",
+        "atcs": [
+          {
+            "codigo": "C10B",
+            "nombre": "AGENTES MODIFICADORES DE LOS LIPIDOS, COMBINACIONES",
+            "nivel": 3
+          },
+          {
+            "codigo": "C10BA",
+            "nombre": "Combinaciones de varios agentes modificadores de los lipidos",
+            "nivel": 4
+          },
+          {
+            "codigo": "C10BA05",
+            "nombre": "Atorvastatina y ezetimiba",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 7432,
+            "codigo": "7432A",
+            "nombre": "EZETIMIBA",
+            "cantidad": "10",
+            "unidad": "mg",
+            "orden": 1
+          },
+          {
+            "id": 7400,
+            "codigo": "7400LV",
+            "nombre": "ATORVASTATINA CALCICA TRIHIDRATO",
+            "cantidad": "80,0",
+            "unidad": "mg",
+            "orden": 2
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 42,
+          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "10 mg/80 mg",
+        "presentaciones": [
+          {
+            "cn": "704315",
+            "nombre": "ATOZET 10 MG/80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA , 30 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:23.859409+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704753",
@@ -35389,6 +35252,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704768",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2205,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=704768",
+      "payload": {
+        "nregistro": "79382",
+        "nombre": "OTILONIO QUALIGEN 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
+        "atcs": [
+          {
+            "codigo": "A03A",
+            "nombre": "AGENTES CONTRA PADECIMIENTOS FUNCIONALES DEL ESTOMAGO",
+            "nivel": 3
+          },
+          {
+            "codigo": "A03AB",
+            "nombre": "Anticolinergicos sinteticos, compuestos de amonio cuaternario",
+            "nivel": 4
+          },
+          {
+            "codigo": "A03AB06",
+            "nombre": "Otilonio, bromuro de",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 3818,
+            "codigo": "3818BR",
+            "nombre": "OTILONIO BROMURO",
+            "cantidad": "40",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 42,
+          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "40 mg",
+        "presentaciones": [
+          {
+            "cn": "704768",
+            "nombre": "OTILONIO QUALIGEN 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG , 60 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:25.476144+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704910",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -35448,6 +35371,66 @@
       },
       "fetched_at": "2026-11-11T16:17:17.050488+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704913",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2107,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=704913",
+      "payload": {
+        "nregistro": "73730",
+        "nombre": "ESOMEPRAZOL VIATRIS 40 MG COMPRIMIDOS GASTRORRESISTENTES EFG",
+        "atcs": [
+          {
+            "codigo": "A02B",
+            "nombre": "AGENTES CONTRA LA ULCERA PEPTICA Y EL REFLUJO GASTROESOFAGICO (RGE/GORD)",
+            "nivel": 3
+          },
+          {
+            "codigo": "A02BC",
+            "nombre": "Inhibidores de la bomba de protones",
+            "nivel": 4
+          },
+          {
+            "codigo": "A02BC05",
+            "nombre": "Esomeprazol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 1172,
+            "codigo": "1172MG",
+            "nombre": "ESOMEPRAZOL MAGNESICO",
+            "cantidad": "41,400",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 46,
+          "nombre": "COMPRIMIDO GASTRORRESISTENTE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "40 mg",
+        "presentaciones": [
+          {
+            "cn": "704913",
+            "nombre": "ESOMEPRAZOL VIATRIS 40 MG COMPRIMIDOS GASTRORRESISTENTES EFG, 28 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:25.008220+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=705283",
@@ -35962,44 +35945,6 @@
       "payload": {
         "nregistro": "79935",
         "nombre": "CAPECITABINA KERN PHARMA 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA",
-        "pactivos": "CAPECITABINA",
-        "labtitular": "Kern Pharma S.L.",
-        "labcomercializador": "Kern Pharma S.L.",
-        "cpresc": "Diagnóstico Hospitalario",
-        "estado": {
-          "aut": 1434115097000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": false,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": true,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/79935/FT_79935.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/79935/FT_79935.html",
-            "secc": true,
-            "fecha": 1792189263000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/79935/P_79935.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/79935/P_79935.html",
-            "secc": true,
-            "fecha": 1792189277000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01B",
@@ -36027,37 +35972,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 202,
-            "nombre": "LACTOSA ANHIDRA",
-            "cantidad": "15,280",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 48,
             "nombre": "VÍA ORAL"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "706764",
-            "nombre": "CAPECITABINA KERN PHARMA 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA , 60 comprimidos (Blister PVC/PVDC-ALUMINIO)",
-            "estado": {
-              "aut": 1434115097000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "706764",
-              "fini": 1790805600000,
-              "ffin": 1801177200000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -36068,14 +35986,15 @@
           "id": 10,
           "nombre": "COMPRIMIDO"
         },
-        "vtm": {
-          "id": 108761006,
-          "nombre": "capecitabina"
-        },
-        "dosis": "300 mg"
+        "dosis": "300 mg",
+        "presentaciones": [
+          {
+            "cn": "706764",
+            "nombre": "CAPECITABINA KERN PHARMA 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA , 60 comprimidos (Blister PVC/PVDC-ALUMINIO)"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:25.849991+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=707162",
@@ -38442,6 +38361,274 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=712685",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 4959,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=712685",
+      "payload": {
+        "nregistro": "70895",
+        "nombre": "SMOFKABIVEN CENTRAL EMULSION PARA PERFUSION",
+        "atcs": [
+          {
+            "codigo": "B05B",
+            "nombre": "SOLUCIONES I.V.",
+            "nivel": 3
+          },
+          {
+            "codigo": "B05BA",
+            "nombre": "Soluciones para nutricion parenteral",
+            "nivel": 4
+          },
+          {
+            "codigo": "B05BA10",
+            "nombre": "Combinaciones",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 284,
+            "codigo": "284A",
+            "nombre": "ALANINA",
+            "cantidad": "14,0",
+            "unidad": "g",
+            "orden": 1
+          },
+          {
+            "id": 423,
+            "codigo": "423A",
+            "nombre": "ARGININA",
+            "cantidad": "12,0",
+            "unidad": "g",
+            "orden": 2
+          },
+          {
+            "id": 1681,
+            "codigo": "1681A",
+            "nombre": "GLICINA",
+            "cantidad": "11,0",
+            "unidad": "g",
+            "orden": 3
+          },
+          {
+            "id": 1760,
+            "codigo": "1760A",
+            "nombre": "HISTIDINA",
+            "cantidad": "3,0",
+            "unidad": "g",
+            "orden": 4
+          },
+          {
+            "id": 1788,
+            "codigo": "1788A",
+            "nombre": "ISOLEUCINA",
+            "cantidad": "5,0",
+            "unidad": "g",
+            "orden": 5
+          },
+          {
+            "id": 26,
+            "codigo": "26AC",
+            "nombre": "LISINA ACETATO",
+            "cantidad": "9,3",
+            "unidad": "g",
+            "orden": 6
+          },
+          {
+            "id": 1952,
+            "codigo": "1952A",
+            "nombre": "METIONINA",
+            "cantidad": "4,3",
+            "unidad": "g",
+            "orden": 7
+          },
+          {
+            "id": 1515,
+            "codigo": "1515A",
+            "nombre": "FENILALANINA",
+            "cantidad": "5,1",
+            "unidad": "g",
+            "orden": 8
+          },
+          {
+            "id": 2212,
+            "codigo": "2212A",
+            "nombre": "PROLINA",
+            "cantidad": "11,2",
+            "unidad": "g",
+            "orden": 9
+          },
+          {
+            "id": 188,
+            "codigo": "188A",
+            "nombre": "TREONINA",
+            "cantidad": "4,4",
+            "unidad": "g",
+            "orden": 10
+          },
+          {
+            "id": 1833,
+            "codigo": "1833A",
+            "nombre": "LEUCINA",
+            "cantidad": "7,4",
+            "unidad": "g",
+            "orden": 11
+          },
+          {
+            "id": 103,
+            "codigo": "103A",
+            "nombre": "SERINA",
+            "cantidad": "6,5",
+            "unidad": "g",
+            "orden": 12
+          },
+          {
+            "id": 992,
+            "codigo": "992A",
+            "nombre": "TAURINA",
+            "cantidad": "1,0",
+            "unidad": "g",
+            "orden": 13
+          },
+          {
+            "id": 163,
+            "codigo": "163B",
+            "nombre": "L-TRIPTOFANO",
+            "cantidad": "2,0",
+            "unidad": "g",
+            "orden": 14
+          },
+          {
+            "id": 3138,
+            "codigo": "3138A",
+            "nombre": "TIROSINA",
+            "cantidad": "0,40",
+            "unidad": "g",
+            "orden": 15
+          },
+          {
+            "id": 28,
+            "codigo": "28A",
+            "nombre": "VALINA",
+            "cantidad": "6,2",
+            "unidad": "g",
+            "orden": 16
+          },
+          {
+            "id": 21,
+            "codigo": "21QZ",
+            "nombre": "CALCIO CLORURO DIHIDRATO",
+            "cantidad": "0,74",
+            "unidad": "g",
+            "orden": 17
+          },
+          {
+            "id": 297,
+            "codigo": "297SO",
+            "nombre": "GLICEROFOSFATO SODIO",
+            "cantidad": "4,18",
+            "unidad": "g",
+            "orden": 18
+          },
+          {
+            "id": 22,
+            "codigo": "22VU",
+            "nombre": "MAGNESIO SULFATO HEPTAHIDRATO",
+            "cantidad": "2,47",
+            "unidad": "g",
+            "orden": 19
+          },
+          {
+            "id": 123,
+            "codigo": "123CL",
+            "nombre": "CLORURO DE POTASIO",
+            "cantidad": "4,48",
+            "unidad": "g",
+            "orden": 20
+          },
+          {
+            "id": 228,
+            "codigo": "228RV",
+            "nombre": "ACETATO SODIO TRIHIDRATO",
+            "cantidad": "5,62",
+            "unidad": "g",
+            "orden": 21
+          },
+          {
+            "id": 138,
+            "codigo": "138VU",
+            "nombre": "ZINC SULFATO HEPTAHIDRATO",
+            "cantidad": "0,023",
+            "unidad": "g",
+            "orden": 22
+          },
+          {
+            "id": 119,
+            "codigo": "119MH",
+            "nombre": "GLUCOSA MONOHIDRATO",
+            "cantidad": "462",
+            "unidad": "g",
+            "orden": 23
+          },
+          {
+            "id": 2511,
+            "codigo": "2511A",
+            "nombre": "TRIGLICERIDOS CADENA MEDIA",
+            "cantidad": "60",
+            "unidad": "g",
+            "orden": 24
+          },
+          {
+            "id": 153,
+            "codigo": "153WM",
+            "nombre": "ACEITE OLIVA",
+            "cantidad": "50",
+            "unidad": "g",
+            "orden": 25
+          },
+          {
+            "id": 2610,
+            "codigo": "2610A",
+            "nombre": "ACEITE  PESCADO",
+            "cantidad": "30",
+            "unidad": "g",
+            "orden": 26
+          },
+          {
+            "id": 1267,
+            "codigo": "1267WM",
+            "nombre": "ACEITE SOJA PURIFICADO",
+            "cantidad": "60",
+            "unidad": "g",
+            "orden": 27
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 223,
+          "nombre": "EMULSIÓN PARA PERFUSIÓN"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 35,
+          "nombre": "INYECTABLE PERFUSION"
+        },
+        "dosis": "-",
+        "presentaciones": [
+          {
+            "cn": "712685",
+            "nombre": "SMOFKABIVEN CENTRAL EMULSION PARA PERFUSION, 4 bolsas de 1970 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:26.295652+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=712850",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -39672,6 +39859,66 @@
       },
       "fetched_at": "2026-11-11T16:19:07.581201+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=715600",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1934,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=715600",
+      "payload": {
+        "nregistro": "81947",
+        "nombre": "DOLOSTOP 650 MG SOLUCION ORAL",
+        "atcs": [
+          {
+            "codigo": "N02B",
+            "nombre": "OTROS ANALGESICOS Y ANTIPIRETICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N02BE",
+            "nombre": "Anilidas",
+            "nivel": 4
+          },
+          {
+            "codigo": "N02BE01",
+            "nombre": "Paracetamol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 12,
+            "codigo": "12A",
+            "nombre": "PARACETAMOL",
+            "cantidad": "650",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 5,
+          "nombre": "SOLUCIÓN ORAL"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 93,
+          "nombre": "SOLUCIÓN/SUSPENSIÓN ORAL"
+        },
+        "dosis": "650 mg",
+        "presentaciones": [
+          {
+            "cn": "715600",
+            "nombre": "DOLOSTOP 650 MG SOLUCION ORAL, 10 sobres"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:26.666595+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=715981",
@@ -41211,6 +41458,126 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719676",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1795,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=719676",
+      "payload": {
+        "nregistro": "82577",
+        "nombre": "ACICLOVIR TEVA 200 MG COMPRIMIDOS EFG",
+        "atcs": [
+          {
+            "codigo": "J05A",
+            "nombre": "ANTIVIRALES DE ACCION DIRECTA",
+            "nivel": 3
+          },
+          {
+            "codigo": "J05AB",
+            "nombre": "Nucleosidos y nucleotidos, excluyendo inhibidores de la transcriptasa inversa",
+            "nivel": 4
+          },
+          {
+            "codigo": "J05AB01",
+            "nombre": "Aciclovir",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 201,
+            "codigo": "201A",
+            "nombre": "ACICLOVIR",
+            "cantidad": "200",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 40,
+          "nombre": "COMPRIMIDO"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "200 mg",
+        "presentaciones": [
+          {
+            "cn": "719676",
+            "nombre": "ACICLOVIR TEVA 200 MG COMPRIMIDOS EFG, 25 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:32.680213+00:00"
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719677",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1795,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=719677",
+      "payload": {
+        "nregistro": "82578",
+        "nombre": "ACICLOVIR TEVA 800 MG COMPRIMIDOS EFG",
+        "atcs": [
+          {
+            "codigo": "J05A",
+            "nombre": "ANTIVIRALES DE ACCION DIRECTA",
+            "nivel": 3
+          },
+          {
+            "codigo": "J05AB",
+            "nombre": "Nucleosidos y nucleotidos, excluyendo inhibidores de la transcriptasa inversa",
+            "nivel": 4
+          },
+          {
+            "codigo": "J05AB01",
+            "nombre": "Aciclovir",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 201,
+            "codigo": "201A",
+            "nombre": "ACICLOVIR",
+            "cantidad": "800",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 40,
+          "nombre": "COMPRIMIDO"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "800 mg",
+        "presentaciones": [
+          {
+            "cn": "719677",
+            "nombre": "ACICLOVIR TEVA 800 MG COMPRIMIDOS EFG, 35 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:27.474229+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719821",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -42217,6 +42584,66 @@
       },
       "fetched_at": "2026-11-13T14:28:48.916734+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=721923",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1922,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=721923",
+      "payload": {
+        "nregistro": "83054",
+        "nombre": "DICLOFENACO TEVA 30 MG/G GEL",
+        "atcs": [
+          {
+            "codigo": "D11A",
+            "nombre": "OTROS PREPARADOS DERMATOLOGICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "D11AX",
+            "nombre": "Otros productos dermatologicos",
+            "nivel": 4
+          },
+          {
+            "codigo": "D11AX18",
+            "nombre": "Diclofenaco",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 745,
+            "codigo": "745SO",
+            "nombre": "DICLOFENACO SODICO",
+            "cantidad": "30",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 3,
+            "nombre": "USO CUTÁNEO"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 89,
+          "nombre": "GEL"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 24,
+          "nombre": "GEL"
+        },
+        "dosis": "30 mg/g",
+        "presentaciones": [
+          {
+            "cn": "721923",
+            "nombre": "DICLOFENACO TEVA 30 MG/G GEL, 1 tubo de 90 g"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:28.394699+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=722015",
@@ -44924,67 +45351,6 @@
       "reused": true
     },
     {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=725624",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2262,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=725624",
-      "payload": {
-        "nregistro": "1181293004",
-        "nombre": "AIMOVIG 140 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA",
-        "atcs": [
-          {
-            "codigo": "N02C",
-            "nombre": "PREPARADOS ANTIMIGRAÑOSOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N02CD",
-            "nombre": "Antagonistas del ligando peptido relacionado con el gen de la calcitonina (CGRP)",
-            "nivel": 4
-          },
-          {
-            "codigo": "N02CD01",
-            "nombre": "Erenumab",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 9422,
-            "codigo": "9422A",
-            "nombre": "ERENUMAB",
-            "cantidad": "140 ",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 58,
-            "nombre": "VÍA SUBCUTÁNEA"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 294,
-          "nombre": "SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 34,
-          "nombre": "INYECTABLE"
-        },
-        "dosis": "140 mg",
-        "presentaciones": [
-          {
-            "cn": "725624",
-            "nombre": "AIMOVIG 140 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA, 1 pluma precargada de 1 ml"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:23:29.410146+00:00",
-      "reused": true
-    },
-    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=725790",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -45363,7 +45729,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-17T15:53:34.530634+00:00"
+      "fetched_at": "2026-11-17T15:53:34.530634+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=726518",
@@ -48123,56 +48490,6 @@
       "payload": {
         "nregistro": "85174",
         "nombre": "DOCETAXEL GLENMARK 20 MG/1 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG",
-        "pactivos": "DOCETAXEL TRIHIDRATO",
-        "labtitular": "Glenmark Arzneimittel Gmbh",
-        "labcomercializador": "Glenmark Farmaceutica S.L.U",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1592301128000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": true,
-        "conduc": true,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": false,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/85174/FT_85174.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/85174/FT_85174.html",
-            "secc": true,
-            "fecha": 1760049255000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/85174/P_85174.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/85174/P_85174.html",
-            "secc": true,
-            "fecha": 1760049274000
-          }
-        ],
-        "fotos": [
-          {
-            "tipo": "materialas",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/85174/85174_materialas.jpg",
-            "fecha": 1782213654000
-          },
-          {
-            "tipo": "formafarmac",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/85174/85174_formafarmac.jpg",
-            "fecha": 1782213656000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01C",
@@ -48200,44 +48517,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 6792,
-            "nombre": "POLISORBATO 80",
-            "cantidad": "0,54",
-            "unidad": "g",
-            "orden": 1
-          },
-          {
-            "id": 1845,
-            "nombre": "ETANOL ANHIDRO",
-            "cantidad": "0,395",
-            "unidad": "g",
-            "orden": 3
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "728790",
-            "nombre": "DOCETAXEL GLENMARK 20 MG/1 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 1 vial de 4 ml",
-            "estado": {
-              "aut": 1592301128000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "728790",
-              "fini": 1794265200000,
-              "ffin": 1801350000000,
-              "activo": true,
-              "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -48248,14 +48531,15 @@
           "id": 35,
           "nombre": "INYECTABLE PERFUSION"
         },
-        "vtm": {
-          "id": 108806006,
-          "nombre": "docetaxel"
-        },
-        "dosis": "20 mg/ml"
+        "dosis": "20 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "728790",
+            "nombre": "DOCETAXEL GLENMARK 20 MG/1 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 1 vial de 4 ml"
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:30.789050+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=728902",
@@ -52400,6 +52684,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732081",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2380,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=732081",
+      "payload": {
+        "nregistro": "86352",
+        "nombre": "ICATIBANTO STADA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG",
+        "atcs": [
+          {
+            "codigo": "B06A",
+            "nombre": "OTROS AGENTES HEMATOLOGICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "B06AC",
+            "nombre": "Farmacos utilizados en el angioedema hereditario",
+            "nivel": 4
+          },
+          {
+            "codigo": "B06AC02",
+            "nombre": "Icatibanto",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 8280,
+            "codigo": "8280C",
+            "nombre": "ICATIBANTO ACETATO",
+            "cantidad": "30",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 58,
+            "nombre": "VÍA SUBCUTÁNEA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 1286,
+          "nombre": "SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "30 mg/3 ml",
+        "presentaciones": [
+          {
+            "cn": "732081",
+            "nombre": "ICATIBANTO STADA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG, 1 jeringa precargada de 3 ml + aguja"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:31.806784+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732165",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -52839,56 +53183,6 @@
       "payload": {
         "nregistro": "86548",
         "nombre": "CICLOFOSFAMIDA DR. REDDYS 500 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION",
-        "pactivos": "CICLOFOSFAMIDA MONOHIDRATO",
-        "labtitular": "Reddy Pharma Iberia S.A.",
-        "labcomercializador": "Reddy Pharma Iberia S.A.",
-        "cpresc": "Uso Hospitalario",
-        "estado": {
-          "aut": 1644251562000
-        },
-        "comerc": true,
-        "receta": true,
-        "generico": false,
-        "conduc": false,
-        "triangulo": false,
-        "huerfano": false,
-        "biosimilar": false,
-        "nosustituible": {
-          "id": 0,
-          "nombre": "N/A"
-        },
-        "psum": true,
-        "notas": false,
-        "materialesInf": false,
-        "ema": false,
-        "docs": [
-          {
-            "tipo": 1,
-            "url": "https://cima.aemps.es/cima/pdfs/ft/86548/FT_86548.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/ft/86548/FT_86548.html",
-            "secc": true,
-            "fecha": 1644234879000
-          },
-          {
-            "tipo": 2,
-            "url": "https://cima.aemps.es/cima/pdfs/p/86548/P_86548.pdf",
-            "urlHtml": "https://cima.aemps.es/cima/dochtml/p/86548/P_86548.html",
-            "secc": true,
-            "fecha": 1644234996000
-          }
-        ],
-        "fotos": [
-          {
-            "tipo": "materialas",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/86548/86548_materialas.jpg",
-            "fecha": 1730213400000
-          },
-          {
-            "tipo": "formafarmac",
-            "url": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/86548/86548_formafarmac.jpg",
-            "fecha": 1730713751000
-          }
-        ],
         "atcs": [
           {
             "codigo": "L01A",
@@ -52916,37 +53210,10 @@
             "orden": 1
           }
         ],
-        "excipientes": [
-          {
-            "id": 574,
-            "nombre": "ALCOHOL ETILICO ANHIDRO",
-            "cantidad": "480-530",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
         "viasAdministracion": [
           {
             "id": 42,
             "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "presentaciones": [
-          {
-            "cn": "732777",
-            "nombre": "CICLOFOSFAMIDA DR. REDDYS 500 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION, 1 vial de 1 ml ",
-            "estado": {
-              "aut": 1644251562000
-            },
-            "comerc": true,
-            "psum": true,
-            "detalleProblemaSuministro": {
-              "cn": "732777",
-              "fini": 1770678000000,
-              "ffin": 1830553200000,
-              "activo": true,
-              "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. Unidades de la presentación de 2ml."
-            }
           }
         ],
         "formaFarmaceutica": {
@@ -52957,14 +53224,15 @@
           "id": 34,
           "nombre": "INYECTABLE"
         },
-        "vtm": {
-          "id": 74470007,
-          "nombre": "ciclofosfamida"
-        },
-        "dosis": "500 mg/ml"
+        "dosis": "500 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "732777",
+            "nombre": "CICLOFOSFAMIDA DR. REDDYS 500 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION, 1 vial de 1 ml "
+          }
+        ]
       },
-      "fetched_at": "2026-11-11T10:51:12.637670+00:00",
-      "reused": true
+      "fetched_at": "2026-11-18T15:32:58.799194+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732793",
@@ -53331,6 +53599,74 @@
       },
       "fetched_at": "2026-11-11T16:27:52.825509+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733350",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2404,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=733350",
+      "payload": {
+        "nregistro": "86731",
+        "nombre": "VILDAGLIPTINA/METFORMINA VIATRIS 50 MG/1.000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
+        "atcs": [
+          {
+            "codigo": "A10B",
+            "nombre": "FARMACOS HIPOGLUCEMIANTES EXCLUYENDO INSULINAS",
+            "nivel": 3
+          },
+          {
+            "codigo": "A10BD",
+            "nombre": "Combinaciones de farmacos hipoglucemiantes orales",
+            "nivel": 4
+          },
+          {
+            "codigo": "A10BD08",
+            "nombre": "Metformina y vildagliptina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 8106,
+            "codigo": "8106A",
+            "nombre": "VILDAGLIPTINA",
+            "cantidad": "50",
+            "unidad": "mg",
+            "orden": 1
+          },
+          {
+            "id": 1359,
+            "codigo": "1359CH",
+            "nombre": "METFORMINA HIDROCLORURO",
+            "cantidad": "1.000",
+            "unidad": "mg",
+            "orden": 2
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 42,
+          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "50 mg/1.000 mg",
+        "presentaciones": [
+          {
+            "cn": "733350",
+            "nombre": "VILDAGLIPTINA/METFORMINA VIATRIS 50 MG/1.000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 60 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:33.490189+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733351",
@@ -54783,189 +55119,6 @@
         ]
       },
       "fetched_at": "2026-11-11T16:28:05.397188+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756673",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1913,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=756673",
-      "payload": {
-        "nregistro": "87867",
-        "nombre": "NYZOL 200 MG COMPRIMIDOS",
-        "atcs": [
-          {
-            "codigo": "N03A",
-            "nombre": "ANTIEPILEPTICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N03AX",
-            "nombre": "Otros antiepilepticos",
-            "nivel": 4
-          },
-          {
-            "codigo": "N03AX15",
-            "nombre": "Zonisamida",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 7004,
-            "codigo": "7004A",
-            "nombre": "ZONISAMIDA",
-            "cantidad": "200",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 40,
-          "nombre": "COMPRIMIDO"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "200 mg",
-        "presentaciones": [
-          {
-            "cn": "756673",
-            "nombre": "NYZOL 200 MG COMPRIMIDOS, 28 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:28:06.160611+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756675",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1893,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=756675",
-      "payload": {
-        "nregistro": "87869",
-        "nombre": "NYZOL 300 MG COMPRIMIDOS",
-        "atcs": [
-          {
-            "codigo": "N03A",
-            "nombre": "ANTIEPILEPTICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N03AX",
-            "nombre": "Otros antiepilepticos",
-            "nivel": 4
-          },
-          {
-            "codigo": "N03AX15",
-            "nombre": "Zonisamida",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 7004,
-            "codigo": "7004A",
-            "nombre": "ZONISAMIDA",
-            "cantidad": "300",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 40,
-          "nombre": "COMPRIMIDO"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "300 mg",
-        "presentaciones": [
-          {
-            "cn": "756675",
-            "nombre": "NYZOL 300 MG COMPRIMIDOS, 28 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-12T15:03:55.019299+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756678",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1898,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=756678",
-      "payload": {
-        "nregistro": "87871",
-        "nombre": "NYZOL 100 MG COMPRIMIDOS EFG",
-        "atcs": [
-          {
-            "codigo": "N03A",
-            "nombre": "ANTIEPILEPTICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N03AX",
-            "nombre": "Otros antiepilepticos",
-            "nivel": 4
-          },
-          {
-            "codigo": "N03AX15",
-            "nombre": "Zonisamida",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 7004,
-            "codigo": "7004A",
-            "nombre": "ZONISAMIDA",
-            "cantidad": "100",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 40,
-          "nombre": "COMPRIMIDO"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "100 mg",
-        "presentaciones": [
-          {
-            "cn": "756678",
-            "nombre": "NYZOL 100 MG COMPRIMIDOS EFG, 56 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:28:06.916793+00:00",
       "reused": true
     },
     {
@@ -57420,6 +57573,61 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762702",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2238,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=762702",
+      "payload": {
+        "nregistro": "88349",
+        "nombre": "CARBOXIMALTOSA FERRICA SANDOZ 50 MG/ML DISPERSION INYECTABLE Y PARA PERFUSION EFG",
+        "atcs": [
+          {
+            "codigo": "B03A",
+            "nombre": "PREPARADOS CON HIERRO",
+            "nivel": 3
+          },
+          {
+            "codigo": "B03AC",
+            "nombre": "Hierro, preparados parenterales",
+            "nivel": 4
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 8039,
+            "codigo": "8039A",
+            "nombre": "HIERRO CARBOXIMALTOSA",
+            "cantidad": "179",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 80,
+          "nombre": "SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "50 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "762702",
+            "nombre": "CARBOXIMALTOSA FERRICA SANDOZ 50 MG/ML DISPERSION INYECTABLE Y PARA PERFUSION EFG, 5 viales de 10 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:34.295304+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762705",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -57613,6 +57821,98 @@
       },
       "fetched_at": "2026-11-11T16:29:01.241550+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763017",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2933,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=763017",
+      "payload": {
+        "nregistro": "1201483004",
+        "nombre": "MENQUADFI SOLUCIÓN INYECTABLE",
+        "atcs": [
+          {
+            "codigo": "J07A",
+            "nombre": "VACUNAS ANTIBACTERIANAS",
+            "nivel": 3
+          },
+          {
+            "codigo": "J07AH",
+            "nombre": "Vacunas frente al meningococo",
+            "nivel": 4
+          },
+          {
+            "codigo": "J07AH08",
+            "nombre": "Meningococo A, C, Y, W-135, antigeno conjugado tetravalente, constituido por polisacaridos purificados",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 3442,
+            "codigo": "3442A",
+            "nombre": "ANTIGENO POLISACARIDO MENINGOCOCO GRUPO A",
+            "cantidad": "10",
+            "unidad": "µg",
+            "orden": 1
+          },
+          {
+            "id": 3443,
+            "codigo": "3443A",
+            "nombre": "ANTIGENO POLISACARIDO MENINGOCOCO GRUPO C",
+            "cantidad": "10",
+            "unidad": "µg",
+            "orden": 2
+          },
+          {
+            "id": 2687,
+            "codigo": "2687A",
+            "nombre": "ANTIGENO POLISACARIDO MENINGOCOCO GR W-135",
+            "cantidad": "10",
+            "unidad": "µg",
+            "orden": 3
+          },
+          {
+            "id": 2686,
+            "codigo": "2686A",
+            "nombre": "ANTIGENO POLISACARIDO MENINGOCOCO GR Y",
+            "cantidad": "10",
+            "unidad": "µg",
+            "orden": 4
+          },
+          {
+            "id": 1019,
+            "codigo": "1019A",
+            "nombre": "TOXOIDE TETANICO",
+            "cantidad": "55",
+            "unidad": "µg",
+            "orden": 5
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 30,
+            "nombre": "VÍA INTRAMUSCULAR"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 197,
+          "nombre": "SOLUCIÓN INYECTABLE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "0,5 ml",
+        "presentaciones": [
+          {
+            "cn": "763017",
+            "nombre": "MENQUADFI SOLUCIÓN INYECTABLE, 10 viales de 0,5 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:35.083483+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763061",
@@ -58422,6 +58722,66 @@
       },
       "fetched_at": "2026-11-11T16:29:08.128037+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764568",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2404,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=764568",
+      "payload": {
+        "nregistro": "59483",
+        "nombre": "ZOMACTON 4 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE",
+        "atcs": [
+          {
+            "codigo": "H01A",
+            "nombre": "HORMONAS DEL LOBULO ANTERIOR DE LA HIPOFISIS Y SUS ANALOGOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "H01AC",
+            "nombre": "Somatropina y agonistas de la somatropina",
+            "nivel": 4
+          },
+          {
+            "codigo": "H01AC01",
+            "nombre": "Somatropina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 1308,
+            "codigo": "1308A",
+            "nombre": "SOMATROPINA",
+            "cantidad": "4",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 58,
+            "nombre": "VÍA SUBCUTÁNEA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 219,
+          "nombre": "POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "12 UI somatotropina (4mg)",
+        "presentaciones": [
+          {
+            "cn": "764568",
+            "nombre": "ZOMACTON 4 mg POLVO Y DISOLVENTE PARA SOLUCION  INYECTABLE, 1 vial + 1 ampolla"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:35.877959+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764645",
@@ -59607,7 +59967,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-17T15:53:34.566450+00:00"
+      "fetched_at": "2026-11-17T15:53:34.566450+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766106",
@@ -60463,6 +60824,61 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=767098",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1960,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=767098",
+      "payload": {
+        "nregistro": "90188",
+        "nombre": "CARBOXIMALTOSA FERRICA VIATRIS 50 MG/ML DISPERSION INYECTABLE Y PARA PERFUSION",
+        "atcs": [
+          {
+            "codigo": "B03A",
+            "nombre": "PREPARADOS CON HIERRO",
+            "nivel": 3
+          },
+          {
+            "codigo": "B03AC",
+            "nombre": "Hierro, preparados parenterales",
+            "nivel": 4
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 8039,
+            "codigo": "8039A",
+            "nombre": "HIERRO CARBOXIMALTOSA",
+            "cantidad": "0,357",
+            "unidad": "g",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 98999,
+          "nombre": "DISPERSION INYECTABLE Y PARA PERFUSION"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "50  mg/ml",
+        "presentaciones": [
+          {
+            "cn": "767098",
+            "nombre": "CARBOXIMALTOSA FERRICA VIATRIS 50 MG/ML DISPERSION INYECTABLE Y PARA PERFUSION, 5 viales de 10 ml "
+          }
+        ]
+      },
+      "fetched_at": "2026-11-18T15:32:36.858823+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=767135",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -60521,75 +60937,6 @@
         ]
       },
       "fetched_at": "2026-11-11T16:29:46.745110+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=767427",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2562,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=767427",
-      "payload": {
-        "nregistro": "90266",
-        "nombre": "ATORVASTATINA/EZETIMIBA CINFA 40 MG/10 MG CAPSULAS DURAS",
-        "atcs": [
-          {
-            "codigo": "C10B",
-            "nombre": "AGENTES MODIFICADORES DE LOS LIPIDOS, COMBINACIONES",
-            "nivel": 3
-          },
-          {
-            "codigo": "C10BA",
-            "nombre": "Combinaciones de varios agentes modificadores de los lipidos",
-            "nivel": 4
-          },
-          {
-            "codigo": "C10BA05",
-            "nombre": "Atorvastatina y ezetimiba",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 7400,
-            "codigo": "7400CO",
-            "nombre": "ATORVASTATINA CALCICA ",
-            "cantidad": "43,28",
-            "unidad": "mg",
-            "orden": 1
-          },
-          {
-            "id": 7432,
-            "codigo": "7432A",
-            "nombre": "EZETIMIBA",
-            "cantidad": "10",
-            "unidad": "mg",
-            "orden": 2
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 32,
-          "nombre": "CÁPSULA DURA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 4,
-          "nombre": "CAPSULA"
-        },
-        "dosis": "40 mg/10 mg",
-        "presentaciones": [
-          {
-            "cn": "767427",
-            "nombre": "ATORVASTATINA/EZETIMIBA CINFA 40 MG/10 MG CAPSULAS DURAS, 30 cápsulas"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-11T16:29:47.508815+00:00",
       "reused": true
     },
     {
@@ -60917,7 +61264,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-17T15:53:36.207519+00:00"
+      "fetched_at": "2026-11-17T15:53:36.207519+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768679",
@@ -63992,7 +64340,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-17T15:53:35.192563+00:00"
+      "fetched_at": "2026-11-17T15:53:35.192563+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=860940",
@@ -66887,9 +67236,9 @@
       "reused": true
     }
   ],
-  "metadata_reused": 909,
-  "metadata_requested": 913,
+  "metadata_reused": 893,
+  "metadata_requested": 926,
   "metadata_processing_complete": true,
-  "finished_at": "2026-11-17T15:53:36.408110+00:00",
-  "metadata_successes": 913
+  "finished_at": "2026-11-18T15:32:58.999789+00:00",
+  "metadata_successes": 926
 }
