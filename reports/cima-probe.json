@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T14:33:37.222709+00:00",
+  "checked_at": "2026-11-22T14:28:20.143700+00:00",
   "purpose": "Full-list pilot with candidate area rules. No automatic monitoring or email delivery activated.",
   "requests": [
     {
@@ -3575,7 +3575,7 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61282,
+      "bytes": 61261,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
       "payload": {
         "totalFilas": 927,
@@ -4378,7 +4378,6 @@
             "nombre": "OXALIPLATINO HIKMA 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 1 vial de 20 ml",
             "tipoProblemaSuministro": 5,
             "fini": 1782770400000,
-            "ffin": 1795302000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -50700,7 +50699,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:46.043768+00:00"
+      "fetched_at": "2026-11-21T14:33:46.043768+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730363",
@@ -51004,7 +51004,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:45.908767+00:00"
+      "fetched_at": "2026-11-21T14:33:45.908767+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730511",
@@ -51064,7 +51065,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:46.965574+00:00"
+      "fetched_at": "2026-11-21T14:33:46.965574+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730513",
@@ -51124,7 +51126,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:46.929632+00:00"
+      "fetched_at": "2026-11-21T14:33:46.929632+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730563",
@@ -51184,7 +51187,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:47.996345+00:00"
+      "fetched_at": "2026-11-21T14:33:47.996345+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730608",
@@ -51244,7 +51248,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:47.865052+00:00"
+      "fetched_at": "2026-11-21T14:33:47.865052+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730887",
@@ -51304,7 +51309,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:48.740783+00:00"
+      "fetched_at": "2026-11-21T14:33:48.740783+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730922",
@@ -51364,7 +51370,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:48.922934+00:00"
+      "fetched_at": "2026-11-21T14:33:48.922934+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730923",
@@ -51424,7 +51431,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:49.773526+00:00"
+      "fetched_at": "2026-11-21T14:33:49.773526+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730924",
@@ -51484,7 +51492,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:52.103186+00:00"
+      "fetched_at": "2026-11-21T14:33:52.103186+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730937",
@@ -51544,7 +51553,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:50.798646+00:00"
+      "fetched_at": "2026-11-21T14:33:50.798646+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=730989",
@@ -51665,7 +51675,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:51.696696+00:00"
+      "fetched_at": "2026-11-21T14:33:51.696696+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731079",
@@ -51733,7 +51744,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:52.589486+00:00"
+      "fetched_at": "2026-11-21T14:33:52.589486+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731098",
@@ -51793,7 +51805,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:52.996920+00:00"
+      "fetched_at": "2026-11-21T14:33:52.996920+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731099",
@@ -51853,7 +51866,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:53.629653+00:00"
+      "fetched_at": "2026-11-21T14:33:53.629653+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731261",
@@ -51913,7 +51927,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:54.018704+00:00"
+      "fetched_at": "2026-11-21T14:33:54.018704+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731384",
@@ -51989,7 +52004,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:54.517824+00:00"
+      "fetched_at": "2026-11-21T14:33:54.517824+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731387",
@@ -52065,7 +52081,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:55.064447+00:00"
+      "fetched_at": "2026-11-21T14:33:55.064447+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731459",
@@ -52125,7 +52142,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:55.423764+00:00"
+      "fetched_at": "2026-11-21T14:33:55.423764+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731460",
@@ -52185,7 +52203,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:57.472675+00:00"
+      "fetched_at": "2026-11-21T14:33:57.472675+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731531",
@@ -52245,7 +52264,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:56.303645+00:00"
+      "fetched_at": "2026-11-21T14:33:56.303645+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731535",
@@ -52305,7 +52325,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:57.171070+00:00"
+      "fetched_at": "2026-11-21T14:33:57.171070+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731536",
@@ -52365,7 +52386,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:58.054100+00:00"
+      "fetched_at": "2026-11-21T14:33:58.054100+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731537",
@@ -52425,7 +52447,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:58.358852+00:00"
+      "fetched_at": "2026-11-21T14:33:58.358852+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731570",
@@ -52493,7 +52516,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:58.920726+00:00"
+      "fetched_at": "2026-11-21T14:33:58.920726+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731704",
@@ -52553,7 +52577,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:59.228488+00:00"
+      "fetched_at": "2026-11-21T14:33:59.228488+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731832",
@@ -52613,7 +52638,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:33:59.957499+00:00"
+      "fetched_at": "2026-11-21T14:33:59.957499+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731843",
@@ -52673,7 +52699,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:00.126816+00:00"
+      "fetched_at": "2026-11-21T14:34:00.126816+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731861",
@@ -52741,7 +52768,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:00.827420+00:00"
+      "fetched_at": "2026-11-21T14:34:00.827420+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731880",
@@ -52801,7 +52829,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:01.003970+00:00"
+      "fetched_at": "2026-11-21T14:34:01.003970+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731881",
@@ -52865,7 +52894,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:01.695799+00:00"
+      "fetched_at": "2026-11-21T14:34:01.695799+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732081",
@@ -52986,7 +53016,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:01.891940+00:00"
+      "fetched_at": "2026-11-21T14:34:01.891940+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732410",
@@ -53050,7 +53081,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:02.571435+00:00"
+      "fetched_at": "2026-11-21T14:34:02.571435+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732489",
@@ -53110,7 +53142,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:20.300302+00:00"
+      "fetched_at": "2026-11-21T14:34:20.300302+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732523",
@@ -53170,7 +53203,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:03.464072+00:00"
+      "fetched_at": "2026-11-21T14:34:03.464072+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732524",
@@ -53230,7 +53264,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:28.246226+00:00"
+      "fetched_at": "2026-11-21T14:34:28.246226+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732567",
@@ -53290,7 +53325,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:21.404206+00:00"
+      "fetched_at": "2026-11-21T14:34:21.404206+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732675",
@@ -53350,7 +53386,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:27.698934+00:00"
+      "fetched_at": "2026-11-21T14:34:27.698934+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732777",
@@ -53471,7 +53508,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:30.182057+00:00"
+      "fetched_at": "2026-11-21T14:34:30.182057+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732809",
@@ -53531,7 +53569,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:29.212827+00:00"
+      "fetched_at": "2026-11-21T14:34:29.212827+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732855",
@@ -53591,7 +53630,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:30.333351+00:00"
+      "fetched_at": "2026-11-21T14:34:30.333351+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733048",
@@ -53651,7 +53691,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:31.225957+00:00"
+      "fetched_at": "2026-11-21T14:34:31.225957+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733088",
@@ -53711,7 +53752,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:31.255025+00:00"
+      "fetched_at": "2026-11-21T14:34:31.255025+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733090",
@@ -53771,7 +53813,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:32.288639+00:00"
+      "fetched_at": "2026-11-21T14:34:32.288639+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733350",
@@ -53908,7 +53951,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:32.154020+00:00"
+      "fetched_at": "2026-11-21T14:34:32.154020+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733734",
@@ -53968,7 +54012,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:34.085069+00:00"
+      "fetched_at": "2026-11-21T14:34:34.085069+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733735",
@@ -54028,7 +54073,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:33.193119+00:00"
+      "fetched_at": "2026-11-21T14:34:33.193119+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733736",
@@ -54088,7 +54134,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:34.104740+00:00"
+      "fetched_at": "2026-11-21T14:34:34.104740+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733737",
@@ -54148,7 +54195,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:34.967759+00:00"
+      "fetched_at": "2026-11-21T14:34:34.967759+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=734048",
@@ -54208,7 +54256,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:35.040706+00:00"
+      "fetched_at": "2026-11-21T14:34:35.040706+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=734491",
@@ -54300,7 +54349,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:35.834741+00:00"
+      "fetched_at": "2026-11-21T14:34:35.834741+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=734764",
@@ -54360,7 +54410,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:35.914319+00:00"
+      "fetched_at": "2026-11-21T14:34:35.914319+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=734822",
@@ -54420,7 +54471,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:37.045082+00:00"
+      "fetched_at": "2026-11-21T14:34:37.045082+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=735035",
@@ -54480,7 +54532,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:36.861709+00:00"
+      "fetched_at": "2026-11-21T14:34:36.861709+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=735817",
@@ -54540,7 +54593,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:37.764449+00:00"
+      "fetched_at": "2026-11-21T14:34:37.764449+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=740969",
@@ -54604,7 +54658,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:37.966760+00:00"
+      "fetched_at": "2026-11-21T14:34:37.966760+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=742247",
@@ -54668,7 +54723,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:38.780241+00:00"
+      "fetched_at": "2026-11-21T14:34:38.780241+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=748627",
@@ -54728,7 +54784,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:40.452911+00:00"
+      "fetched_at": "2026-11-21T14:34:40.452911+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=748634",
@@ -54788,7 +54845,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:39.807047+00:00"
+      "fetched_at": "2026-11-21T14:34:39.807047+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=750976",
@@ -54848,7 +54906,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:40.914075+00:00"
+      "fetched_at": "2026-11-21T14:34:40.914075+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=755058",
@@ -54908,7 +54967,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:41.398240+00:00"
+      "fetched_at": "2026-11-21T14:34:41.398240+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756015",
@@ -54968,7 +55028,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:41.785695+00:00"
+      "fetched_at": "2026-11-21T14:34:41.785695+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756098",
@@ -55028,7 +55089,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:42.273429+00:00"
+      "fetched_at": "2026-11-21T14:34:42.273429+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756683",
@@ -55088,7 +55150,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:42.656619+00:00"
+      "fetched_at": "2026-11-21T14:34:42.656619+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=756925",
@@ -55148,7 +55211,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:43.295728+00:00"
+      "fetched_at": "2026-11-21T14:34:43.295728+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=757386",
@@ -55208,7 +55272,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:43.543898+00:00"
+      "fetched_at": "2026-11-21T14:34:43.543898+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=757389",
@@ -55268,7 +55333,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:44.162602+00:00"
+      "fetched_at": "2026-11-21T14:34:44.162602+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=757392",
@@ -55328,7 +55394,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:44.434828+00:00"
+      "fetched_at": "2026-11-21T14:34:44.434828+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=757396",
@@ -55388,7 +55455,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:45.031619+00:00"
+      "fetched_at": "2026-11-21T14:34:45.031619+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=757975",
@@ -55448,7 +55516,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:45.321827+00:00"
+      "fetched_at": "2026-11-21T14:34:45.321827+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758044",
@@ -55508,7 +55577,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:45.928813+00:00"
+      "fetched_at": "2026-11-21T14:34:45.928813+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758105",
@@ -55568,7 +55638,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:46.360365+00:00"
+      "fetched_at": "2026-11-21T14:34:46.360365+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758135",
@@ -55628,7 +55699,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:48.354327+00:00"
+      "fetched_at": "2026-11-21T14:34:48.354327+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758177",
@@ -55688,7 +55760,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:47.240497+00:00"
+      "fetched_at": "2026-11-21T14:34:47.240497+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758183",
@@ -55748,7 +55821,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:49.704724+00:00"
+      "fetched_at": "2026-11-21T14:34:49.704724+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758235",
@@ -55808,7 +55882,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:49.225385+00:00"
+      "fetched_at": "2026-11-21T14:34:49.225385+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758237",
@@ -55868,7 +55943,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:50.098705+00:00"
+      "fetched_at": "2026-11-21T14:34:50.098705+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758238",
@@ -55928,7 +56004,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:50.578848+00:00"
+      "fetched_at": "2026-11-21T14:34:50.578848+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758239",
@@ -55988,7 +56065,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:51.149690+00:00"
+      "fetched_at": "2026-11-21T14:34:51.149690+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758305",
@@ -56048,7 +56126,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:52.962050+00:00"
+      "fetched_at": "2026-11-21T14:34:52.962050+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758613",
@@ -56108,7 +56187,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:53.545659+00:00"
+      "fetched_at": "2026-11-21T14:34:53.545659+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758615",
@@ -56168,7 +56248,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:54.007793+00:00"
+      "fetched_at": "2026-11-21T14:34:54.007793+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758618",
@@ -56228,7 +56309,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:54.444731+00:00"
+      "fetched_at": "2026-11-21T14:34:54.444731+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758717",
@@ -56296,7 +56378,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:55.061498+00:00"
+      "fetched_at": "2026-11-21T14:34:55.061498+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=758854",
@@ -56356,7 +56439,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:55.328761+00:00"
+      "fetched_at": "2026-11-21T14:34:55.328761+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=759164",
@@ -56416,7 +56500,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:55.934257+00:00"
+      "fetched_at": "2026-11-21T14:34:55.934257+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=759249",
@@ -56476,7 +56561,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:56.196773+00:00"
+      "fetched_at": "2026-11-21T14:34:56.196773+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=759460",
@@ -56531,7 +56617,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:58.340541+00:00"
+      "fetched_at": "2026-11-21T14:34:58.340541+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=759621",
@@ -56591,7 +56678,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:57.093573+00:00"
+      "fetched_at": "2026-11-21T14:34:57.093573+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=759850",
@@ -56651,7 +56739,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:58.117121+00:00"
+      "fetched_at": "2026-11-21T14:34:58.117121+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=760141",
@@ -56711,7 +56800,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:59.148137+00:00"
+      "fetched_at": "2026-11-21T14:34:59.148137+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=760142",
@@ -56771,7 +56861,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:34:59.210559+00:00"
+      "fetched_at": "2026-11-21T14:34:59.210559+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=760710",
@@ -56831,7 +56922,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:00.034012+00:00"
+      "fetched_at": "2026-11-21T14:35:00.034012+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=761806",
@@ -56891,7 +56983,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:00.079917+00:00"
+      "fetched_at": "2026-11-21T14:35:00.079917+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762104",
@@ -56951,7 +57044,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:00.903603+00:00"
+      "fetched_at": "2026-11-21T14:35:00.903603+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762303",
@@ -57019,7 +57113,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:00.955916+00:00"
+      "fetched_at": "2026-11-21T14:35:00.955916+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762322",
@@ -57079,7 +57174,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:30.754072+00:00"
+      "fetched_at": "2026-11-21T14:35:30.754072+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762413",
@@ -57139,7 +57235,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:03.331195+00:00"
+      "fetched_at": "2026-11-21T14:35:03.331195+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762473",
@@ -57199,7 +57296,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:04.212127+00:00"
+      "fetched_at": "2026-11-21T14:35:04.212127+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762478",
@@ -57259,7 +57357,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:05.107913+00:00"
+      "fetched_at": "2026-11-21T14:35:05.107913+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762663",
@@ -57319,7 +57418,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:05.971569+00:00"
+      "fetched_at": "2026-11-21T14:35:05.971569+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762705",
@@ -57379,7 +57479,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:06.842279+00:00"
+      "fetched_at": "2026-11-21T14:35:06.842279+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=762902",
@@ -57447,7 +57548,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:07.726841+00:00"
+      "fetched_at": "2026-11-21T14:35:07.726841+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763011",
@@ -57511,7 +57613,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:08.761622+00:00"
+      "fetched_at": "2026-11-21T14:35:08.761622+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763017",
@@ -57672,7 +57775,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:09.638386+00:00"
+      "fetched_at": "2026-11-21T14:35:09.638386+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763340",
@@ -57732,7 +57836,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:10.516637+00:00"
+      "fetched_at": "2026-11-21T14:35:10.516637+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763344",
@@ -57792,7 +57897,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:11.388462+00:00"
+      "fetched_at": "2026-11-21T14:35:11.388462+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763437",
@@ -57852,7 +57958,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:12.280710+00:00"
+      "fetched_at": "2026-11-21T14:35:12.280710+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763545",
@@ -57912,7 +58019,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:13.192787+00:00"
+      "fetched_at": "2026-11-21T14:35:13.192787+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763674",
@@ -57972,7 +58080,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:14.123205+00:00"
+      "fetched_at": "2026-11-21T14:35:14.123205+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763715",
@@ -58040,7 +58149,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:15.145582+00:00"
+      "fetched_at": "2026-11-21T14:35:15.145582+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764194",
@@ -58100,7 +58210,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:17.540354+00:00"
+      "fetched_at": "2026-11-21T14:35:17.540354+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764207",
@@ -58160,7 +58271,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:18.570679+00:00"
+      "fetched_at": "2026-11-21T14:35:18.570679+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764314",
@@ -58220,7 +58332,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:19.447743+00:00"
+      "fetched_at": "2026-11-21T14:35:19.447743+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764315",
@@ -58280,7 +58393,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:20.325652+00:00"
+      "fetched_at": "2026-11-21T14:35:20.325652+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764419",
@@ -58340,7 +58454,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:21.352573+00:00"
+      "fetched_at": "2026-11-21T14:35:21.352573+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764420",
@@ -58400,7 +58515,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:22.346650+00:00"
+      "fetched_at": "2026-11-21T14:35:22.346650+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764555",
@@ -58460,7 +58576,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:24.581134+00:00"
+      "fetched_at": "2026-11-21T14:35:24.581134+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764568",
@@ -58585,7 +58702,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:25.828221+00:00"
+      "fetched_at": "2026-11-21T14:35:25.828221+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764851",
@@ -58653,7 +58771,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:26.713076+00:00"
+      "fetched_at": "2026-11-21T14:35:26.713076+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764984",
@@ -58713,7 +58832,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:27.589740+00:00"
+      "fetched_at": "2026-11-21T14:35:27.589740+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765119",
@@ -58773,7 +58893,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:28.469111+00:00"
+      "fetched_at": "2026-11-21T14:35:28.469111+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765171",
@@ -58833,7 +58954,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:29.479776+00:00"
+      "fetched_at": "2026-11-21T14:35:29.479776+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765467",
@@ -58893,7 +59015,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:30.355367+00:00"
+      "fetched_at": "2026-11-21T14:35:30.355367+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765582",
@@ -58953,7 +59076,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:31.252865+00:00"
+      "fetched_at": "2026-11-21T14:35:31.252865+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765634",
@@ -59013,7 +59137,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:31.610530+00:00"
+      "fetched_at": "2026-11-21T14:35:31.610530+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765647",
@@ -59073,7 +59198,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:32.379691+00:00"
+      "fetched_at": "2026-11-21T14:35:32.379691+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765651",
@@ -59149,7 +59275,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:32.473627+00:00"
+      "fetched_at": "2026-11-21T14:35:32.473627+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765714",
@@ -59209,7 +59336,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:33.244506+00:00"
+      "fetched_at": "2026-11-21T14:35:33.244506+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765785",
@@ -59269,7 +59397,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:33.389531+00:00"
+      "fetched_at": "2026-11-21T14:35:33.389531+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765843",
@@ -59329,7 +59458,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:34.116578+00:00"
+      "fetched_at": "2026-11-21T14:35:34.116578+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765845",
@@ -59389,7 +59519,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:34.376938+00:00"
+      "fetched_at": "2026-11-21T14:35:34.376938+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765869",
@@ -59449,7 +59580,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:34.982254+00:00"
+      "fetched_at": "2026-11-21T14:35:34.982254+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765890",
@@ -59509,7 +59641,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:35.341210+00:00"
+      "fetched_at": "2026-11-21T14:35:35.341210+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765919",
@@ -59569,7 +59702,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:35.858392+00:00"
+      "fetched_at": "2026-11-21T14:35:35.858392+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765941",
@@ -59630,7 +59764,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:48.045655+00:00"
+      "fetched_at": "2026-11-21T14:35:48.045655+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=765998",
@@ -59690,7 +59825,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:36.731470+00:00"
+      "fetched_at": "2026-11-21T14:35:36.731470+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766104",
@@ -59811,7 +59947,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:37.620076+00:00"
+      "fetched_at": "2026-11-21T14:35:37.620076+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766174",
@@ -59891,7 +60028,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:38.516512+00:00"
+      "fetched_at": "2026-11-21T14:35:38.516512+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766214",
@@ -59971,7 +60109,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:39.503432+00:00"
+      "fetched_at": "2026-11-21T14:35:39.503432+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766215",
@@ -60051,7 +60190,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:40.371770+00:00"
+      "fetched_at": "2026-11-21T14:35:40.371770+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766452",
@@ -60111,7 +60251,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:41.399673+00:00"
+      "fetched_at": "2026-11-21T14:35:41.399673+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766464",
@@ -60171,7 +60312,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:42.271229+00:00"
+      "fetched_at": "2026-11-21T14:35:42.271229+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766466",
@@ -60231,7 +60373,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:43.145281+00:00"
+      "fetched_at": "2026-11-21T14:35:43.145281+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766472",
@@ -60291,7 +60434,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:44.032827+00:00"
+      "fetched_at": "2026-11-21T14:35:44.032827+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766570",
@@ -60351,7 +60495,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:44.901563+00:00"
+      "fetched_at": "2026-11-21T14:35:44.901563+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766702",
@@ -60411,7 +60556,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:03.307373+00:00"
+      "fetched_at": "2026-11-21T14:36:03.307373+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766907",
@@ -60471,7 +60617,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:48.910450+00:00"
+      "fetched_at": "2026-11-21T14:35:48.910450+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=766908",
@@ -60531,7 +60678,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:49.781253+00:00"
+      "fetched_at": "2026-11-21T14:35:49.781253+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=767098",
@@ -60647,7 +60795,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:50.679382+00:00"
+      "fetched_at": "2026-11-21T14:35:50.679382+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=767135",
@@ -60707,7 +60856,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:51.731347+00:00"
+      "fetched_at": "2026-11-21T14:35:51.731347+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768002",
@@ -60767,7 +60917,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:52.609294+00:00"
+      "fetched_at": "2026-11-21T14:35:52.609294+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768018",
@@ -60827,7 +60978,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:53.643186+00:00"
+      "fetched_at": "2026-11-21T14:35:53.643186+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768088",
@@ -60890,7 +61042,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:54.656807+00:00"
+      "fetched_at": "2026-11-21T14:35:54.656807+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768121",
@@ -60970,7 +61123,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:55.543894+00:00"
+      "fetched_at": "2026-11-21T14:35:55.543894+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768370",
@@ -61099,7 +61253,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:56.419373+00:00"
+      "fetched_at": "2026-11-21T14:35:56.419373+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768832",
@@ -61159,7 +61314,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:35:57.469388+00:00"
+      "fetched_at": "2026-11-21T14:35:57.469388+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768833",
@@ -61219,7 +61375,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:15.277923+00:00"
+      "fetched_at": "2026-11-21T14:36:15.277923+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768972",
@@ -61295,7 +61452,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:08.442410+00:00"
+      "fetched_at": "2026-11-21T14:36:08.442410+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768974",
@@ -61355,7 +61513,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:09.335525+00:00"
+      "fetched_at": "2026-11-21T14:36:09.335525+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=769284",
@@ -61415,7 +61574,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:10.351432+00:00"
+      "fetched_at": "2026-11-21T14:36:10.351432+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=770196",
@@ -61475,7 +61635,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:11.222601+00:00"
+      "fetched_at": "2026-11-21T14:36:11.222601+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=770818",
@@ -61539,7 +61700,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:12.240871+00:00"
+      "fetched_at": "2026-11-21T14:36:12.240871+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=771022",
@@ -61599,7 +61761,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:13.269933+00:00"
+      "fetched_at": "2026-11-21T14:36:13.269933+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=771055",
@@ -61659,7 +61822,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:14.139817+00:00"
+      "fetched_at": "2026-11-21T14:36:14.139817+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=771808",
@@ -61727,7 +61891,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:34.632359+00:00"
+      "fetched_at": "2026-11-21T14:36:34.632359+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=777797",
@@ -61791,7 +61956,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:16.145497+00:00"
+      "fetched_at": "2026-11-21T14:36:16.145497+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=778654",
@@ -61859,7 +62025,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:17.237431+00:00"
+      "fetched_at": "2026-11-21T14:36:17.237431+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=785584",
@@ -61919,7 +62086,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:18.122930+00:00"
+      "fetched_at": "2026-11-21T14:36:18.122930+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=787226",
@@ -61987,7 +62155,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:19.170086+00:00"
+      "fetched_at": "2026-11-21T14:36:19.170086+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=792291",
@@ -62047,7 +62216,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:20.045217+00:00"
+      "fetched_at": "2026-11-21T14:36:20.045217+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=794305",
@@ -62107,7 +62277,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:20.912887+00:00"
+      "fetched_at": "2026-11-21T14:36:20.912887+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=794370",
@@ -62167,7 +62338,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:23.332833+00:00"
+      "fetched_at": "2026-11-21T14:36:23.332833+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=798330",
@@ -62227,7 +62399,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:24.196114+00:00"
+      "fetched_at": "2026-11-21T14:36:24.196114+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=806745",
@@ -62303,7 +62476,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:25.101947+00:00"
+      "fetched_at": "2026-11-21T14:36:25.101947+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=811778",
@@ -62371,7 +62545,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:25.986451+00:00"
+      "fetched_at": "2026-11-21T14:36:25.986451+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=811786",
@@ -62431,7 +62606,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:26.857905+00:00"
+      "fetched_at": "2026-11-21T14:36:26.857905+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=814707",
@@ -62515,7 +62691,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:27.753132+00:00"
+      "fetched_at": "2026-11-21T14:36:27.753132+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=817312",
@@ -62687,7 +62864,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:28.790879+00:00"
+      "fetched_at": "2026-11-21T14:36:28.790879+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=817866",
@@ -62747,7 +62925,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:29.838252+00:00"
+      "fetched_at": "2026-11-21T14:36:29.838252+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=817973",
@@ -62815,7 +62994,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:30.713396+00:00"
+      "fetched_at": "2026-11-21T14:36:30.713396+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=819722",
@@ -62875,7 +63055,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:33.121744+00:00"
+      "fetched_at": "2026-11-21T14:36:33.121744+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=819904",
@@ -62935,7 +63116,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:53.553137+00:00"
+      "fetched_at": "2026-11-21T14:36:53.553137+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=823799",
@@ -62995,7 +63177,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:37.027606+00:00"
+      "fetched_at": "2026-11-21T14:36:37.027606+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=826040",
@@ -63059,7 +63242,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:37.895160+00:00"
+      "fetched_at": "2026-11-21T14:36:37.895160+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=830836",
@@ -63119,7 +63303,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:38.771514+00:00"
+      "fetched_at": "2026-11-21T14:36:38.771514+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=830927",
@@ -63179,7 +63364,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:39.754672+00:00"
+      "fetched_at": "2026-11-21T14:36:39.754672+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=831115",
@@ -63258,7 +63444,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:40.627681+00:00"
+      "fetched_at": "2026-11-21T14:36:40.627681+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=831123",
@@ -63337,7 +63524,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:41.508752+00:00"
+      "fetched_at": "2026-11-21T14:36:41.508752+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=831446",
@@ -63397,7 +63585,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:42.370526+00:00"
+      "fetched_at": "2026-11-21T14:36:42.370526+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=833350",
@@ -63457,7 +63646,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:43.256846+00:00"
+      "fetched_at": "2026-11-21T14:36:43.256846+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=833657",
@@ -63517,7 +63707,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:44.409543+00:00"
+      "fetched_at": "2026-11-21T14:36:44.409543+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=836585",
@@ -63577,7 +63768,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:45.281903+00:00"
+      "fetched_at": "2026-11-21T14:36:45.281903+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=836593",
@@ -63637,7 +63829,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:46.147730+00:00"
+      "fetched_at": "2026-11-21T14:36:46.147730+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=842435",
@@ -63701,7 +63894,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:47.046314+00:00"
+      "fetched_at": "2026-11-21T14:36:47.046314+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=843904",
@@ -63761,7 +63955,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:47.949344+00:00"
+      "fetched_at": "2026-11-21T14:36:47.949344+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=847103",
@@ -63821,7 +64016,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:48.848472+00:00"
+      "fetched_at": "2026-11-21T14:36:48.848472+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=854844",
@@ -63881,7 +64077,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:49.724897+00:00"
+      "fetched_at": "2026-11-21T14:36:49.724897+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=855288",
@@ -63941,7 +64138,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:10.764744+00:00"
+      "fetched_at": "2026-11-21T14:37:10.764744+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=855296",
@@ -64001,7 +64199,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:54.587444+00:00"
+      "fetched_at": "2026-11-21T14:36:54.587444+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=858506",
@@ -64061,7 +64260,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:55.634232+00:00"
+      "fetched_at": "2026-11-21T14:36:55.634232+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=859645",
@@ -64182,7 +64382,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:56.788691+00:00"
+      "fetched_at": "2026-11-21T14:36:56.788691+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=868166",
@@ -64242,7 +64443,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:57.810075+00:00"
+      "fetched_at": "2026-11-21T14:36:57.810075+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=877530",
@@ -64302,7 +64504,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:36:58.860625+00:00"
+      "fetched_at": "2026-11-21T14:36:58.860625+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=879106",
@@ -64362,7 +64565,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:01.284433+00:00"
+      "fetched_at": "2026-11-21T14:37:01.284433+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=882209",
@@ -64422,7 +64626,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:02.157337+00:00"
+      "fetched_at": "2026-11-21T14:37:02.157337+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=884676",
@@ -64482,7 +64687,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:03.215889+00:00"
+      "fetched_at": "2026-11-21T14:37:03.215889+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=885210",
@@ -64546,7 +64752,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:04.335790+00:00"
+      "fetched_at": "2026-11-21T14:37:04.335790+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=888685",
@@ -64606,7 +64813,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:05.222412+00:00"
+      "fetched_at": "2026-11-21T14:37:05.222412+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=889006",
@@ -64666,7 +64874,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:34.949273+00:00"
+      "fetched_at": "2026-11-21T14:37:34.949273+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=890426",
@@ -64726,7 +64935,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:31.605450+00:00"
+      "fetched_at": "2026-11-21T14:37:31.605450+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=901173",
@@ -64790,7 +65000,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:52.111766+00:00"
+      "fetched_at": "2026-11-21T14:37:52.111766+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=901181",
@@ -64858,7 +65069,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:36.191875+00:00"
+      "fetched_at": "2026-11-21T14:37:36.191875+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=901207",
@@ -64918,7 +65130,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:37.243210+00:00"
+      "fetched_at": "2026-11-21T14:37:37.243210+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=909622",
@@ -64990,7 +65203,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:38.111561+00:00"
+      "fetched_at": "2026-11-21T14:37:38.111561+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=909713",
@@ -65050,7 +65264,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:42.326495+00:00"
+      "fetched_at": "2026-11-21T14:37:42.326495+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=909846",
@@ -65142,7 +65357,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:48.759725+00:00"
+      "fetched_at": "2026-11-21T14:37:48.759725+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=910067",
@@ -65234,7 +65450,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:09.498829+00:00"
+      "fetched_at": "2026-11-21T14:38:09.498829+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=913400",
@@ -65298,7 +65515,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:53.034404+00:00"
+      "fetched_at": "2026-11-21T14:37:53.034404+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=914614",
@@ -65390,7 +65608,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:37:53.909042+00:00"
+      "fetched_at": "2026-11-21T14:37:53.909042+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=916585",
@@ -65450,7 +65669,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:00.188917+00:00"
+      "fetched_at": "2026-11-21T14:38:00.188917+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=917070",
@@ -65510,7 +65730,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:01.065866+00:00"
+      "fetched_at": "2026-11-21T14:38:01.065866+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=936526",
@@ -65570,7 +65791,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:02.097935+00:00"
+      "fetched_at": "2026-11-21T14:38:02.097935+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=936989",
@@ -65630,7 +65852,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:03.126818+00:00"
+      "fetched_at": "2026-11-21T14:38:03.126818+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=939223",
@@ -65690,7 +65913,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:04.027390+00:00"
+      "fetched_at": "2026-11-21T14:38:04.027390+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=940320",
@@ -65750,7 +65974,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:04.896898+00:00"
+      "fetched_at": "2026-11-21T14:38:04.896898+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=947408",
@@ -65810,7 +66035,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:05.886216+00:00"
+      "fetched_at": "2026-11-21T14:38:05.886216+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=949891",
@@ -65870,7 +66096,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:32.837157+00:00"
+      "fetched_at": "2026-11-21T14:38:32.837157+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=950675",
@@ -65930,7 +66157,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:10.368711+00:00"
+      "fetched_at": "2026-11-21T14:38:10.368711+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=951269",
@@ -65991,7 +66219,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:11.247166+00:00"
+      "fetched_at": "2026-11-21T14:38:11.247166+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=952192",
@@ -66046,7 +66275,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:12.136396+00:00"
+      "fetched_at": "2026-11-21T14:38:12.136396+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=954867",
@@ -66106,7 +66336,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:13.005609+00:00"
+      "fetched_at": "2026-11-21T14:38:13.005609+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=955344",
@@ -66161,7 +66392,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:13.874246+00:00"
+      "fetched_at": "2026-11-21T14:38:13.874246+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=955419",
@@ -66221,7 +66453,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:14.777110+00:00"
+      "fetched_at": "2026-11-21T14:38:14.777110+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=958215",
@@ -66281,7 +66514,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:15.663040+00:00"
+      "fetched_at": "2026-11-21T14:38:15.663040+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=968818",
@@ -66341,7 +66575,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:18.153612+00:00"
+      "fetched_at": "2026-11-21T14:38:18.153612+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=970640",
@@ -66401,7 +66636,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:19.032038+00:00"
+      "fetched_at": "2026-11-21T14:38:19.032038+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=972166",
@@ -66461,7 +66697,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:19.900494+00:00"
+      "fetched_at": "2026-11-21T14:38:19.900494+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=976993",
@@ -66529,7 +66766,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:20.777897+00:00"
+      "fetched_at": "2026-11-21T14:38:20.777897+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=979823",
@@ -66593,7 +66831,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:23.202749+00:00"
+      "fetched_at": "2026-11-21T14:38:23.202749+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=988485",
@@ -66653,7 +66892,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:24.097940+00:00"
+      "fetched_at": "2026-11-21T14:38:24.097940+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=992420",
@@ -66713,7 +66953,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:25.076307+00:00"
+      "fetched_at": "2026-11-21T14:38:25.076307+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=993097",
@@ -66781,7 +67022,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:43.574699+00:00"
+      "fetched_at": "2026-11-21T14:38:43.574699+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=995175",
@@ -66849,7 +67091,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:33.781204+00:00"
+      "fetched_at": "2026-11-21T14:38:33.781204+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=996041",
@@ -66909,7 +67152,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:34.705656+00:00"
+      "fetched_at": "2026-11-21T14:38:34.705656+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=999819",
@@ -66969,7 +67213,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:53.165924+00:00"
+      "fetched_at": "2026-11-21T14:38:53.165924+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=999820",
@@ -67029,7 +67274,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:44.485501+00:00"
+      "fetched_at": "2026-11-21T14:38:44.485501+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=999881",
@@ -67089,12 +67335,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-21T14:38:45.368742+00:00"
+      "fetched_at": "2026-11-21T14:38:45.368742+00:00",
+      "reused": true
     }
   ],
-  "metadata_reused": 679,
+  "metadata_reused": 927,
   "metadata_requested": 927,
   "metadata_processing_complete": true,
-  "finished_at": "2026-11-21T14:38:53.366507+00:00",
+  "finished_at": "2026-11-22T14:28:26.751363+00:00",
   "metadata_successes": 927
 }
