@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T14:28:20.143700+00:00",
+  "checked_at": "2026-11-23T17:56:53.255307+00:00",
   "purpose": "Full-list pilot with candidate area rules. No automatic monitoring or email delivery activated.",
   "requests": [
     {
@@ -16,13 +16,66 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 62371,
+      "bytes": 62544,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "payload": {
-        "totalFilas": 927,
+        "totalFilas": 931,
         "pagina": 1,
         "tamanioPagina": 200,
         "resultados": [
+          {
+            "cn": "728298",
+            "nombre": "DULOXETINA KERN PHARMA 60 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG 28 cápsulas (Blister PVC-PVDC/Al)",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795388400000,
+            "ffin": 1804806000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "660456",
+            "nombre": "OPTIRAY ULTRAJECT 300 mg/ml SOLUCION INYECTABLE , 1 jeringa precargada de 125 ml",
+            "tipoProblemaSuministro": 10,
+            "fini": 1795388400000,
+            "ffin": 1803250800000,
+            "activo": true,
+            "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. en un idioma distinto al castellano."
+          },
+          {
+            "cn": "606429",
+            "nombre": "QUETIAPINA KERN PHARMA 50 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG 200 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795388400000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "676514",
+            "nombre": "ROPIVACAINA KABI 7,5 MG/ML SOLUCION INYECTABLE EFG , 5 ampollas de 10 ml",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795388400000,
+            "ffin": 1802386800000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "731500",
+            "nombre": "VALSARTAN NORMON 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG,56 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795388400000,
+            "ffin": 1802818800000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "704618",
+            "nombre": "VESUROL 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG , 30 comprimidos",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795388400000,
+            "ffin": 1799967600000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
           {
             "cn": "730228",
             "nombre": "CITICOLINA PENSA PHARMA 1000 MG SOLUCION ORAL EFG,30 sobres de 10 ml (3 x 10)",
@@ -39,7 +92,7 @@
             "fini": 1795129200000,
             "ffin": 1808690400000,
             "activo": true,
-            "observ": "El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas."
+            "observ": "El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas. Debido al limitado número de unidades, se recomienda restringir su uso a pacientes pediátricos y a pacientes adultos en los que no se pueda utilizar atropina."
           },
           {
             "cn": "661686",
@@ -1235,7 +1288,6 @@
             "nombre": "FINGOLIMOD AUROVITAS 0,5 MG CAPSULAS DURAS EFG, 28 cápsulas",
             "tipoProblemaSuministro": 10,
             "fini": 1793314800000,
-            "ffin": 1795388400000,
             "activo": true,
             "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. acondicionadas en un idioma distinto al castellano para concursos adjudicados."
           },
@@ -1262,7 +1314,7 @@
             "nombre": "LACOSAMIDA CINFA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 56 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1793314800000,
-            "ffin": 1795734000000,
+            "ffin": 1797548400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1415,7 +1467,6 @@
             "nombre": "NEURONTIN 800 mg COMPRIMIDOS RECUBIERTOS CON PELICULA , 90 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1793228400000,
-            "ffin": 1795388400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1539,7 +1590,6 @@
             "nombre": "TAPTIQOM 15 MICROGRAMOS/ML + 5 MG/ML COLIRIO EN SOLUCION, 1 frasco de 3 ml",
             "tipoProblemaSuministro": 6,
             "fini": 1793142000000,
-            "ffin": 1795388400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
           },
@@ -1737,7 +1787,28 @@
             "ffin": 1806530400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 479759,
+      "final_url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf"
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 60873,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
+      "payload": {
+        "totalFilas": 931,
+        "pagina": 2,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "764645",
             "nombre": "METOCLOPRAMIDA KERN PHARMA 5 MG/ML SOLUCION INYECTABLE EFG, 6 ampollas de 2 ml",
@@ -1790,28 +1861,7 @@
             "ffin": 1806530400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf",
-      "status": 200,
-      "content_type": "application/pdf",
-      "bytes": 479759,
-      "final_url": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf"
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 60977,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
-      "payload": {
-        "totalFilas": 927,
-        "pagina": 2,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "757392",
             "nombre": "SILDENAFILO ADAMED 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 4 comprimidos",
@@ -1922,7 +1972,6 @@
             "nombre": "EVOPAD 75 microgramos/24 H PARCHES TRANSDERMICOS, 8 parches",
             "tipoProblemaSuministro": 3,
             "fini": 1792360800000,
-            "ffin": 1795388400000,
             "activo": true,
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
@@ -3028,7 +3077,6 @@
             "nombre": "ACICLOVIR SALA 250 MG POLVO PARA SOLUCION PARA PERFUSION EFG, 5 viales de 10 ml",
             "tipoProblemaSuministro": 5,
             "fini": 1788991200000,
-            "ffin": 1795388400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -3275,7 +3323,7 @@
             "fini": 1787608800000,
             "ffin": 1799967600000,
             "activo": true,
-            "observ": "Se puede solicitar como medicamento extranjero."
+            "observ": "Se puede solicitar como medicamento extranjero. Se han agotado las unidades extranjeras. Se prevé recibir más unidades extranjeras a ppos de diciembre"
           },
           {
             "cn": "770818",
@@ -3515,7 +3563,21 @@
             "ffin": 1800572400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 61373,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
+      "payload": {
+        "totalFilas": 931,
+        "pagina": 3,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "727833",
             "nombre": "OLMESARTAN/AMLODIPINO/HIDROCLOROTIAZIDA PENSA 40 MG/10 MG/25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos ",
@@ -3567,36 +3629,13 @@
             "ffin": 1816725600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 61261,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
-      "payload": {
-        "totalFilas": 927,
-        "pagina": 3,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "678591",
             "nombre": "PRAVASTATINA VIATRIS 40 MG COMPRIMIDOS EFG, 28 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1785880800000,
             "ffin": 1812319200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "696661",
-            "nombre": "ACIDO ALENDRONICO SEMANAL PENSA 70 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 4 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1785794400000,
-            "ffin": 1795993200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -5294,7 +5333,21 @@
             "ffin": 1798671600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 61972,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
+      "payload": {
+        "totalFilas": 931,
+        "pagina": 4,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "708597",
             "nombre": "EZETIMIBA/SIMVASTATINA VIATRIS 10 MG/40 MG COMPRIMIDOS EFG, 28 comprimidos",
@@ -5337,21 +5390,7 @@
             "fini": 1775685600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 61909,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
-      "payload": {
-        "totalFilas": 927,
-        "pagina": 4,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "697879",
             "nombre": "GALANTAMINA TEVA-RATIO 24 MG CAPSULAS DURAS  DE LIBERACION PROLONGADA EFG, 28 cápsulas",
@@ -6112,6 +6151,7 @@
             "nombre": "ARIPIPRAZOL FLAS CINFA 30 MG COMPRIMIDOS BUCODISPERSABLES EFG , 28 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1768777200000,
+            "ffin": 1807826400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -6983,14 +7023,6 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
           {
-            "cn": "709947",
-            "nombre": "BENDAMUSTINA DR. REDDYS 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 5 viales de 25 mg",
-            "tipoProblemaSuministro": 5,
-            "fini": 1748988000000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
             "cn": "704753",
             "nombre": "ARIPIPRAZOL FLAS CINFA 10 MG COMPRIMIDOS BUCODISPERSABLES EFG , 28 comprimidos",
             "tipoProblemaSuministro": 5,
@@ -7042,7 +7074,21 @@
             "ffin": 1804978800000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 41615,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
+      "payload": {
+        "totalFilas": 931,
+        "pagina": 5,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "605667",
             "nombre": "DEXTROSA FRESENIUS KABI 50% SOLUCION PARA PERFUSION, 12 frascos de 500 ml",
@@ -7076,21 +7122,7 @@
             "ffin": 1815602400000,
             "activo": true,
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 40442,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
-      "payload": {
-        "totalFilas": 927,
-        "pagina": 5,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "730563",
             "nombre": "CEZIBOE 0,25 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA, 1 jeringa precargada",
@@ -7138,7 +7170,7 @@
             "nombre": "ARIPIPRAZOL FLAS CINFA 15 MG COMPRIMIDOS BUCODISPERSABLES EFG , 28 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1745877600000,
-            "ffin": 1797548400000,
+            "ffin": 1807826400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -8175,7 +8207,7 @@
     }
   ],
   "listing_complete": true,
-  "listing_count": 927,
+  "listing_count": 931,
   "enrichment_scope": "All distinct CNs in the validated listing, with per-CN errors reported.",
   "medicines": [
     {
@@ -9621,6 +9653,66 @@
       },
       "fetched_at": "2026-11-19T15:39:40.655687+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606429",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2089,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=606429",
+      "payload": {
+        "nregistro": "78245",
+        "nombre": "QUETIAPINA KERN PHARMA 50 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG",
+        "atcs": [
+          {
+            "codigo": "N05A",
+            "nombre": "ANTIPSICOTICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N05AH",
+            "nombre": "Diazepinas, oxazepinas, tiazepinas y oxepinas",
+            "nivel": 4
+          },
+          {
+            "codigo": "N05AH04",
+            "nombre": "Quetiapina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 1136,
+            "codigo": "1136FC",
+            "nombre": "QUETIAPINA HEMIFUMARATO",
+            "cantidad": "57,575",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 47,
+          "nombre": "COMPRIMIDO DE LIBERACIÓN PROLONGADA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 14,
+          "nombre": "COMPRIMIDO LIBERACION MODIFICADA"
+        },
+        "dosis": "50 mg",
+        "presentaciones": [
+          {
+            "cn": "606429",
+            "nombre": "QUETIAPINA KERN PHARMA 50 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG 200 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-23T17:56:59.579576+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606430",
@@ -14261,8 +14353,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-16T15:35:10.113385+00:00",
-      "reused": true
+      "fetched_at": "2026-11-23T17:56:59.692055+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653712",
@@ -16723,6 +16814,66 @@
       },
       "fetched_at": "2026-11-19T15:41:59.543815+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660456",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2092,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=660456",
+      "payload": {
+        "nregistro": "62070",
+        "nombre": "OPTIRAY ULTRAJECT 300 mg/ml SOLUCION INYECTABLE",
+        "atcs": [
+          {
+            "codigo": "V08A",
+            "nombre": "MEDIOS DE CONTRASTE PARA RAYOS-X, IODADOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "V08AB",
+            "nombre": "Medios de contraste para rayos-X de baja osmolaridad, hidrosolubles y nefrotropicos",
+            "nivel": 4
+          },
+          {
+            "codigo": "V08AB07",
+            "nombre": "Ioversol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2475,
+            "codigo": "2475A",
+            "nombre": "IOVERSOL",
+            "cantidad": "636",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 197,
+          "nombre": "SOLUCIÓN INYECTABLE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "300 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "660456",
+            "nombre": "OPTIRAY ULTRAJECT 300 mg/ml SOLUCION INYECTABLE , 1 jeringa precargada de 125 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-23T17:57:00.432474+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660464",
@@ -21591,8 +21742,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-16T15:35:10.123231+00:00",
-      "reused": true
+      "fetched_at": "2026-11-23T17:57:00.544988+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=674888",
@@ -21979,6 +22129,70 @@
       },
       "fetched_at": "2026-11-19T15:44:10.085334+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=676514",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2036,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=676514",
+      "payload": {
+        "nregistro": "73056",
+        "nombre": "ROPIVACAINA KABI 7,5 MG/ML SOLUCION INYECTABLE EFG",
+        "atcs": [
+          {
+            "codigo": "N01B",
+            "nombre": "ANESTESICOS LOCALES",
+            "nivel": 3
+          },
+          {
+            "codigo": "N01BB",
+            "nombre": "Amidas",
+            "nivel": 4
+          },
+          {
+            "codigo": "N01BB09",
+            "nombre": "Ropivacaina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2742,
+            "codigo": "2742CH",
+            "nombre": "ROPIVACAINA HIDROCLORURO",
+            "cantidad": "7,5",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 8,
+            "nombre": "VÍA EPIDURAL"
+          },
+          {
+            "id": 53,
+            "nombre": "VÍA PERINEURAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 197,
+          "nombre": "SOLUCIÓN INYECTABLE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "7,5 mg/ml",
+        "presentaciones": [
+          {
+            "cn": "676514",
+            "nombre": "ROPIVACAINA KABI 7,5 MG/ML SOLUCION INYECTABLE EFG , 5 ampollas de 10 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-23T17:57:01.355383+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677012",
@@ -30707,67 +30921,6 @@
       "reused": true
     },
     {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=696661",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2058,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=696661",
-      "payload": {
-        "nregistro": "77102",
-        "nombre": "ACIDO ALENDRONICO SEMANAL PENSA 70 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
-        "atcs": [
-          {
-            "codigo": "M05B",
-            "nombre": "AGENTES QUE AFECTAN LA ESTRUCTURA OSEA Y LA MINERALIZACION",
-            "nivel": 3
-          },
-          {
-            "codigo": "M05BA",
-            "nombre": "Bifosfonatos",
-            "nivel": 4
-          },
-          {
-            "codigo": "M05BA04",
-            "nombre": "Acido alendronico",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2781,
-            "codigo": "2781RV",
-            "nombre": "ALENDRONATO SODIO TRIHIDRATO",
-            "cantidad": "91,35",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 42,
-          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "70 mg",
-        "presentaciones": [
-          {
-            "cn": "696661",
-            "nombre": "ACIDO ALENDRONICO SEMANAL PENSA 70 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 4 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-20T15:21:09.255193+00:00",
-      "reused": true
-    },
-    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=696755",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -35024,6 +35177,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704618",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2064,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=704618",
+      "payload": {
+        "nregistro": "79322",
+        "nombre": "VESUROL 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
+        "atcs": [
+          {
+            "codigo": "G04B",
+            "nombre": "OTROS PRODUCTOS DE USO UROLOGICO, INCLUYENDO ANTIESPASMODICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "G04BD",
+            "nombre": "Antiespasmodicos urinarios",
+            "nivel": 4
+          },
+          {
+            "codigo": "G04BD08",
+            "nombre": "Solifenacina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2919,
+            "codigo": "2919SD",
+            "nombre": "SOLIFENACINA SUCCINATO",
+            "cantidad": "5,00",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 42,
+          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "5 mg",
+        "presentaciones": [
+          {
+            "cn": "704618",
+            "nombre": "VESUROL 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG , 30 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-23T17:57:01.505125+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704753",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -35569,8 +35782,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-16T15:35:11.002197+00:00",
-      "reused": true
+      "fetched_at": "2026-11-23T17:57:02.156807+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=705804",
@@ -36897,67 +37109,6 @@
         ]
       },
       "fetched_at": "2026-11-20T15:22:50.025239+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=709947",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2299,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=709947",
-      "payload": {
-        "nregistro": "80644",
-        "nombre": "BENDAMUSTINA DR. REDDYS 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG",
-        "atcs": [
-          {
-            "codigo": "L01A",
-            "nombre": "AGENTES ALQUILANTES",
-            "nivel": 3
-          },
-          {
-            "codigo": "L01AA",
-            "nombre": "Analogos de la mostaza nitrogenada",
-            "nivel": 4
-          },
-          {
-            "codigo": "L01AA09",
-            "nombre": "Bendamustina",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 8103,
-            "codigo": "8103CH",
-            "nombre": "BENDAMUSTINA HIDROCLORURO",
-            "cantidad": "2,5",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 42,
-            "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 1403,
-          "nombre": "POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 35,
-          "nombre": "INYECTABLE PERFUSION"
-        },
-        "dosis": "2,5 mg/ml",
-        "presentaciones": [
-          {
-            "cn": "709947",
-            "nombre": "BENDAMUSTINA DR. REDDYS 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG, 5 viales de 25 mg"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-20T15:22:50.770724+00:00",
       "reused": true
     },
     {
@@ -42361,8 +42512,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-16T15:35:11.002305+00:00",
-      "reused": true
+      "fetched_at": "2026-11-23T17:57:02.332010+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=720363",
@@ -47704,6 +47854,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=728298",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2074,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=728298",
+      "payload": {
+        "nregistro": "84998",
+        "nombre": "DULOXETINA KERN PHARMA 60 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG",
+        "atcs": [
+          {
+            "codigo": "N06A",
+            "nombre": "ANTIDEPRESIVOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N06AX",
+            "nombre": "Otros antidepresivos",
+            "nivel": 4
+          },
+          {
+            "codigo": "N06AX21",
+            "nombre": "Duloxetina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 7421,
+            "codigo": "7421CH",
+            "nombre": "DULOXETINA HIDROCLORURO",
+            "cantidad": "67,356",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 34,
+          "nombre": "CÁPSULA DURA GASTRORRESISTENTE"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "60 mg",
+        "presentaciones": [
+          {
+            "cn": "728298",
+            "nombre": "DULOXETINA KERN PHARMA 60 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG 28 cápsulas (Blister PVC-PVDC/Al)"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-23T17:57:03.156147+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=728299",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -51614,8 +51824,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-16T15:35:11.881058+00:00",
-      "reused": true
+      "fetched_at": "2026-11-23T17:57:03.143028+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731004",
@@ -52205,6 +52414,66 @@
       },
       "fetched_at": "2026-11-21T14:33:57.472675+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731500",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2478,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=731500",
+      "payload": {
+        "nregistro": "70364",
+        "nombre": "VALSARTAN NORMON 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
+        "atcs": [
+          {
+            "codigo": "C09C",
+            "nombre": "ANTAGONISTAS DE LOS RECEPTORES DE ANGIOTENSINA II, MONOTERAPIA",
+            "nivel": 3
+          },
+          {
+            "codigo": "C09CA",
+            "nombre": "Antagonistas de los receptores de angiotensina II, monoterapia",
+            "nivel": 4
+          },
+          {
+            "codigo": "C09CA03",
+            "nombre": "Valsartan",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 7423,
+            "codigo": "7423A",
+            "nombre": "VALSARTAN",
+            "cantidad": "160",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 42,
+          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 10,
+          "nombre": "COMPRIMIDO"
+        },
+        "dosis": "160 mg valsartan",
+        "presentaciones": [
+          {
+            "cn": "731500",
+            "nombre": "VALSARTAN NORMON 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG,56 comprimidos"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-23T17:57:04.007126+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=731531",
@@ -67339,9 +67608,9 @@
       "reused": true
     }
   ],
-  "metadata_reused": 927,
-  "metadata_requested": 927,
+  "metadata_reused": 920,
+  "metadata_requested": 931,
   "metadata_processing_complete": true,
-  "finished_at": "2026-11-22T14:28:26.751363+00:00",
-  "metadata_successes": 927
+  "finished_at": "2026-11-23T17:57:04.207743+00:00",
+  "metadata_successes": 931
 }
