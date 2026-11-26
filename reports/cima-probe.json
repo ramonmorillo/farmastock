@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T17:05:59.350964+00:00",
+  "checked_at": "2026-11-26T16:46:22.690331+00:00",
   "purpose": "Full-list pilot with candidate area rules. No automatic monitoring or email delivery activated.",
   "requests": [
     {
@@ -16,13 +16,58 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 62588,
+      "bytes": 62562,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=1",
       "payload": {
-        "totalFilas": 935,
+        "totalFilas": 932,
         "pagina": 1,
         "tamanioPagina": 200,
         "resultados": [
+          {
+            "cn": "718816",
+            "nombre": "ATAMAX 25 MG CAPSULAS DURAS EFG 28 cápsulas",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795647600000,
+            "ffin": 1801177200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "718821",
+            "nombre": "ATAMAX 80 MG CAPSULAS DURAS EFG 28 cápsulas",
+            "tipoProblemaSuministro": 7,
+            "fini": 1795647600000,
+            "ffin": 1809036000000,
+            "activo": true,
+            "observ": "Se puede solicitar como medicamento extranjero."
+          },
+          {
+            "cn": "714132",
+            "nombre": "BINOCRIT, 8000 UI/0,8 ml, SOLUCION INYECTABLE EN UNA JERINGA PRECARGADA, 6 jeringas precargadas de 0,8 ml con protector de seguridad para la aguja",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795647600000,
+            "ffin": 1797289200000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
+          {
+            "cn": "634477",
+            "nombre": "VENOFUSIN BICARBONATO SÓDICO 1 M SOLUCIÓN PARA PERFUSIÓN , 10 frascos de 250 ml",
+            "tipoProblemaSuministro": 3,
+            "fini": 1795647600000,
+            "ffin": 1797980400000,
+            "activo": true,
+            "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados. Hay disponible BICARBONATO SODICO 1M SOLUCION INYECTABLE, ampollas de 10 ml, como medicamento extranjero."
+          },
+          {
+            "cn": "716737",
+            "nombre": "ZONISAMIDA NORMON 25 MG CAPSULAS DURAS EFG, 28 cápsulas",
+            "tipoProblemaSuministro": 5,
+            "fini": 1795647600000,
+            "ffin": 1797202800000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
+          },
           {
             "cn": "728083",
             "nombre": "DEFERASIROX STADA 360 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 30 comprimidos",
@@ -68,15 +113,6 @@
             "observ": "Desabastecimiento temporal. Se está gestionando la importación de medicamento extranjero."
           },
           {
-            "cn": "764767",
-            "nombre": "NIAPELF 25 MG SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EFG, 1 jeringa precargada de 0,25 ml",
-            "tipoProblemaSuministro": 5,
-            "fini": 1795561200000,
-            "ffin": 1802646000000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
             "cn": "656570",
             "nombre": "RISPERIDONA NORMON 1 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 60 comprimidos",
             "tipoProblemaSuministro": 5,
@@ -120,14 +156,6 @@
             "ffin": 1801350000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "715219",
-            "nombre": "BECOTIDE 50 microgramos/inhalación SOLUCION PARA INHALACION EN ENVASE A PRESION , 1 cartucho de 200 dosis",
-            "tipoProblemaSuministro": 3,
-            "fini": 1795474800000,
-            "activo": true,
-            "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
           {
             "cn": "731533",
@@ -830,7 +858,6 @@
             "nombre": "EXEMESTANO STADA 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG , 30 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1794438000000,
-            "ffin": 1795647600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1115,7 +1142,7 @@
             "nombre": "CANDESARTAN NORMON 8 mg COMPRIMIDOS EFG, 28 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1793833200000,
-            "ffin": 1796252400000,
+            "ffin": 1799881200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1245,7 +1272,7 @@
             "nombre": "CANDESARTAN NORMON 32 mg COMPRIMIDOS EFG, 28 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1793660400000,
-            "ffin": 1797807600000,
+            "ffin": 1801609200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1254,7 +1281,7 @@
             "nombre": "CANDESARTAN NORMON 8 mg COMPRIMIDOS EFG, 30 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1793660400000,
-            "ffin": 1797202800000,
+            "ffin": 1799881200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1264,15 +1291,6 @@
             "tipoProblemaSuministro": 5,
             "fini": 1793660400000,
             "ffin": 1797289200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "714904",
-            "nombre": "ETORICOXIB PENSA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1793660400000,
-            "ffin": 1799967600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1343,15 +1361,6 @@
             "nombre": "LENALIDOMIDA KERN PHARMA 15 MG CAPSULAS DURAS EFG, 21 cápsulas",
             "tipoProblemaSuministro": 5,
             "fini": 1793487600000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "890426",
-            "nombre": "ALOPURINOL NORMON 100 mg COMPRIMIDOS EFG , 100 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1793314800000,
-            "ffin": 1795993200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
           },
@@ -1732,7 +1741,7 @@
             "nombre": "CLORAZEPATO NORMON  15 mg CAPSULAS DURAS EFG, 20 cápsulas",
             "tipoProblemaSuministro": 3,
             "fini": 1793055600000,
-            "ffin": 1796943600000,
+            "ffin": 1801609200000,
             "activo": true,
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados."
           },
@@ -1780,15 +1789,6 @@
             "ffin": 1797289200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración."
-          },
-          {
-            "cn": "730302",
-            "nombre": "OLMESARTAN/AMLODIPINO/HIDROCLOROTIAZIDA TEVA 40 MG/10 MG/25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos",
-            "tipoProblemaSuministro": 6,
-            "fini": 1792969200000,
-            "ffin": 1806444000000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración."
           }
         ]
       }
@@ -1804,13 +1804,22 @@
       "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 61186,
+      "bytes": 61310,
       "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=2",
       "payload": {
-        "totalFilas": 935,
+        "totalFilas": 932,
         "pagina": 2,
         "tamanioPagina": 200,
         "resultados": [
+          {
+            "cn": "730302",
+            "nombre": "OLMESARTAN/AMLODIPINO/HIDROCLOROTIAZIDA TEVA 40 MG/10 MG/25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos",
+            "tipoProblemaSuministro": 6,
+            "fini": 1792969200000,
+            "ffin": 1806444000000,
+            "activo": true,
+            "observ": "Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. "
+          },
           {
             "cn": "661664",
             "nombre": "PRAVASTATINA CINFAMED 10 mg COMPRIMIDOS EFG, 28 comprimidos",
@@ -2338,6 +2347,7 @@
             "nombre": "DOXICICLINA NORMON 100 MG COMPRIMIDOS RECUBIERTOS , 14 grageas",
             "tipoProblemaSuministro": 5,
             "fini": 1791496800000,
+            "ffin": 1796425200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
           },
@@ -2586,15 +2596,6 @@
             "tipoProblemaSuministro": 5,
             "fini": 1791237600000,
             "ffin": 1798585200000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
-          {
-            "cn": "695566",
-            "nombre": "ITRACONAZOL VIATRIS 100 MG CAPSULAS EFG, 14 cápsulas",
-            "tipoProblemaSuministro": 5,
-            "fini": 1791237600000,
-            "ffin": 1795734000000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
           },
@@ -3228,14 +3229,6 @@
             "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados. "
           },
           {
-            "cn": "718827",
-            "nombre": "IVABRADINA VIATRIS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 56 comprimidos",
-            "tipoProblemaSuministro": 5,
-            "fini": 1788732000000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
-          {
             "cn": "668087",
             "nombre": "EVOPAD 25 microgramos/24 H PARCHES TRANSDERMICOS, 8 parches",
             "tipoProblemaSuministro": 9,
@@ -3313,13 +3306,12 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
           },
           {
-            "cn": "682120",
-            "nombre": "BILINA 0,5 mg/ml COLIRIO EN SUSPENSIÓN, 1 frasco de 4 ml",
-            "tipoProblemaSuministro": 3,
-            "fini": 1788127200000,
-            "ffin": 1805065200000,
+            "cn": "829812",
+            "nombre": "SUPOSITORIOS DE GLICERINA DR. TORRENTS ADULTOS, 12 supositorios",
+            "tipoProblemaSuministro": 11,
+            "fini": 1788213600000,
             "activo": true,
-            "observ": "El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados. "
+            "observ": "Existen tratamientos alternativos no sujetos a prescripción. "
           },
           {
             "cn": "855288",
@@ -3397,15 +3389,6 @@
             "fini": 1787608800000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
-          {
-            "cn": "817973",
-            "nombre": "RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA , 60 comprimidos",
-            "tipoProblemaSuministro": 7,
-            "fini": 1787608800000,
-            "ffin": 1797289200000,
-            "activo": true,
-            "observ": "Se puede solicitar como medicamento extranjero. "
           },
           {
             "cn": "814707",
@@ -3566,21 +3549,7 @@
             "ffin": 1804806000000,
             "activo": true,
             "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. en un idioma distinto al castellano"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 61457,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
-      "payload": {
-        "totalFilas": 935,
-        "pagina": 3,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "724173",
             "nombre": "TOPIRAMATO TEVA-RATIOPHARM 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos (blister)",
@@ -3598,7 +3567,21 @@
             "ffin": 1812319200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 61424,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=3",
+      "payload": {
+        "totalFilas": 932,
+        "pagina": 3,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "759621",
             "nombre": "PLANTABEN 3,5 g POLVO EFERVESCENTE , 30 sobres",
@@ -4573,14 +4556,6 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
           },
           {
-            "cn": "659782",
-            "nombre": "METAMIZOL PENSA 575 mg CAPSULAS DURAS EFG, 10 cápsulas",
-            "tipoProblemaSuministro": 5,
-            "fini": 1782424800000,
-            "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
-          {
             "cn": "676512",
             "nombre": "ROPIVACAINA KABI 2 MG/ML SOLUCION PARA PERFUSION EFG , 5 bolsas de 100 ml",
             "tipoProblemaSuministro": 5,
@@ -4723,11 +4698,11 @@
           {
             "cn": "764207",
             "nombre": "ATOMOXETINA TARBIS 80 MG CÁPSULAS DURAS EFG, 28 cápsulas",
-            "tipoProblemaSuministro": 5,
+            "tipoProblemaSuministro": 7,
             "fini": 1781560800000,
             "ffin": 1797807600000,
             "activo": true,
-            "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
+            "observ": "Se puede solicitar como medicamento extranjero. "
           },
           {
             "cn": "689966",
@@ -5337,21 +5312,7 @@
             "fini": 1776722400000,
             "activo": true,
             "observ": "Existen tratamientos alternativos no sujetos a prescripción. "
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 62227,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
-      "payload": {
-        "totalFilas": 935,
-        "pagina": 4,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "605913",
             "nombre": "ACIDO ACETILSALICILICO KERN PHARMA 100 MG COMPRIMIDOS GASTRORRESISTENTES EFG, 500 comprimidos",
@@ -5377,7 +5338,21 @@
             "ffin": 1809640800000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 62181,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=4",
+      "payload": {
+        "totalFilas": 932,
+        "pagina": 4,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "758135",
             "nombre": "CARMUSTINA ACCORDPHARMA 300 MG POLVO Y DISOLVENTE PARA CONCENTRADO PARA SOLUCION PARA PERFUSION, 1 vial polvo + 1 vial de disolvente de 9 ml",
@@ -5959,14 +5934,6 @@
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
           },
           {
-            "cn": "764194",
-            "nombre": "ELUCIREM 0,5 MMOL/ML SOLUCION INYECTABLE, 1 vial de 50 ml",
-            "tipoProblemaSuministro": 10,
-            "fini": 1771887600000,
-            "activo": true,
-            "observ": "La AEMPS ha autorizado unidades por comercialización excepcional. "
-          },
-          {
             "cn": "759850",
             "nombre": "FINGOLIMOD TARBIS 0,25 mg CAPSULAS DURAS EFG, 28 capsulas",
             "tipoProblemaSuministro": 5,
@@ -6401,7 +6368,6 @@
             "nombre": "OLANZAPINA FLAS VIATRIS 15 MG COMPRIMIDOS BUCODISPERSABLES EFG, 28 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1765234800000,
-            "ffin": 1795647600000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
           },
@@ -6426,9 +6392,18 @@
             "nombre": "GLICLAZIDA NORMON 30 mg COMPRIMIDOS DE LIBERACION MODIFICADA EFG, 60 comprimidos",
             "tipoProblemaSuministro": 5,
             "fini": 1764284400000,
-            "ffin": 1796166000000,
+            "ffin": 1802905200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
+          },
+          {
+            "cn": "719119",
+            "nombre": "ATOMOXETINA CINFA 80 MG CASULAS DURAS EFG, 28 cápsulas (Blister PVC/PE/PCTFE-Al)",
+            "tipoProblemaSuministro": 7,
+            "fini": 1764111600000,
+            "ffin": 1798585200000,
+            "activo": true,
+            "observ": "Se puede solicitar como medicamento extranjero. "
           },
           {
             "cn": "729081",
@@ -7078,21 +7053,7 @@
             "ffin": 1807826400000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 42975,
-      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
-      "payload": {
-        "totalFilas": 935,
-        "pagina": 5,
-        "tamanioPagina": 200,
-        "resultados": [
+          },
           {
             "cn": "714982",
             "nombre": "APREGIA 75 mg CAPSULAS DURAS EFG 56 cápsulas",
@@ -7118,7 +7079,21 @@
             "fini": 1748815200000,
             "activo": true,
             "observ": "Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. "
-          },
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 42083,
+      "final_url": "https://cima.aemps.es/cima/rest/psuministro?pagina=5",
+      "payload": {
+        "totalFilas": 932,
+        "pagina": 5,
+        "tamanioPagina": 200,
+        "resultados": [
           {
             "cn": "676079",
             "nombre": "ACIDO IBANDRONICO SANDOZ 150 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG 1 comprimido",
@@ -7599,7 +7574,7 @@
             "nombre": "TRANXILIUM 20 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE , 1 vial + 1 ampolla de disolvente",
             "tipoProblemaSuministro": 1,
             "fini": 1731452400000,
-            "ffin": 1796166000000,
+            "ffin": 1797807600000,
             "activo": true,
             "observ": "Consultar Nota Informativa: https://www.aemps.gob.es/informa/la-aemps-informa-de-un-retraso-en-el-restablecimiento-de-tranxilium-20-mg-polvo-y-disolvente-para-solucion-inyectable/"
           },
@@ -8247,7 +8222,7 @@
     }
   ],
   "listing_complete": true,
-  "listing_count": 935,
+  "listing_count": 932,
   "enrichment_scope": "All distinct CNs in the validated listing, with per-CN errors reported.",
   "medicines": [
     {
@@ -8308,8 +8283,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:27.054892+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:30.372342+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600259",
@@ -8369,8 +8343,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:27.054341+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:30.368312+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600299",
@@ -8430,14 +8403,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:27.903225+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:31.367702+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600300",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 1902,
+      "bytes": 1881,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=600300",
       "payload": {
         "nregistro": "67022",
@@ -8491,8 +8463,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:27.965222+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:31.369010+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600633",
@@ -8552,8 +8523,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:28.740505+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:32.342451+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600634",
@@ -8613,8 +8583,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:28.800634+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:32.344919+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600637",
@@ -8678,8 +8647,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:29.707375+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:33.308586+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600699",
@@ -8743,8 +8711,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:31.236826+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:33.344140+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=600767",
@@ -8804,8 +8771,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:30.534048+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:34.426201+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=601104",
@@ -8869,8 +8835,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:31.546201+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:34.406455+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=602392",
@@ -8934,8 +8899,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:32.216468+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:35.395693+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=602421",
@@ -8999,8 +8963,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:32.512804+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:35.573900+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=602422",
@@ -9064,8 +9027,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:34.824968+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:36.391380+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=602438",
@@ -9133,8 +9095,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:35.701944+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:36.551046+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=603544",
@@ -9194,7 +9155,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:06.461934+00:00"
+      "fetched_at": "2026-11-25T17:06:06.461934+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=603548",
@@ -9254,8 +9216,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:35.642227+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:37.502428+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=603631",
@@ -9319,14 +9280,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:36.452073+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:37.516836+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=605667",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 1850,
+      "bytes": 1886,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=605667",
       "payload": {
         "nregistro": "57864",
@@ -9380,8 +9340,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:36.657247+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:38.660118+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=605913",
@@ -9441,8 +9400,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:37.416452+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:38.533998+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=605995",
@@ -9502,8 +9460,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:37.683369+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:39.496050+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606061",
@@ -9567,8 +9524,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:38.232219+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:39.640824+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606352",
@@ -9628,8 +9584,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:38.766193+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:40.624195+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606382",
@@ -9690,8 +9645,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:40.655687+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:40.619908+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606429",
@@ -9812,8 +9766,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:39.592554+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:41.589799+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606711",
@@ -9873,8 +9826,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:40.513683+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:41.590720+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=606965",
@@ -9934,14 +9886,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:41.334058+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:42.585396+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607118",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2006,
+      "bytes": 2027,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=607118",
       "payload": {
         "nregistro": "78750",
@@ -9999,8 +9950,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:41.739180+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:42.580885+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607120",
@@ -10125,8 +10075,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:43.519763+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:43.553697+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607247",
@@ -10186,8 +10135,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:42.632223+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:43.554000+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607264",
@@ -10247,8 +10195,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:43.558408+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:44.634892+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607268",
@@ -10308,8 +10255,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:44.532355+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:44.671123+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607276",
@@ -10369,8 +10315,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:44.519328+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:45.614392+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607314",
@@ -10495,8 +10440,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:45.466370+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:45.638486+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607455",
@@ -10564,8 +10508,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:45.498181+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:46.603550+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607456",
@@ -10629,8 +10572,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:46.419566+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:46.622311+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607458",
@@ -10694,8 +10636,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:46.301624+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:47.589966+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607501",
@@ -10755,8 +10696,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:52.522250+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:47.684469+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607577",
@@ -10828,7 +10768,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:06.455590+00:00"
+      "fetched_at": "2026-11-25T17:06:06.455590+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607584",
@@ -10900,7 +10841,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:07.530154+00:00"
+      "fetched_at": "2026-11-25T17:06:07.530154+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607589",
@@ -10984,8 +10926,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:48.104333+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:48.582745+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607601",
@@ -11050,14 +10991,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:48.965216+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:48.657799+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607817",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2088,
+      "bytes": 2068,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=607817",
       "payload": {
         "nregistro": "89715",
@@ -11115,8 +11055,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:49.791744+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:49.583501+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=607861",
@@ -11192,8 +11131,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:50.666925+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:49.843595+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=608539",
@@ -11257,8 +11195,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:51.498355+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:51.778609+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=608612",
@@ -11322,8 +11259,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:52.467412+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:50.836722+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=608752",
@@ -11495,8 +11431,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:53.284722+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:51.858026+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=609669",
@@ -11560,8 +11495,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:53.375681+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:52.754985+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=610790",
@@ -11621,8 +11555,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:54.118198+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:52.857425+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=615187",
@@ -11682,8 +11615,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:54.184252+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:53.717993+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=620039",
@@ -11743,8 +11675,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:54.942767+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:53.836213+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=620377",
@@ -11804,14 +11735,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:55.143487+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:54.767867+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=620427",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 1928,
+      "bytes": 1965,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=620427",
       "payload": {
         "nregistro": "48194",
@@ -11865,8 +11795,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:55.762174+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:54.824639+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=620724",
@@ -11926,8 +11855,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:56.131278+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:55.733961+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=621185",
@@ -12048,8 +11976,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:56.601796+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:55.795935+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=621532",
@@ -12109,8 +12036,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:56.979208+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:56.723128+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=621615",
@@ -12170,8 +12096,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:58.887704+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:56.764666+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=624239",
@@ -12231,8 +12156,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:57.811988+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:57.699544+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=624577",
@@ -12296,8 +12220,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:16.271368+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:57.755331+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=625889",
@@ -12361,8 +12284,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:39:59.818910+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:58.684323+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=626788",
@@ -12422,8 +12344,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:00.652646+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:58.748868+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=630764",
@@ -12487,8 +12408,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:01.638413+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:59.664965+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=630806",
@@ -12552,8 +12472,67 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:03.875000+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:46:59.726763+00:00"
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=634477",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2135,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=634477",
+      "payload": {
+        "nregistro": "49811",
+        "nombre": "VENOFUSIN BICARBONATO SÓDICO 1 M SOLUCIÓN PARA PERFUSIÓN",
+        "atcs": [
+          {
+            "codigo": "B05X",
+            "nombre": "ADITIVOS PARA SOLUCIONES I.V.",
+            "nivel": 3
+          },
+          {
+            "codigo": "B05XA",
+            "nombre": "Soluciones electroliticas",
+            "nivel": 4
+          },
+          {
+            "codigo": "B05XA02",
+            "nombre": "Bicarbonato de sodio",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 125,
+            "codigo": "125BI",
+            "nombre": "SODIO BICARBONATO",
+            "cantidad": "21",
+            "unidad": "g",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 222,
+          "nombre": "SOLUCIÓN PARA PERFUSIÓN"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 35,
+          "nombre": "INYECTABLE PERFUSION"
+        },
+        "dosis": "21 g bicarbonato sodico",
+        "presentaciones": [
+          {
+            "cn": "634477",
+            "nombre": "VENOFUSIN BICARBONATO SÓDICO 1 M SOLUCIÓN PARA PERFUSIÓN , 10 frascos de 250 ml"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:47:00.658695+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=638700",
@@ -12617,8 +12596,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:04.692364+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:00.712523+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=639740",
@@ -12678,8 +12656,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:05.512856+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:01.721055+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=644906",
@@ -12739,8 +12716,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:06.353351+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:01.720784+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=645705",
@@ -12800,8 +12776,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:07.198589+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:02.713698+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=647008",
@@ -12861,8 +12836,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:08.194171+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:02.703335+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=647016",
@@ -12922,8 +12896,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:09.131171+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:03.696582+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=650809",
@@ -12983,8 +12956,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:10.980965+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:03.684583+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652004",
@@ -13044,7 +13016,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:07.382075+00:00"
+      "fetched_at": "2026-11-25T17:06:07.382075+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652160",
@@ -13165,8 +13138,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:55.884744+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:04.662335+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652314",
@@ -13226,8 +13198,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:34.117316+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:04.681641+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652678",
@@ -13303,8 +13274,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:35.090957+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:05.636689+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652764",
@@ -13425,8 +13395,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:47.625011+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:05.672523+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=652981",
@@ -13486,8 +13455,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:48.468137+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:06.621981+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653154",
@@ -13699,8 +13667,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:51.678553+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:06.637752+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653193",
@@ -13760,8 +13727,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:52.505216+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:07.598465+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653304",
@@ -13821,14 +13787,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:13.308749+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:07.626483+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653439",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2017,
+      "bytes": 1996,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=653439",
       "payload": {
         "nregistro": "33580",
@@ -13886,8 +13851,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:56.816214+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:08.572391+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653446",
@@ -13951,8 +13915,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:58.670543+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:08.773808+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653447",
@@ -14012,8 +13975,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:40:59.634438+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:09.557775+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653448",
@@ -14073,8 +14035,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:00.494166+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:09.766533+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653449",
@@ -14134,8 +14095,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:01.308342+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:10.669693+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653544",
@@ -14195,8 +14155,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:02.206646+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:10.900715+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653607",
@@ -14256,8 +14215,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:03.104945+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:11.750836+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653608",
@@ -14324,7 +14282,7 @@
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=653712",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2090,
+      "bytes": 2069,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=653712",
       "payload": {
         "nregistro": "67521",
@@ -14378,8 +14336,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:04.095797+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:11.871427+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654138",
@@ -14443,8 +14400,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:05.874528+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:13.046194+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654213",
@@ -14504,8 +14460,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:06.691065+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:12.845350+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654285",
@@ -14565,8 +14520,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:07.529630+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:13.817879+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654515",
@@ -14650,8 +14604,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:08.333855+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:14.018575+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654666",
@@ -14711,8 +14664,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:09.163242+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:14.793135+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654757",
@@ -14772,8 +14724,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:30.004043+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:15.177851+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=654825",
@@ -14894,8 +14845,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:33.220528+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:15.763626+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656201",
@@ -14955,8 +14905,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:30.858705+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:16.232378+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656289",
@@ -15016,8 +14965,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:51.460389+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:16.731789+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656353",
@@ -15077,8 +15025,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:34.206086+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:17.298060+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656399",
@@ -15138,8 +15085,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:35.032861+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:17.722997+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656570",
@@ -15199,7 +15145,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:08.285810+00:00"
+      "fetched_at": "2026-11-25T17:06:08.285810+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656665",
@@ -15263,8 +15210,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:35.851042+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:18.337472+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656667",
@@ -15328,8 +15274,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:36.654597+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:18.697216+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656693",
@@ -15389,8 +15334,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:37.667312+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:19.327871+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656713",
@@ -15450,8 +15394,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:38.462171+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:19.729505+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656754",
@@ -15523,8 +15466,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:39.423840+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:20.299621+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656824",
@@ -15600,8 +15542,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:40.250028+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:20.910467+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656825",
@@ -15677,8 +15618,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:41.215570+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:21.390014+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=656872",
@@ -15738,8 +15678,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:42.045404+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:21.895458+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=657361",
@@ -15799,8 +15738,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:44.419377+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:22.359134+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=658183",
@@ -15863,8 +15801,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:45.234579+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:22.891826+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=658741",
@@ -15932,8 +15869,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:46.210007+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:23.334655+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=658779",
@@ -15993,8 +15929,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:47.051591+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:23.880836+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=658842",
@@ -16054,8 +15989,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:48.039079+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:24.347941+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659270",
@@ -16115,8 +16049,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:08.263919+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:24.867937+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659430",
@@ -16176,69 +16109,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:52.522490+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659782",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1775,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=659782",
-      "payload": {
-        "nregistro": "69225",
-        "nombre": "METAMIZOL PENSA 575 mg CAPSULAS DURAS EFG",
-        "atcs": [
-          {
-            "codigo": "N02B",
-            "nombre": "OTROS ANALGESICOS Y ANTIPIRETICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N02BB",
-            "nombre": "Pirazolonas",
-            "nivel": 4
-          },
-          {
-            "codigo": "N02BB02",
-            "nombre": "Metamizol sodico",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 111,
-            "codigo": "111MG",
-            "nombre": "METAMIZOL MAGNESICO",
-            "cantidad": "575",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 32,
-          "nombre": "CÁPSULA DURA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 4,
-          "nombre": "CAPSULA"
-        },
-        "dosis": "575 mg",
-        "presentaciones": [
-          {
-            "cn": "659782",
-            "nombre": "METAMIZOL PENSA 575 mg CAPSULAS DURAS EFG, 10 cápsulas"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-19T15:41:53.318044+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:25.345702+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659856",
@@ -16298,8 +16169,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:54.168096+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:25.837709+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659857",
@@ -16359,8 +16229,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:55.098382+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:26.402035+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659890",
@@ -16420,8 +16289,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:56.002766+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:26.942846+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=659973",
@@ -16593,8 +16461,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:56.906658+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:27.398078+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660009",
@@ -16654,8 +16521,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:57.896475+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:27.925490+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660248",
@@ -16715,8 +16581,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:58.703514+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:28.394722+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660432",
@@ -16776,8 +16641,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:41:59.543815+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:29.003704+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660456",
@@ -16898,8 +16762,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:00.353644+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:29.367707+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660466",
@@ -16959,8 +16822,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:01.461432+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:30.065610+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660467",
@@ -17020,8 +16882,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:02.277650+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:30.340742+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660555",
@@ -17081,8 +16942,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:04.088655+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:31.033184+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660684",
@@ -17150,8 +17010,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:05.196012+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:31.360762+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=660695",
@@ -17211,8 +17070,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:27.937244+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:32.015215+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661030",
@@ -17272,8 +17130,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:11.516193+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:32.343698+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661036",
@@ -17333,8 +17190,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:12.469376+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:33.013565+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661200",
@@ -17402,8 +17258,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:13.297521+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:33.338553+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661221",
@@ -17471,8 +17326,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:14.265476+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:34.067853+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661231",
@@ -17532,8 +17386,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:16.546522+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:34.331646+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661244",
@@ -17625,8 +17478,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:22.744799+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:35.066582+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661664",
@@ -17686,8 +17538,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:44.232310+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:35.317349+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661686",
@@ -17808,8 +17659,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:28.893861+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:36.031585+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=661927",
@@ -17869,8 +17719,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:29.713458+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:36.282175+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662295",
@@ -17930,8 +17779,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:30.661561+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:37.007800+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662297",
@@ -17991,14 +17839,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:31.495938+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:37.252000+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662497",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2459,
+      "bytes": 2473,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=662497",
       "payload": {
         "nregistro": "08495001",
@@ -18056,14 +17903,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:32.327907+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:37.996588+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662499",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2457,
+      "bytes": 2471,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=662499",
       "payload": {
         "nregistro": "08495003",
@@ -18121,8 +17967,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:36.341961+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:38.372223+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=662845",
@@ -18182,8 +18027,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:37.298254+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:38.987565+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663162",
@@ -18251,8 +18095,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:38.392154+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:39.339513+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663198",
@@ -18316,8 +18159,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:39.240218+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:39.969683+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663248",
@@ -18438,8 +18280,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:40.045095+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:40.322608+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663618",
@@ -18499,8 +18340,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:40.869846+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:40.961613+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663619",
@@ -18560,8 +18400,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:01.499829+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:41.303735+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663621",
@@ -18621,8 +18460,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:45.218631+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:42.015343+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663622",
@@ -18682,8 +18520,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:46.315515+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:42.303702+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663705",
@@ -18743,8 +18580,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:47.141273+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:43.006606+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=663979",
@@ -18804,8 +18640,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:47.953431+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:43.325992+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664147",
@@ -18865,8 +18700,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:48.795516+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:43.990563+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664148",
@@ -18926,8 +18760,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:49.630942+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:44.420685+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664149",
@@ -18987,8 +18820,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:50.597913+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:44.965463+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664150",
@@ -19048,8 +18880,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:51.543167+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:45.402910+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664260",
@@ -19109,8 +18940,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:52.366527+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:46.101606+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664261",
@@ -19170,8 +19000,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:53.163154+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:46.373180+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664302",
@@ -19231,8 +19060,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:53.995189+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:47.139689+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664303",
@@ -19292,8 +19120,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:54.992003+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:47.343216+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664343",
@@ -19353,8 +19180,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:55.799510+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:48.120996+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664658",
@@ -19414,8 +19240,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:56.719654+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:48.308419+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664686",
@@ -19475,8 +19300,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:42:57.527894+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:49.082513+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664928",
@@ -19536,8 +19360,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:17.906697+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:49.287226+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=664929",
@@ -19597,8 +19420,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:02.330446+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:50.048706+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=665195",
@@ -19658,8 +19480,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:03.263927+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:50.261363+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=665501",
@@ -19719,7 +19540,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:08.454780+00:00"
+      "fetched_at": "2026-11-25T17:06:08.454780+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=665857",
@@ -19783,8 +19605,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:04.097172+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:51.040122+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=665873",
@@ -19844,8 +19665,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:05.152863+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:51.233739+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=665874",
@@ -19905,8 +19725,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:07.361020+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:52.033132+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=665878",
@@ -19966,8 +19785,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:08.176231+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:52.235058+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667105",
@@ -20027,8 +19845,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:08.994651+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:53.000755+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667193",
@@ -20088,7 +19905,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:09.238076+00:00"
+      "fetched_at": "2026-11-25T17:06:09.238076+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667213",
@@ -20148,7 +19966,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:09.399672+00:00"
+      "fetched_at": "2026-11-25T17:06:09.399672+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667214",
@@ -20208,7 +20027,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:10.142225+00:00"
+      "fetched_at": "2026-11-25T17:06:10.142225+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667248",
@@ -20268,8 +20088,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:10.015572+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:53.355579+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667258",
@@ -20329,8 +20148,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:10.845588+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:53.990313+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667266",
@@ -20390,8 +20208,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:11.811846+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:54.407763+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667271",
@@ -20451,8 +20268,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:12.632194+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:55.242512+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667451",
@@ -20512,8 +20328,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:13.470621+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:55.413173+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667659",
@@ -20573,8 +20388,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:14.405952+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:56.373396+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=667896",
@@ -20634,8 +20448,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:34.759129+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:56.388943+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=668079",
@@ -20695,8 +20508,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:18.719157+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:57.337778+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=668087",
@@ -20756,8 +20568,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:19.720173+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:57.384940+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=670482",
@@ -20817,8 +20628,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:20.550495+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:58.329805+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=670497",
@@ -20878,8 +20688,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:22.787671+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:58.527597+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=670502",
@@ -20939,8 +20748,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:23.725865+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:59.316420+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=670696",
@@ -21000,8 +20808,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:24.555169+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:47:59.501478+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=670938",
@@ -21061,8 +20868,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:25.372409+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:00.293660+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=672096",
@@ -21142,8 +20948,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:26.182680+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:00.478379+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=672287",
@@ -21227,8 +21032,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:27.016653+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:01.296753+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=672501",
@@ -21289,14 +21093,13 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:47.750195+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:01.446805+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=672779",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
-      "bytes": 2053,
+      "bytes": 2032,
       "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=672779",
       "payload": {
         "nregistro": "73077",
@@ -21350,8 +21153,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:36.370488+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:02.285154+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=672971",
@@ -21427,8 +21229,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:56.924821+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:02.437860+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=672974",
@@ -21504,8 +21305,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:48.686102+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:03.262703+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=673141",
@@ -21565,8 +21365,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:07.225863+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:03.561886+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=674878",
@@ -21772,8 +21571,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:57.882518+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:04.233663+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=675297",
@@ -21841,8 +21639,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:43:58.785741+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:04.538218+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=675494",
@@ -21902,8 +21699,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:19.291219+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:05.296796+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=676079",
@@ -21963,8 +21759,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:08.138426+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:05.494481+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=676082",
@@ -22024,8 +21819,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:09.118553+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:06.492910+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=676512",
@@ -22089,8 +21883,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:10.085334+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:06.513833+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=676514",
@@ -22396,8 +22189,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:10.908778+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:07.469508+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677289",
@@ -22457,8 +22249,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:11.869894+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:07.480362+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677290",
@@ -22542,8 +22333,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:12.741168+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:08.437604+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677291",
@@ -22627,8 +22417,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:13.571084+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:08.442351+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677313",
@@ -22689,8 +22478,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:14.429615+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:09.418496+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677327",
@@ -22809,8 +22597,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:16.674349+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:09.466042+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677414",
@@ -22878,8 +22665,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:37.456975+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:10.398956+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677525",
@@ -22939,8 +22725,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:20.154832+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:10.468339+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677694",
@@ -23000,8 +22785,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:20.988839+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:11.822001+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=677989",
@@ -23061,8 +22845,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:21.945406+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:11.660792+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=678362",
@@ -23122,8 +22905,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:22.849208+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:12.709810+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=678503",
@@ -23183,8 +22965,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:23.676442+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:12.808026+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=678586",
@@ -23244,8 +23025,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:24.495654+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:13.678600+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=678591",
@@ -23305,8 +23085,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:25.470874+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:13.787561+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=678912",
@@ -23427,8 +23206,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:26.464797+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:14.679207+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=679726",
@@ -23488,8 +23266,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:27.280525+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:14.770064+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=679958",
@@ -23549,8 +23326,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:28.122467+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:15.662973+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=680421",
@@ -23610,8 +23386,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:46.560536+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:15.745608+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=680715",
@@ -23671,8 +23446,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:38.281911+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:16.659673+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=680734",
@@ -23732,8 +23506,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:39.262559+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:16.714365+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=680762",
@@ -23793,8 +23566,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:40.249396+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:17.651406+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=680773",
@@ -23854,8 +23626,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:00.936009+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:18.029920+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=680788",
@@ -23976,8 +23747,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:47.534955+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:18.632110+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=681266",
@@ -24037,8 +23807,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:48.509344+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:19.022018+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=681923",
@@ -24099,69 +23868,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:49.332510+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682120",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2690,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=682120",
-      "payload": {
-        "nregistro": "60917",
-        "nombre": "BILINA 0,5 mg/ml COLIRIO EN SUSPENSIÓN",
-        "atcs": [
-          {
-            "codigo": "S01G",
-            "nombre": "DESCONGESTIVOS Y ANTIALERGICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "S01GX",
-            "nombre": "Otros antialergicos",
-            "nivel": 4
-          },
-          {
-            "codigo": "S01GX02",
-            "nombre": "Levocabastina",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2569,
-            "codigo": "2569CH",
-            "nombre": "LEVOCABASTINA HIDROCLORURO",
-            "cantidad": "0,54",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 47,
-            "nombre": "VÍA OFTÁLMICA"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 131,
-          "nombre": "COLIRIO EN SUSPENSIÓN"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 8,
-          "nombre": "COLIRIO"
-        },
-        "dosis": "0,5 mg levocabastina/ ml",
-        "presentaciones": [
-          {
-            "cn": "682120",
-            "nombre": "BILINA 0,5 mg/ml COLIRIO EN SUSPENSIÓN, 1 frasco de 4 ml"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-19T15:44:51.876337+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:19.788140+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682432",
@@ -24225,8 +23932,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:58.260767+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:20.007900+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682433",
@@ -24290,8 +23996,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:44:59.262681+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:20.804531+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682490",
@@ -24351,7 +24056,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:10.310446+00:00"
+      "fetched_at": "2026-11-25T17:06:10.310446+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682512",
@@ -24411,8 +24117,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:00.099174+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:20.990847+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682625",
@@ -24480,8 +24185,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:20.903823+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:21.855571+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682740",
@@ -24545,8 +24249,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:01.750571+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:21.984770+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682755",
@@ -24606,8 +24309,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:04.748826+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:22.856210+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682757",
@@ -24671,8 +24373,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:05.579694+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:22.964896+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682765",
@@ -24736,8 +24437,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:06.474521+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:23.820506+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682773",
@@ -24805,8 +24505,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:07.447088+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:23.936623+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682781",
@@ -24874,8 +24573,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:08.519045+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:24.789352+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=682807",
@@ -24943,8 +24641,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:09.497779+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:24.904608+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=683219",
@@ -25073,8 +24770,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:10.578601+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:25.776829+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=683866",
@@ -25134,8 +24830,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:11.411693+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:25.858460+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=683885",
@@ -25195,8 +24890,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:12.224511+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:26.984467+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=683979",
@@ -25321,8 +25015,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:13.058927+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:27.020559+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684019",
@@ -25386,8 +25079,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:14.018433+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:28.065747+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684180",
@@ -25455,8 +25147,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:14.852821+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:28.087942+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684184",
@@ -25524,8 +25215,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:15.686736+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:29.067102+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684603",
@@ -25585,8 +25275,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:16.654212+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:29.056786+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684606",
@@ -25646,8 +25335,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:18.877517+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:30.057377+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684641",
@@ -25707,8 +25395,7 @@
           }
         ]
       },
-      "fetched_at": "2026-11-19T15:45:19.709175+00:00",
-      "reused": true
+      "fetched_at": "2026-11-26T16:48:30.042754+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=684643",
@@ -27821,7 +27508,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:11.024570+00:00"
+      "fetched_at": "2026-11-25T17:06:11.024570+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=691492",
@@ -27966,7 +27654,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:11.503650+00:00"
+      "fetched_at": "2026-11-25T17:06:11.503650+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=691949",
@@ -30051,67 +29740,6 @@
       "reused": true
     },
     {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=695566",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1992,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=695566",
-      "payload": {
-        "nregistro": "65765",
-        "nombre": "ITRACONAZOL VIATRIS 100 MG CAPSULAS EFG",
-        "atcs": [
-          {
-            "codigo": "J02A",
-            "nombre": "ANTIMICOTICOS PARA USO SISTEMICO",
-            "nivel": 3
-          },
-          {
-            "codigo": "J02AC",
-            "nombre": "Derivados del triazol y tetrazol",
-            "nivel": 4
-          },
-          {
-            "codigo": "J02AC02",
-            "nombre": "Itraconazol",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2436,
-            "codigo": "2436A",
-            "nombre": "ITRACONAZOL",
-            "cantidad": "100",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 32,
-          "nombre": "CÁPSULA DURA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 4,
-          "nombre": "CAPSULA"
-        },
-        "dosis": "100 mg",
-        "presentaciones": [
-          {
-            "cn": "695566",
-            "nombre": "ITRACONAZOL VIATRIS 100 MG CAPSULAS EFG, 14 cápsulas"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-20T15:21:00.691497+00:00",
-      "reused": true
-    },
-    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=695596",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -31745,7 +31373,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:12.011154+00:00"
+      "fetched_at": "2026-11-25T17:06:12.011154+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=697438",
@@ -31939,7 +31568,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:12.414869+00:00"
+      "fetched_at": "2026-11-25T17:06:12.414869+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=697877",
@@ -33365,7 +32995,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:12.955045+00:00"
+      "fetched_at": "2026-11-25T17:06:12.955045+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=700474",
@@ -33664,7 +33295,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:13.323587+00:00"
+      "fetched_at": "2026-11-25T17:06:13.323587+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=700640",
@@ -34920,7 +34552,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:13.843644+00:00"
+      "fetched_at": "2026-11-25T17:06:13.843644+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=703925",
@@ -35102,7 +34735,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:14.223249+00:00"
+      "fetched_at": "2026-11-25T17:06:14.223249+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704266",
@@ -35308,7 +34942,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:14.760933+00:00"
+      "fetched_at": "2026-11-25T17:06:14.760933+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704618",
@@ -35612,7 +35247,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:15.124593+00:00"
+      "fetched_at": "2026-11-25T17:06:15.124593+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=704910",
@@ -35733,7 +35369,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:15.807832+00:00"
+      "fetched_at": "2026-11-25T17:06:15.807832+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=705283",
@@ -36297,7 +35934,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:16.039643+00:00"
+      "fetched_at": "2026-11-25T17:06:16.039643+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=707162",
@@ -39221,6 +38859,70 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=714132",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2693,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=714132",
+      "payload": {
+        "nregistro": "07410014",
+        "nombre": "BINOCRIT, 8000 UI/0,8 ml, SOLUCION INYECTABLE EN UNA JERINGA PRECARGADA",
+        "atcs": [
+          {
+            "codigo": "B03X",
+            "nombre": "OTROS PREPARADOS ANTIANEMICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "B03XA",
+            "nombre": "Otros preparados antianemicos",
+            "nivel": 4
+          },
+          {
+            "codigo": "B03XA01",
+            "nombre": "Eritropoyetina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2498,
+            "codigo": "2498A",
+            "nombre": "EPOETINA ALFA",
+            "cantidad": "8000",
+            "unidad": "UI",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 42,
+            "nombre": "VÍA INTRAVENOSA"
+          },
+          {
+            "id": 58,
+            "nombre": "VÍA SUBCUTÁNEA"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 1286,
+          "nombre": "SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 34,
+          "nombre": "INYECTABLE"
+        },
+        "dosis": "8000 UI",
+        "presentaciones": [
+          {
+            "cn": "714132",
+            "nombre": "BINOCRIT, 8000 UI/0,8 ml, SOLUCION INYECTABLE EN UNA JERINGA PRECARGADA, 6 jeringas precargadas de 0,8 ml con protector de seguridad para la aguja"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:48:31.028907+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=714161",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -39469,67 +39171,6 @@
       "reused": true
     },
     {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=714904",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1861,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=714904",
-      "payload": {
-        "nregistro": "81755",
-        "nombre": "ETORICOXIB PENSA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
-        "atcs": [
-          {
-            "codigo": "M01A",
-            "nombre": "PRODUCTOS ANTIINFLAMATORIOS Y ANTIRREUMATICOS NO ESTEROIDEOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "M01AH",
-            "nombre": "Coxibs",
-            "nivel": 4
-          },
-          {
-            "codigo": "M01AH05",
-            "nombre": "Etoricoxib",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2863,
-            "codigo": "2863A",
-            "nombre": "ETORICOXIB",
-            "cantidad": "30,00",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 42,
-          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "30 mg",
-        "presentaciones": [
-          {
-            "cn": "714904",
-            "nombre": "ETORICOXIB PENSA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 28 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-20T15:23:36.823774+00:00",
-      "reused": true
-    },
-    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=714982",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -39588,67 +39229,6 @@
         ]
       },
       "fetched_at": "2026-11-20T15:23:37.564544+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=715219",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2588,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=715219",
-      "payload": {
-        "nregistro": "52810",
-        "nombre": "BECOTIDE 50 microgramos/inhalación SOLUCION PARA INHALACION EN ENVASE A PRESION",
-        "atcs": [
-          {
-            "codigo": "R03B",
-            "nombre": "OTROS AGENTES CONTRA PADECIMIENTOS OBSTRUCTIVOS DE LAS VIAS RESPIRATORIAS, INHALATORIOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "R03BA",
-            "nombre": "Glucocorticoides",
-            "nivel": 4
-          },
-          {
-            "codigo": "R03BA01",
-            "nombre": "Beclometasona",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 463,
-            "codigo": "463DE",
-            "nombre": "BECLOMETASONA DIPROPIONATO",
-            "cantidad": "50",
-            "unidad": "µg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 78,
-            "nombre": "VÍA INHALATORIA"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 202,
-          "nombre": "SOLUCIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 33,
-          "nombre": "INHALACIÓN PULMONAR"
-        },
-        "dosis": "50 mcg beclometasona dipropionato",
-        "presentaciones": [
-          {
-            "cn": "715219",
-            "nombre": "BECOTIDE 50 microgramos/inhalación SOLUCION PARA INHALACION EN ENVASE A PRESION , 1 cartucho de 200 dosis"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-24T17:33:02.731569+00:00",
       "reused": true
     },
     {
@@ -40075,7 +39655,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:16.723086+00:00"
+      "fetched_at": "2026-11-25T17:06:16.723086+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=715981",
@@ -40456,6 +40037,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=716737",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2235,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=716737",
+      "payload": {
+        "nregistro": "82214",
+        "nombre": "ZONISAMIDA NORMON 25 MG CAPSULAS DURAS EFG",
+        "atcs": [
+          {
+            "codigo": "N03A",
+            "nombre": "ANTIEPILEPTICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N03AX",
+            "nombre": "Otros antiepilepticos",
+            "nivel": 4
+          },
+          {
+            "codigo": "N03AX15",
+            "nombre": "Zonisamida",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 7004,
+            "codigo": "7004A",
+            "nombre": "ZONISAMIDA",
+            "cantidad": "25",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 32,
+          "nombre": "CÁPSULA DURA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "25 mg",
+        "presentaciones": [
+          {
+            "cn": "716737",
+            "nombre": "ZONISAMIDA NORMON 25 MG CAPSULAS DURAS EFG, 28 cápsulas"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:48:31.226419+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=716776",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -40574,7 +40215,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:16.927953+00:00"
+      "fetched_at": "2026-11-25T17:06:16.927953+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=717019",
@@ -41187,6 +40829,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=718816",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1844,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=718816",
+      "payload": {
+        "nregistro": "82388",
+        "nombre": "ATAMAX 25 MG CAPSULAS DURAS EFG",
+        "atcs": [
+          {
+            "codigo": "N06B",
+            "nombre": "PSICOESTIMULANTES, AGENTES UTILIZADOS PARA EL TDAH Y NOOTROPICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N06BA",
+            "nombre": "Agentes simpaticomimeticos de accion central",
+            "nivel": 4
+          },
+          {
+            "codigo": "N06BA09",
+            "nombre": "Atomoxetina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2974,
+            "codigo": "2974CH",
+            "nombre": "ATOMOXETINA HIDROCLORURO",
+            "cantidad": "28,5695",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 32,
+          "nombre": "CÁPSULA DURA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "25 mg",
+        "presentaciones": [
+          {
+            "cn": "718816",
+            "nombre": "ATAMAX 25 MG CAPSULAS DURAS EFG 28 cápsulas"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:48:32.027572+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=718818",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -41309,6 +41011,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=718821",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1783,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=718821",
+      "payload": {
+        "nregistro": "82391",
+        "nombre": "ATAMAX 80 MG CAPSULAS DURAS EFG",
+        "atcs": [
+          {
+            "codigo": "N06B",
+            "nombre": "PSICOESTIMULANTES, AGENTES UTILIZADOS PARA EL TDAH Y NOOTROPICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N06BA",
+            "nombre": "Agentes simpaticomimeticos de accion central",
+            "nivel": 4
+          },
+          {
+            "codigo": "N06BA09",
+            "nombre": "Atomoxetina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2974,
+            "codigo": "2974CH",
+            "nombre": "ATOMOXETINA HIDROCLORURO",
+            "cantidad": "91,4223",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 32,
+          "nombre": "CÁPSULA DURA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "80 mg",
+        "presentaciones": [
+          {
+            "cn": "718821",
+            "nombre": "ATAMAX 80 MG CAPSULAS DURAS EFG 28 cápsulas"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:48:32.223036+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=718822",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -41367,67 +41129,6 @@
         ]
       },
       "fetched_at": "2026-11-20T15:24:12.791842+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=718827",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2064,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=718827",
-      "payload": {
-        "nregistro": "82394",
-        "nombre": "IVABRADINA VIATRIS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
-        "atcs": [
-          {
-            "codigo": "C01E",
-            "nombre": "OTROS PREPARADOS PARA EL CORAZON",
-            "nivel": 3
-          },
-          {
-            "codigo": "C01EB",
-            "nombre": "Otros preparados para el corazon",
-            "nivel": 4
-          },
-          {
-            "codigo": "C01EB17",
-            "nombre": "Ivabradina",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 2992,
-            "codigo": "2992OB",
-            "nombre": "IVABRADINA OXALATO",
-            "cantidad": "5.961 ",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 42,
-          "nombre": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "5 mg",
-        "presentaciones": [
-          {
-            "cn": "718827",
-            "nombre": "IVABRADINA VIATRIS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 56 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-20T15:24:12.915505+00:00",
       "reused": true
     },
     {
@@ -41736,6 +41437,66 @@
       "reused": true
     },
     {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719119",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2308,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=719119",
+      "payload": {
+        "nregistro": "82446",
+        "nombre": "ATOMOXETINA CINFA 80 MG CAPSULAS DURAS EFG",
+        "atcs": [
+          {
+            "codigo": "N06B",
+            "nombre": "PSICOESTIMULANTES, AGENTES UTILIZADOS PARA EL TDAH Y NOOTROPICOS",
+            "nivel": 3
+          },
+          {
+            "codigo": "N06BA",
+            "nombre": "Agentes simpaticomimeticos de accion central",
+            "nivel": 4
+          },
+          {
+            "codigo": "N06BA09",
+            "nombre": "Atomoxetina",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 2974,
+            "codigo": "2974CH",
+            "nombre": "ATOMOXETINA HIDROCLORURO",
+            "cantidad": "91.4223 ",
+            "unidad": "mg",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 48,
+            "nombre": "VÍA ORAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 32,
+          "nombre": "CÁPSULA DURA"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 4,
+          "nombre": "CAPSULA"
+        },
+        "dosis": "80 mg",
+        "presentaciones": [
+          {
+            "cn": "719119",
+            "nombre": "ATOMOXETINA CINFA 80 MG CASULAS DURAS EFG, 28 cápsulas (Blister PVC/PE/PCTFE-Al)"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:48:33.133987+00:00"
+    },
+    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719676",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -41793,7 +41554,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:17.636893+00:00"
+      "fetched_at": "2026-11-25T17:06:17.636893+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719677",
@@ -41853,7 +41615,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:17.843394+00:00"
+      "fetched_at": "2026-11-25T17:06:17.843394+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=719821",
@@ -42921,7 +42684,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:18.533680+00:00"
+      "fetched_at": "2026-11-25T17:06:18.533680+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=722015",
@@ -47466,7 +47230,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:18.797925+00:00"
+      "fetched_at": "2026-11-25T17:06:18.797925+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=728173",
@@ -48692,7 +48457,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:19.446613+00:00"
+      "fetched_at": "2026-11-25T17:06:19.446613+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=728902",
@@ -53093,7 +52859,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:19.779036+00:00"
+      "fetched_at": "2026-11-25T17:06:19.779036+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732165",
@@ -53584,7 +53351,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:20.349135+00:00"
+      "fetched_at": "2026-11-25T17:06:20.349135+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=732793",
@@ -53957,7 +53725,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:20.837346+00:00"
+      "fetched_at": "2026-11-25T17:06:20.837346+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=733351",
@@ -57971,7 +57740,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:21.273835+00:00"
+      "fetched_at": "2026-11-25T17:06:21.273835+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=763061",
@@ -58353,67 +58123,6 @@
         ]
       },
       "fetched_at": "2026-11-21T14:35:15.145582+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764194",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 1979,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=764194",
-      "payload": {
-        "nregistro": "1231772002",
-        "nombre": "ELUCIREM 0,5 MMOL/ML SOLUCION INYECTABLE",
-        "atcs": [
-          {
-            "codigo": "V08C",
-            "nombre": "MEDIOS DE CONTRASTE PARA IMAGENES DE RESONANCIA MAGNETICA",
-            "nivel": 3
-          },
-          {
-            "codigo": "V08CA",
-            "nombre": "Medios de contraste paramagneticos",
-            "nivel": 4
-          },
-          {
-            "codigo": "V08CA12",
-            "nombre": "Gadopiclenol",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 31013,
-            "codigo": "31013A",
-            "nombre": "GADOPICLENOL",
-            "cantidad": "485,1",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 42,
-            "nombre": "VÍA INTRAVENOSA"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 197,
-          "nombre": "SOLUCIÓN INYECTABLE"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 34,
-          "nombre": "INYECTABLE"
-        },
-        "dosis": "0,5 mmol/ml",
-        "presentaciones": [
-          {
-            "cn": "764194",
-            "nombre": "ELUCIREM 0,5 MMOL/ML SOLUCION INYECTABLE, 1 vial de 50 ml"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-21T14:35:17.540354+00:00",
       "reused": true
     },
     {
@@ -58901,7 +58610,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:21.742240+00:00"
+      "fetched_at": "2026-11-25T17:06:21.742240+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764645",
@@ -58967,66 +58677,6 @@
       },
       "fetched_at": "2026-11-21T14:35:25.828221+00:00",
       "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764767",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2370,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=764767",
-      "payload": {
-        "nregistro": "1241795001",
-        "nombre": "NIAPELF 25 MG SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EFG",
-        "atcs": [
-          {
-            "codigo": "N05A",
-            "nombre": "ANTIPSICOTICOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "N05AX",
-            "nombre": "Otros antipsicoticos",
-            "nivel": 4
-          },
-          {
-            "codigo": "N05AX13",
-            "nombre": "Paliperidona",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 8094,
-            "codigo": "8094PA",
-            "nombre": "PALIPERIDONA PALMITATO",
-            "cantidad": "39",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 30,
-            "nombre": "VÍA INTRAMUSCULAR"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 1487,
-          "nombre": "SUSPENSION INYECTABLE DE LIBERACION PROLONGADA"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 34,
-          "nombre": "INYECTABLE"
-        },
-        "dosis": "25 mg",
-        "presentaciones": [
-          {
-            "cn": "764767",
-            "nombre": "NIAPELF 25 MG SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EFG, 1 jeringa precargada de 0,25 ml"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-25T17:06:22.186320+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=764851",
@@ -61057,7 +60707,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:22.646202+00:00"
+      "fetched_at": "2026-11-25T17:06:22.646202+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=767114",
@@ -61506,7 +61157,8 @@
           }
         ]
       },
-      "fetched_at": "2026-11-25T17:06:23.072894+00:00"
+      "fetched_at": "2026-11-25T17:06:23.072894+00:00",
+      "reused": true
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=768370",
@@ -63372,75 +63024,6 @@
       "reused": true
     },
     {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=817973",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2370,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=817973",
-      "payload": {
-        "nregistro": "54213",
-        "nombre": "RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA",
-        "atcs": [
-          {
-            "codigo": "J04A",
-            "nombre": "FARMACOS PARA EL TRATAMIENTO DE LA TUBERCULOSIS",
-            "nivel": 3
-          },
-          {
-            "codigo": "J04AM",
-            "nombre": "Combinaciones de farmacos para el tratamiento de la tuberculosis",
-            "nivel": 4
-          },
-          {
-            "codigo": "J04AM02",
-            "nombre": "Rifampicina e isoniazida",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 1637,
-            "codigo": "1637A",
-            "nombre": "ISONIAZIDA",
-            "cantidad": "150",
-            "unidad": "mg",
-            "orden": 1
-          },
-          {
-            "id": 2273,
-            "codigo": "2273A",
-            "nombre": "RIFAMPICINA",
-            "cantidad": "300",
-            "unidad": "mg",
-            "orden": 2
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 41,
-          "nombre": "COMPRIMIDO RECUBIERTO"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "300/150 mg/mg",
-        "presentaciones": [
-          {
-            "cn": "817973",
-            "nombre": "RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA , 60 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-21T14:36:30.713396+00:00",
-      "reused": true
-    },
-    {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=819722",
       "status": 200,
       "content_type": "application/json;charset=UTF-8",
@@ -63687,6 +63270,66 @@
       },
       "fetched_at": "2026-11-21T14:36:37.895160+00:00",
       "reused": true
+    },
+    {
+      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=829812",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 1785,
+      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=829812",
+      "payload": {
+        "nregistro": "45647",
+        "nombre": "SUPOSITORIOS DE GLICERINA DR. TORRENTS ADULTOS",
+        "atcs": [
+          {
+            "codigo": "A06A",
+            "nombre": "FARMACOS PARA EL ESTREÑIMIENTO",
+            "nivel": 3
+          },
+          {
+            "codigo": "A06AX",
+            "nombre": "Otros laxantes",
+            "nivel": 4
+          },
+          {
+            "codigo": "A06AX01",
+            "nombre": "Glicerol",
+            "nivel": 5
+          }
+        ],
+        "principiosActivos": [
+          {
+            "id": 1651,
+            "codigo": "1651A",
+            "nombre": "GLICEROL",
+            "cantidad": "3,23",
+            "unidad": "g",
+            "orden": 1
+          }
+        ],
+        "viasAdministracion": [
+          {
+            "id": 54,
+            "nombre": "VÍA RECTAL"
+          }
+        ],
+        "formaFarmaceutica": {
+          "id": 193,
+          "nombre": "SUPOSITORIO"
+        },
+        "formaFarmaceuticaSimplificada": {
+          "id": 67,
+          "nombre": "SUPOSITORIO"
+        },
+        "dosis": "3,27 g",
+        "presentaciones": [
+          {
+            "cn": "829812",
+            "nombre": "SUPOSITORIOS DE GLICERINA DR. TORRENTS ADULTOS, 12 supositorios"
+          }
+        ]
+      },
+      "fetched_at": "2026-11-26T16:48:33.315291+00:00"
     },
     {
       "url": "https://cima.aemps.es/cima/rest/medicamento?cn=830836",
@@ -65318,67 +64961,6 @@
         ]
       },
       "fetched_at": "2026-11-21T14:37:34.949273+00:00",
-      "reused": true
-    },
-    {
-      "url": "https://cima.aemps.es/cima/rest/medicamento?cn=890426",
-      "status": 200,
-      "content_type": "application/json;charset=UTF-8",
-      "bytes": 2213,
-      "final_url": "https://cima.aemps.es/cima/rest/medicamento?cn=890426",
-      "payload": {
-        "nregistro": "63221",
-        "nombre": "ALOPURINOL NORMON 100 mg COMPRIMIDOS EFG",
-        "atcs": [
-          {
-            "codigo": "M04A",
-            "nombre": "PREPARADOS ANTIGOTOSOS",
-            "nivel": 3
-          },
-          {
-            "codigo": "M04AA",
-            "nombre": "Preparados que inhiben la produccion de acido urico",
-            "nivel": 4
-          },
-          {
-            "codigo": "M04AA01",
-            "nombre": "Alopurinol",
-            "nivel": 5
-          }
-        ],
-        "principiosActivos": [
-          {
-            "id": 318,
-            "codigo": "318A",
-            "nombre": "ALOPURINOL",
-            "cantidad": "100",
-            "unidad": "mg",
-            "orden": 1
-          }
-        ],
-        "viasAdministracion": [
-          {
-            "id": 48,
-            "nombre": "VÍA ORAL"
-          }
-        ],
-        "formaFarmaceutica": {
-          "id": 40,
-          "nombre": "COMPRIMIDO"
-        },
-        "formaFarmaceuticaSimplificada": {
-          "id": 10,
-          "nombre": "COMPRIMIDO"
-        },
-        "dosis": "100 mg",
-        "presentaciones": [
-          {
-            "cn": "890426",
-            "nombre": "ALOPURINOL NORMON 100 mg COMPRIMIDOS EFG , 100 comprimidos"
-          }
-        ]
-      },
-      "fetched_at": "2026-11-21T14:37:31.605450+00:00",
       "reused": true
     },
     {
@@ -67721,9 +67303,9 @@
       "reused": true
     }
   ],
-  "metadata_reused": 898,
-  "metadata_requested": 935,
+  "metadata_reused": 689,
+  "metadata_requested": 932,
   "metadata_processing_complete": true,
-  "finished_at": "2026-11-25T17:06:23.273484+00:00",
-  "metadata_successes": 935
+  "finished_at": "2026-11-26T16:48:33.516109+00:00",
+  "metadata_successes": 932
 }
